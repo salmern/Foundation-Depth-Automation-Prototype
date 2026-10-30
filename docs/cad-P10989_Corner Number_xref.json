@@ -1,0 +1,109 @@
+{
+  "units_code": "4",
+  "entities": {
+    "TEXT": 3,
+    "LINE": 3,
+    "INSERT": 680,
+    "LWPOLYLINE": 3,
+    "HATCH": 2
+  },
+  "layers": {
+    "0": 1,
+    "Text": 5,
+    "4 Corner_100": 679,
+    "Awaiting Info Hatch": 2,
+    "House Outline": 2,
+    "Piled Hatch": 2
+  },
+  "inserts": {
+    "*U4": 170,
+    "*U2": 170,
+    "*U3": 169,
+    "*U5": 170,
+    "P10989_Layout_xref": 1
+  },
+  "blocks": [
+    {
+      "name": "*Model_Space",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "*Paper_Space",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "*Paper_Space0",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "*U1",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U2",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U3",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U4",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U5",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "A$C04711cd8",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "P10989_Layout_xref",
+      "xref": ".\\P10989_Layout_xref.dwg",
+      "flags": "4"
+    }
+  ],
+  "texts": [
+    {
+      "kind": "TEXT",
+      "handle": "3EE",
+      "layer": "Text",
+      "text": "1:100 Templates",
+      "tag": null,
+      "x": "461844527.5196472",
+      "y": "297528523.8364818",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1B4C",
+      "layer": "Piled Hatch",
+      "text": "Piled",
+      "tag": null,
+      "x": "461853851.2823924",
+      "y": "297512680.1603212",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1B4D",
+      "layer": "Awaiting Info Hatch",
+      "text": "Awaiting Info",
+      "tag": null,
+      "x": "461853157.4620854",
+      "y": "297503725.9629244",
+      "z": "0.0"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "units_code": "0",
+  "entities": {
+    "INSERT": 1
+  },
+  "layers": {
+    "0": 0,
+    "OS BASE": 1
+  },
+  "inserts": {
+    "OS BASE": 1
+  },
+  "blocks": [
+    {
+      "name": "*Model_Space",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "*Paper_Space",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "BDYMEREI",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "BENCHM",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "SPOTH",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "POINT",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "FLARROW",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "OS BASE",
+      "xref": "",
+      "flags": "0"
+    }
+  ],
+  "texts": []
+}

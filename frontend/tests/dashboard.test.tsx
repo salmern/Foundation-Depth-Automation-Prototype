@@ -1,0 +1,10 @@
+import {render,screen} from '@testing-library/react';
+import userEvent from '@testing-library/user-event';
+import {beforeEach,expect,it,vi} from 'vitest';
+import Dashboard from '../app/page';
+import {api} from '../lib/api';
+vi.mock('../lib/api',()=>({api:vi.fn(),message:(e:Error)=>e.message}));
+beforeEach(()=>vi.mocked(api).mockReset());
+it('shows an honest empty state',async()=>{vi.mocked(api).mockResolvedValue([]);render(<Dashboard/>);expect(await screen.findByText('No projects yet')).toBeInTheDocument();expect(screen.queryByText(/Complete construction schedule export remains blocked/)).not.toBeInTheDocument();});
+it('shows backend failure',async()=>{vi.mocked(api).mockRejectedValue(new Error('Backend unavailable'));render(<Dashboard/>);expect(await screen.findByRole('alert')).toHaveTextContent('Backend unavailable');});
+it('validates and submits project creation errors',async()=>{vi.mocked(api).mockResolvedValueOnce([]).mockRejectedValueOnce(new Error('Creation failed'));render(<Dashboard/>);await screen.findByText('No projects yet');await userEvent.type(screen.getByLabelText('Project name'),'Site A');await userEvent.click(screen.getByRole('button',{name:'Create project'}));expect(await screen.findByRole('alert')).toHaveTextContent('Creation failed');expect(api).toHaveBeenLastCalledWith('/projects',expect.anything(),expect.objectContaining({method:'POST',body:JSON.stringify({name:'Site A'})}));});

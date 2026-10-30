@@ -1,0 +1,75 @@
+test_blocked_corner_has_no_fake_value_or_reason (test_completion.DraftMappingTests.test_blocked_corner_has_no_fake_value_or_reason) ... ok
+test_duplicate_corner_rejected (test_completion.DraftMappingTests.test_duplicate_corner_rejected) ... ok
+test_empty_results_rejected (test_completion.DraftMappingTests.test_empty_results_rejected) ... ok
+test_known_output_mapping_and_independent_expected_values (test_completion.DraftMappingTests.test_known_output_mapping_and_independent_expected_values) ... ok
+test_unsupported_reason_rejected (test_completion.DraftMappingTests.test_unsupported_reason_rejected) ... ok
+test_first_revision_loads (test_completion.RevisionTests.test_first_revision_loads) ... ok
+test_previous_values_preserved_and_stale_results_cleared (test_completion.RevisionTests.test_previous_values_preserved_and_stale_results_cleared) ... ok
+test_reviewer_required (test_completion.RevisionTests.test_reviewer_required) ... ok
+test_revision_reason_required (test_completion.RevisionTests.test_revision_reason_required) ... ok
+test_actual_synthetic_points_and_line (test_completion.StreamingTests.test_actual_synthetic_points_and_line) ... ok
+test_attributes_stay_attached_to_insert (test_completion.StreamingTests.test_attributes_stay_attached_to_insert) ... ok
+test_invisible_numbers_are_not_selected (test_completion.StreamingTests.test_invisible_numbers_are_not_selected) ... ok
+test_missing_eof_rejected (test_completion.StreamingTests.test_missing_eof_rejected) ... ok
+test_multiline_text_segments_preserved (test_completion.StreamingTests.test_multiline_text_segments_preserved) ... ok
+test_nonfinite_geometry_rejected (test_completion.StreamingTests.test_nonfinite_geometry_rejected) ... ok
+test_opaque_ole_payload_not_retained (test_completion.StreamingTests.test_opaque_ole_payload_not_retained) ... ok
+test_two_visible_numbers_remain_ambiguous (test_completion.StreamingTests.test_two_visible_numbers_remain_ambiguous) ... ok
+test_all_valid_reasons (test_core.EngineeringTests.test_all_valid_reasons) ... ok
+test_competency_required (test_core.EngineeringTests.test_competency_required) ... ok
+test_distance (test_core.EngineeringTests.test_distance) ... ok
+test_fallback (test_core.EngineeringTests.test_fallback) ... ok
+test_independent_brief_example (test_core.EngineeringTests.test_independent_brief_example) ... ok
+test_invalid_diameters (test_core.EngineeringTests.test_invalid_diameters) ... ok
+test_invalid_numbers (test_core.EngineeringTests.test_invalid_numbers) ... ok
+test_minimum (test_core.EngineeringTests.test_minimum) ... ok
+test_missing_not_zero (test_core.EngineeringTests.test_missing_not_zero) ... ok
+test_negative_clear_clamped_per_workbook (test_core.EngineeringTests.test_negative_clear_clamped_per_workbook) ... ok
+test_no_candidates (test_core.EngineeringTests.test_no_candidates) ... ok
+test_no_manhole_fallback (test_core.EngineeringTests.test_no_manhole_fallback) ... ok
+test_precision (test_core.EngineeringTests.test_precision) ... ok
+test_tie_priority_from_actual_template (test_core.EngineeringTests.test_tie_priority_from_actual_template) ... ok
+test_unknown_reason (test_core.EngineeringTests.test_unknown_reason) ... ok
+test_bad_names (test_core.FileSafetyTests.test_bad_names) ... ok
+test_corrupt_zip (test_core.FileSafetyTests.test_corrupt_zip) ... ok
+test_duplicate_archive_names (test_core.FileSafetyTests.test_duplicate_archive_names) ... ok
+test_good_name (test_core.FileSafetyTests.test_good_name) ... ok
+test_safe_zip (test_core.FileSafetyTests.test_safe_zip) ... ok
+test_symlink_archive (test_core.FileSafetyTests.test_symlink_archive) ... ok
+test_traversal_archives (test_core.FileSafetyTests.test_traversal_archives) ... ok
+test_collinear (test_core.GeometryTests.test_collinear) ... ok
+test_duplicate_controls (test_core.GeometryTests.test_duplicate_controls) ... ok
+test_holdout_outlier (test_core.GeometryTests.test_holdout_outlier) ... ok
+test_insufficient (test_core.GeometryTests.test_insufficient) ... ok
+test_missing_justification (test_core.GeometryTests.test_missing_justification) ... ok
+test_multiple_matches_not_nearest (test_core.GeometryTests.test_multiple_matches_not_nearest) ... ok
+test_no_tolerance (test_core.GeometryTests.test_no_tolerance) ... ok
+test_reflection_rejected (test_core.GeometryTests.test_reflection_rejected) ... ok
+test_repeated_control_coordinates (test_core.GeometryTests.test_repeated_control_coordinates) ... ok
+test_similarity_with_independent_holdout (test_core.GeometryTests.test_similarity_with_independent_holdout) ... ok
+test_threshold_required (test_core.GeometryTests.test_threshold_required) ... ok
+test_unique_match (test_core.GeometryTests.test_unique_match) ... ok
+test_unmatched (test_core.GeometryTests.test_unmatched) ... ok
+test_reference_only_run_creates_real_report_and_retains_blocks (test_core.PipelineLifecycleTests.test_reference_only_run_creates_real_report_and_retains_blocks) ... ok
+test_workflow_exception_marks_failed_and_preserves_source (test_core.PipelineLifecycleTests.test_workflow_exception_marks_failed_and_preserves_source) ... ok
+test_invalid_id (test_core.StorageTests.test_invalid_id) ... ok
+test_invalid_name (test_core.StorageTests.test_invalid_name) ... ok
+test_project_survives_reload (test_core.StorageTests.test_project_survives_reload) ... ok
+test_recovery (test_core.StorageTests.test_recovery) ... ok
+test_entity_counts_exclude_section_boundaries (test_core.StreamingInspectionTests.test_entity_counts_exclude_section_boundaries) ... ok
+test_audited_review_revision (test_integration.ApiTests.test_audited_review_revision) ... skipped 'Install backend requirements to execute API workflow'
+test_failed_job_recoverable (test_integration.ApiTests.test_failed_job_recoverable) ... skipped 'Install backend requirements to execute API workflow'
+test_real_processing_and_download (test_integration.ApiTests.test_real_processing_and_download) ... skipped 'Install backend requirements to execute API workflow'
+test_upload_guards (test_integration.ApiTests.test_upload_guards) ... skipped 'Install backend requirements to execute API workflow'
+test_validation_and_not_found (test_integration.ApiTests.test_validation_and_not_found) ... skipped 'Install backend requirements to execute API workflow'
+test_actual_template_draft_export (test_integration.LibraryTests.test_actual_template_draft_export) ... skipped 'Install backend requirements to execute real CAD/Excel/API tests'
+test_actual_workbook_mapping_and_export (test_integration.LibraryTests.test_actual_workbook_mapping_and_export) ... skipped 'Install backend requirements to execute real CAD/Excel/API tests'
+test_cad_source_handles (test_integration.LibraryTests.test_cad_source_handles) ... skipped 'Install backend requirements to execute real CAD/Excel/API tests'
+test_changed_template_rejected (test_integration.LibraryTests.test_changed_template_rejected) ... skipped 'Install backend requirements to execute real CAD/Excel/API tests'
+test_invalid_polygon (test_integration.LibraryTests.test_invalid_polygon) ... skipped 'Install backend requirements to execute real CAD/Excel/API tests'
+test_manifest_schema (test_integration.LibraryTests.test_manifest_schema) ... skipped 'Install backend requirements to execute real CAD/Excel/API tests'
+
+----------------------------------------------------------------------
+Ran 70 tests in 0.243s
+
+OK (skipped=11)

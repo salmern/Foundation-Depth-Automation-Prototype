@@ -1,0 +1,937 @@
+[
+  {
+    "name": "1 Drawings/E948 external works and building drainage (DWG)/E948-90E-91E-92J-93E-94F-95F-96G-97E EXTERNAL WORKS & BUILDING DRAINAGE.dwg",
+    "format": ".dwg",
+    "size": 21853628,
+    "source": "supplied",
+    "readable": true,
+    "status": "bytes_readable; direct_DWG_processing_unsupported",
+    "sha256": "cde4d00296f3447c78147a19098a09a3c0149ad7e8e82301a29c0d0201b86f08"
+  },
+  {
+    "name": "1 Drawings/E948 external works and building drainage (DWG)/E948-90E-91E-92J-93E-94F-95F-96G-97E EXTERNAL WORKS & BUILDING DRAINAGE.txt",
+    "format": ".txt",
+    "size": 3639,
+    "source": "supplied",
+    "readable": true,
+    "status": "bytes_readable; reference_asset",
+    "sha256": "2d99d1ab6b2c8e2f3e1cd87f68d615ec9d123d65b701285445e86bb84ac0c359"
+  },
+  {
+    "name": "1 Drawings/E948 external works and building drainage (DWG)/MODELS/E833 OS BASE.dwg",
+    "format": ".dwg",
+    "size": 597098,
+    "source": "supplied",
+    "readable": true,
+    "status": "bytes_readable; direct_DWG_processing_unsupported",
+    "sha256": "7933cd87b6c18bcf018a2097dcc3e751c553eb97f47a77c960d372603292d94d"
+  },
+  {
+    "name": "1 Drawings/E948 external works and building drainage (DWG)/MODELS/E833 Topo Survey (S584 Rev F).dwg",
+    "format": ".dwg",
+    "size": 5077197,
+    "source": "supplied",
+    "readable": true,
+    "status": "bytes_readable; direct_DWG_processing_unsupported",
+    "sha256": "23b4ca3b7de9115e78e33c58d2232be6b37fe2f0f0ef59cbd3cb6dc3ddb46db6"
+  },
+  {
+    "name": "1 Drawings/E948 external works and building drainage (DWG)/MODELS/E948 - AS-BUILT LATERAL SURVEY (1003 Wigston - Redrow S104 AsBuilt).dwg",
+    "format": ".dwg",
+    "size": 46040,
+    "source": "supplied",
+    "readable": true,
+    "status": "bytes_readable; direct_DWG_processing_unsupported",
+    "sha256": "5d9427655f291925a2955948120e5c7bafe70e7f66bee9cd30bd0e2a798c990c"
+  },
+  {
+    "name": "1 Drawings/E948 external works and building drainage (DWG)/MODELS/E948 - WIGSTON REDROW ARCHMODEL M (10.07.26).dwg",
+    "format": ".dwg",
+    "size": 2120146,
+    "source": "supplied",
+    "readable": true,
+    "status": "bytes_readable; direct_DWG_processing_unsupported",
+    "sha256": "1528cd1429a62eded8aadbf8aedcd70dbc32967c28a12d96e586dd8bbf611da3"
+  },
+  {
+    "name": "1 Drawings/E948 external works and building drainage (DWG)/MODELS/E948 ENGMODEL E (E833 REV M EXTRACT).dwg",
+    "format": ".dwg",
+    "size": 2408671,
+    "source": "supplied",
+    "readable": true,
+    "status": "bytes_readable; direct_DWG_processing_unsupported",
+    "sha256": "ee8f3dd5a6134290ab1796e972fd24cc0424db1ce7e7ef7a9829ee62397e0699"
+  },
+  {
+    "name": "1 Drawings/E948 external works and building drainage (DWG)/PlotCfgs/DWG To PDF.pc3",
+    "format": ".pc3",
+    "size": 1188,
+    "source": "supplied",
+    "readable": true,
+    "status": "bytes_readable; reference_asset",
+    "sha256": "cdf9040f4e69c9189845e854f57b5b4eb1d29e354ec95cabd095e683215dd553"
+  },
+  {
+    "name": "1 Drawings/E948 external works and building drainage (DWG)/PlotCfgs/sdc-colour - V2.ctb",
+    "format": ".ctb",
+    "size": 4487,
+    "source": "supplied",
+    "readable": true,
+    "status": "bytes_readable; reference_asset",
+    "sha256": "62a8ea26c02255135cf310cd58de70f7c45590c4fdc67f3a6a497626114ed76f"
+  },
+  {
+    "name": "1 Drawings/E948 external works and building drainage (DWG)/Textures/Concrete.Cast-In-Place.Flat.Grey.1.jpg",
+    "format": ".jpg",
+    "size": 23198,
+    "source": "supplied",
+    "readable": true,
+    "status": "bytes_readable; reference_asset",
+    "sha256": "718f28a6d6379908064e02a43039f72abe3762fda6b445c0edcc6e841981bc3a"
+  },
+  {
+    "name": "1 Drawings/E948 external works and building drainage (DWG)/Textures/Concrete.Cast-In-Place.Flat.Polished.Grey.jpg",
+    "format": ".jpg",
+    "size": 31891,
+    "source": "supplied",
+    "readable": true,
+    "status": "bytes_readable; reference_asset",
+    "sha256": "fb760d3448cdc80674ef32e68b92a339eebadd01e6ad48de227567a95ae6b430"
+  },
+  {
+    "name": "1 Drawings/E948 external works and building drainage (DWG)/Textures/Concrete.Precast Structural Concrete.Smooth.bump.png",
+    "format": ".png",
+    "size": 79528,
+    "source": "supplied",
+    "readable": true,
+    "status": "bytes_readable; reference_asset",
+    "sha256": "620dcdbeebecef51f1d4dcd3de45a868bab71444abad046aa3af938cd1bef774"
+  },
+  {
+    "name": "1 Drawings/E948 external works and building drainage (DWG)/Textures/Concrete.Precast Structural Concrete.Smooth.png",
+    "format": ".png",
+    "size": 126786,
+    "source": "supplied",
+    "readable": true,
+    "status": "bytes_readable; reference_asset",
+    "sha256": "78f0c0e059a8b37d3bb44d5db3d0b055852e4b88deabe58552ce6bda92f0a133"
+  },
+  {
+    "name": "1 Drawings/E948 external works and building drainage (DWG)/Textures/Doors - Windows.Metal Doors - Frames.Steel.Galvanized.jpg",
+    "format": ".jpg",
+    "size": 28882,
+    "source": "supplied",
+    "readable": true,
+    "status": "bytes_readable; reference_asset",
+    "sha256": "2df26b4a1f7d25cf049f76fdedafbd2cc8a8454e31604f27ca5edbb3986cd5e1"
+  },
+  {
+    "name": "1 Drawings/E948 external works and building drainage (DWG)/Textures/Finishes.Plaster.Stucco.Fine.White.bump.png",
+    "format": ".png",
+    "size": 164575,
+    "source": "supplied",
+    "readable": true,
+    "status": "bytes_readable; reference_asset",
+    "sha256": "11df9713bae481ef6e1f54bfbf2f7da42a3ebf358db608b2cff6a0c27a060346"
+  },
+  {
+    "name": "1 Drawings/E948 external works and building drainage (DWG)/Textures/Simple_Concrete_Mtl_BroomCurved_pattern.jpg",
+    "format": ".jpg",
+    "size": 865165,
+    "source": "supplied",
+    "readable": true,
+    "status": "bytes_readable; reference_asset",
+    "sha256": "8a71cd5653ce811d57caabb88e58f77d4fc647baf01624af31fed4b9cd1e3a61"
+  },
+  {
+    "name": "1 Drawings/E948 external works and building drainage (DWG)/Textures/Simple_Concrete_Mtl_BroomStraight_pattern.jpg",
+    "format": ".jpg",
+    "size": 839813,
+    "source": "supplied",
+    "readable": true,
+    "status": "bytes_readable; reference_asset",
+    "sha256": "036fd6f105b59ae53f16b38cca07e6a3e4a0559f7221f1bd2d92668087d06a24"
+  },
+  {
+    "name": "1 Drawings/E948 external works and building drainage (DWG)/Textures/Simple_Stone_Mtl_Granite_bump.jpg",
+    "format": ".jpg",
+    "size": 514139,
+    "source": "supplied",
+    "readable": true,
+    "status": "bytes_readable; reference_asset",
+    "sha256": "03aaf37247d36300550a553ff0bc3902b5cda80283eda50cb0590b42bb70fbb6"
+  },
+  {
+    "name": "1 Drawings/E948 external works and building drainage (DWG)/Textures/Simple_Stone_Mtl_Marble_bump.jpg",
+    "format": ".jpg",
+    "size": 603674,
+    "source": "supplied",
+    "readable": true,
+    "status": "bytes_readable; reference_asset",
+    "sha256": "c3d78e3d2394d82a815a5801fb1da53687ea50b0e727c56ca4906f171c591216"
+  },
+  {
+    "name": "1 Drawings/E948 external works and building drainage (DWG)/Textures/Simple_Stone_Mtl_StoneWall_bump.jpg",
+    "format": ".jpg",
+    "size": 142277,
+    "source": "supplied",
+    "readable": true,
+    "status": "bytes_readable; reference_asset",
+    "sha256": "e3673e152918fcea7fe5a3b3e4d152f56e39243130b042fa841d20ffbdb89ffb"
+  },
+  {
+    "name": "1 Drawings/E948 external works and building drainage (DWG)/Textures/Sitework.Paving & Surfacing.Asphalt.png",
+    "format": ".png",
+    "size": 124651,
+    "source": "supplied",
+    "readable": true,
+    "status": "bytes_readable; reference_asset",
+    "sha256": "ce933cb65d6d1e1d03e376e1a81e89adca0cd53a894e98dd8c26a19ea47d754d"
+  },
+  {
+    "name": "1 Drawings/E948 external works and building drainage (DWG)/Textures/Sitework.Paving - Surfacing.Asphalt.1.jpg",
+    "format": ".jpg",
+    "size": 16352,
+    "source": "supplied",
+    "readable": true,
+    "status": "bytes_readable; reference_asset",
+    "sha256": "12280cdf7aefd9e15504a33fa48dca1b6059eab764c18837d46d1457159a72ad"
+  },
+  {
+    "name": "1 Drawings/E948 external works and building drainage (DWG)/Textures/Sitework.Paving - Surfacing.Asphalt.bump.jpg",
+    "format": ".jpg",
+    "size": 43776,
+    "source": "supplied",
+    "readable": true,
+    "status": "bytes_readable; reference_asset",
+    "sha256": "18c8efe4996c3fa3e0f96f3cdfa82250e4d5a4d7be94b41d7472af13acd5809e"
+  },
+  {
+    "name": "1 Drawings/E948 external works and building drainage (DWG)/Textures/Sitework.Paving - Surfacing.Asphalt.jpg",
+    "format": ".jpg",
+    "size": 43772,
+    "source": "supplied",
+    "readable": true,
+    "status": "bytes_readable; reference_asset",
+    "sha256": "2db6ff948a1d74c59d463d72335ca8718f67fec75ff4b2c5d8aebf8c5ed2d61e"
+  },
+  {
+    "name": "1 Drawings/E948 external works and building drainage (DWG)/Textures/Sitework.Planting.Grass.Short.bump.jpg",
+    "format": ".jpg",
+    "size": 66798,
+    "source": "supplied",
+    "readable": true,
+    "status": "bytes_readable; reference_asset",
+    "sha256": "a543b6a7173ff587d819b054e559fde2896770fe38119922edae3380f5c4461f"
+  },
+  {
+    "name": "1 Drawings/E948 external works and building drainage (DWG)/Textures/Sitework.Planting.Grass.Short.jpg",
+    "format": ".jpg",
+    "size": 59405,
+    "source": "supplied",
+    "readable": true,
+    "status": "bytes_readable; reference_asset",
+    "sha256": "37514f608019b9ff37af58529712248485528537516d941323cc4b092822f50b"
+  },
+  {
+    "name": "1 Drawings/E948 external works and building drainage (DWG)/Textures/Sitework.Planting.Grass.Thick.Light Rye.png",
+    "format": ".png",
+    "size": 214179,
+    "source": "supplied",
+    "readable": true,
+    "status": "bytes_readable; reference_asset",
+    "sha256": "bb5016d6882e220065131af2a719305f3f176a1d6a225e9782af52229535085c"
+  },
+  {
+    "name": "1 Drawings/E948 external works and building drainage (DWG)/Textures/Sitework.Planting.Grass.Thick.bump.png",
+    "format": ".png",
+    "size": 77101,
+    "source": "supplied",
+    "readable": true,
+    "status": "bytes_readable; reference_asset",
+    "sha256": "acbf71bf7c6fbf91cf40f5f21b94413eb808400d19beabddc6968e43ca7ff0e8"
+  },
+  {
+    "name": "1 Drawings/E948 external works and building drainage (DWG)/Textures/Sitework.Planting.Grass.Thick.jpg",
+    "format": ".jpg",
+    "size": 63408,
+    "source": "supplied",
+    "readable": true,
+    "status": "bytes_readable; reference_asset",
+    "sha256": "62c24361dc2b7d2f136c440d979496716cdd41c48091c7d13b4a9a368d0f415a"
+  },
+  {
+    "name": "1 Drawings/E948 external works and building drainage (DWG)/Textures/Sitework.Planting.Gravel.Crushed.jpg",
+    "format": ".jpg",
+    "size": 66123,
+    "source": "supplied",
+    "readable": true,
+    "status": "bytes_readable; reference_asset",
+    "sha256": "b64ae17921de9820ec8e2d90bd0b3f7e57a066902f2b4cfea5f3f307e84813a7"
+  },
+  {
+    "name": "1 Drawings/E948 external works and building drainage (DWG)/Textures/Sitework.Planting.Gravel.Loose.bump.png",
+    "format": ".png",
+    "size": 161656,
+    "source": "supplied",
+    "readable": true,
+    "status": "bytes_readable; reference_asset",
+    "sha256": "75b139b6d5045930e2b02c7b1b1a2e350ac8177fec9e13dc261228dfc1c135d8"
+  },
+  {
+    "name": "1 Drawings/E948 external works and building drainage (DWG)/Textures/Sitework.Planting.Gravel.Loose.png",
+    "format": ".png",
+    "size": 210050,
+    "source": "supplied",
+    "readable": true,
+    "status": "bytes_readable; reference_asset",
+    "sha256": "26309e9cde785d02dfccb9545b85e647ec207ef88cc8213375cbf29427b93d4a"
+  },
+  {
+    "name": "1 Drawings/E948 external works and building drainage (DWG)/Textures/Sitework.Planting.Soil.jpg",
+    "format": ".jpg",
+    "size": 51629,
+    "source": "supplied",
+    "readable": true,
+    "status": "bytes_readable; reference_asset",
+    "sha256": "4f95935e88faf85fa9b7c47c301dffcb18e8886ef55cc998baf688957825e1bc"
+  },
+  {
+    "name": "1 Drawings/E948 external works and building drainage (DWG)/Textures/Woods-Finishes.Plastics.PVC.White.Bump.jpg",
+    "format": ".jpg",
+    "size": 10888,
+    "source": "supplied",
+    "readable": true,
+    "status": "bytes_readable; reference_asset",
+    "sha256": "7712c999b407d1b3eb5cb656c96bb4c7c8ff0396b1d3a522fc048b3ba0f4c6aa"
+  },
+  {
+    "name": "1 Drawings/E948 external works and building drainage (DWG)/Textures/black.png",
+    "format": ".png",
+    "size": 131468,
+    "source": "supplied",
+    "readable": true,
+    "status": "bytes_readable; reference_asset",
+    "sha256": "dd8b3275ed332409bc61aab9acb641b8b6c768d4f93918452d9285bdc546d717"
+  },
+  {
+    "name": "1 Drawings/E948 external works and building drainage (DWG) (2)/E948-90E-91E-92J-93E-94F-95F-96G-97E EXTERNAL WORKS & BUILDING DRAINAGE.dwg",
+    "format": ".dwg",
+    "size": 21853628,
+    "source": "supplied",
+    "readable": true,
+    "status": "bytes_readable; direct_DWG_processing_unsupported",
+    "sha256": "cde4d00296f3447c78147a19098a09a3c0149ad7e8e82301a29c0d0201b86f08"
+  },
+  {
+    "name": "1 Drawings/E948 external works and building drainage (DWG) (2)/E948-90E-91E-92J-93E-94F-95F-96G-97E EXTERNAL WORKS & BUILDING DRAINAGE.txt",
+    "format": ".txt",
+    "size": 3639,
+    "source": "supplied",
+    "readable": true,
+    "status": "bytes_readable; reference_asset",
+    "sha256": "2d99d1ab6b2c8e2f3e1cd87f68d615ec9d123d65b701285445e86bb84ac0c359"
+  },
+  {
+    "name": "1 Drawings/E948 external works and building drainage (DWG) (2)/MODELS/E833 OS BASE.dwg",
+    "format": ".dwg",
+    "size": 597098,
+    "source": "supplied",
+    "readable": true,
+    "status": "bytes_readable; direct_DWG_processing_unsupported",
+    "sha256": "7933cd87b6c18bcf018a2097dcc3e751c553eb97f47a77c960d372603292d94d"
+  },
+  {
+    "name": "1 Drawings/E948 external works and building drainage (DWG) (2)/MODELS/E833 Topo Survey (S584 Rev F).dwg",
+    "format": ".dwg",
+    "size": 5077197,
+    "source": "supplied",
+    "readable": true,
+    "status": "bytes_readable; direct_DWG_processing_unsupported",
+    "sha256": "23b4ca3b7de9115e78e33c58d2232be6b37fe2f0f0ef59cbd3cb6dc3ddb46db6"
+  },
+  {
+    "name": "1 Drawings/E948 external works and building drainage (DWG) (2)/MODELS/E948 - AS-BUILT LATERAL SURVEY (1003 Wigston - Redrow S104 AsBuilt).dwg",
+    "format": ".dwg",
+    "size": 46040,
+    "source": "supplied",
+    "readable": true,
+    "status": "bytes_readable; direct_DWG_processing_unsupported",
+    "sha256": "5d9427655f291925a2955948120e5c7bafe70e7f66bee9cd30bd0e2a798c990c"
+  },
+  {
+    "name": "1 Drawings/E948 external works and building drainage (DWG) (2)/MODELS/E948 - WIGSTON REDROW ARCHMODEL M (10.07.26).dwg",
+    "format": ".dwg",
+    "size": 2120146,
+    "source": "supplied",
+    "readable": true,
+    "status": "bytes_readable; direct_DWG_processing_unsupported",
+    "sha256": "1528cd1429a62eded8aadbf8aedcd70dbc32967c28a12d96e586dd8bbf611da3"
+  },
+  {
+    "name": "1 Drawings/E948 external works and building drainage (DWG) (2)/MODELS/E948 ENGMODEL E (E833 REV M EXTRACT).dwg",
+    "format": ".dwg",
+    "size": 2408671,
+    "source": "supplied",
+    "readable": true,
+    "status": "bytes_readable; direct_DWG_processing_unsupported",
+    "sha256": "ee8f3dd5a6134290ab1796e972fd24cc0424db1ce7e7ef7a9829ee62397e0699"
+  },
+  {
+    "name": "1 Drawings/E948 external works and building drainage (DWG) (2)/PlotCfgs/DWG To PDF.pc3",
+    "format": ".pc3",
+    "size": 1188,
+    "source": "supplied",
+    "readable": true,
+    "status": "bytes_readable; reference_asset",
+    "sha256": "cdf9040f4e69c9189845e854f57b5b4eb1d29e354ec95cabd095e683215dd553"
+  },
+  {
+    "name": "1 Drawings/E948 external works and building drainage (DWG) (2)/PlotCfgs/sdc-colour - V2.ctb",
+    "format": ".ctb",
+    "size": 4487,
+    "source": "supplied",
+    "readable": true,
+    "status": "bytes_readable; reference_asset",
+    "sha256": "62a8ea26c02255135cf310cd58de70f7c45590c4fdc67f3a6a497626114ed76f"
+  },
+  {
+    "name": "1 Drawings/E948 external works and building drainage (DWG) (2)/Textures/Concrete.Cast-In-Place.Flat.Grey.1.jpg",
+    "format": ".jpg",
+    "size": 23198,
+    "source": "supplied",
+    "readable": true,
+    "status": "bytes_readable; reference_asset",
+    "sha256": "718f28a6d6379908064e02a43039f72abe3762fda6b445c0edcc6e841981bc3a"
+  },
+  {
+    "name": "1 Drawings/E948 external works and building drainage (DWG) (2)/Textures/Concrete.Cast-In-Place.Flat.Polished.Grey.jpg",
+    "format": ".jpg",
+    "size": 31891,
+    "source": "supplied",
+    "readable": true,
+    "status": "bytes_readable; reference_asset",
+    "sha256": "fb760d3448cdc80674ef32e68b92a339eebadd01e6ad48de227567a95ae6b430"
+  },
+  {
+    "name": "1 Drawings/E948 external works and building drainage (DWG) (2)/Textures/Concrete.Precast Structural Concrete.Smooth.bump.png",
+    "format": ".png",
+    "size": 79528,
+    "source": "supplied",
+    "readable": true,
+    "status": "bytes_readable; reference_asset",
+    "sha256": "620dcdbeebecef51f1d4dcd3de45a868bab71444abad046aa3af938cd1bef774"
+  },
+  {
+    "name": "1 Drawings/E948 external works and building drainage (DWG) (2)/Textures/Concrete.Precast Structural Concrete.Smooth.png",
+    "format": ".png",
+    "size": 126786,
+    "source": "supplied",
+    "readable": true,
+    "status": "bytes_readable; reference_asset",
+    "sha256": "78f0c0e059a8b37d3bb44d5db3d0b055852e4b88deabe58552ce6bda92f0a133"
+  },
+  {
+    "name": "1 Drawings/E948 external works and building drainage (DWG) (2)/Textures/Doors - Windows.Metal Doors - Frames.Steel.Galvanized.jpg",
+    "format": ".jpg",
+    "size": 28882,
+    "source": "supplied",
+    "readable": true,
+    "status": "bytes_readable; reference_asset",
+    "sha256": "2df26b4a1f7d25cf049f76fdedafbd2cc8a8454e31604f27ca5edbb3986cd5e1"
+  },
+  {
+    "name": "1 Drawings/E948 external works and building drainage (DWG) (2)/Textures/Finishes.Plaster.Stucco.Fine.White.bump.png",
+    "format": ".png",
+    "size": 164575,
+    "source": "supplied",
+    "readable": true,
+    "status": "bytes_readable; reference_asset",
+    "sha256": "11df9713bae481ef6e1f54bfbf2f7da42a3ebf358db608b2cff6a0c27a060346"
+  },
+  {
+    "name": "1 Drawings/E948 external works and building drainage (DWG) (2)/Textures/Simple_Concrete_Mtl_BroomCurved_pattern.jpg",
+    "format": ".jpg",
+    "size": 865165,
+    "source": "supplied",
+    "readable": true,
+    "status": "bytes_readable; reference_asset",
+    "sha256": "8a71cd5653ce811d57caabb88e58f77d4fc647baf01624af31fed4b9cd1e3a61"
+  },
+  {
+    "name": "1 Drawings/E948 external works and building drainage (DWG) (2)/Textures/Simple_Concrete_Mtl_BroomStraight_pattern.jpg",
+    "format": ".jpg",
+    "size": 839813,
+    "source": "supplied",
+    "readable": true,
+    "status": "bytes_readable; reference_asset",
+    "sha256": "036fd6f105b59ae53f16b38cca07e6a3e4a0559f7221f1bd2d92668087d06a24"
+  },
+  {
+    "name": "1 Drawings/E948 external works and building drainage (DWG) (2)/Textures/Simple_Stone_Mtl_Granite_bump.jpg",
+    "format": ".jpg",
+    "size": 514139,
+    "source": "supplied",
+    "readable": true,
+    "status": "bytes_readable; reference_asset",
+    "sha256": "03aaf37247d36300550a553ff0bc3902b5cda80283eda50cb0590b42bb70fbb6"
+  },
+  {
+    "name": "1 Drawings/E948 external works and building drainage (DWG) (2)/Textures/Simple_Stone_Mtl_Marble_bump.jpg",
+    "format": ".jpg",
+    "size": 603674,
+    "source": "supplied",
+    "readable": true,
+    "status": "bytes_readable; reference_asset",
+    "sha256": "c3d78e3d2394d82a815a5801fb1da53687ea50b0e727c56ca4906f171c591216"
+  },
+  {
+    "name": "1 Drawings/E948 external works and building drainage (DWG) (2)/Textures/Simple_Stone_Mtl_StoneWall_bump.jpg",
+    "format": ".jpg",
+    "size": 142277,
+    "source": "supplied",
+    "readable": true,
+    "status": "bytes_readable; reference_asset",
+    "sha256": "e3673e152918fcea7fe5a3b3e4d152f56e39243130b042fa841d20ffbdb89ffb"
+  },
+  {
+    "name": "1 Drawings/E948 external works and building drainage (DWG) (2)/Textures/Sitework.Paving & Surfacing.Asphalt.png",
+    "format": ".png",
+    "size": 124651,
+    "source": "supplied",
+    "readable": true,
+    "status": "bytes_readable; reference_asset",
+    "sha256": "ce933cb65d6d1e1d03e376e1a81e89adca0cd53a894e98dd8c26a19ea47d754d"
+  },
+  {
+    "name": "1 Drawings/E948 external works and building drainage (DWG) (2)/Textures/Sitework.Paving - Surfacing.Asphalt.1.jpg",
+    "format": ".jpg",
+    "size": 16352,
+    "source": "supplied",
+    "readable": true,
+    "status": "bytes_readable; reference_asset",
+    "sha256": "12280cdf7aefd9e15504a33fa48dca1b6059eab764c18837d46d1457159a72ad"
+  },
+  {
+    "name": "1 Drawings/E948 external works and building drainage (DWG) (2)/Textures/Sitework.Paving - Surfacing.Asphalt.bump.jpg",
+    "format": ".jpg",
+    "size": 43776,
+    "source": "supplied",
+    "readable": true,
+    "status": "bytes_readable; reference_asset",
+    "sha256": "18c8efe4996c3fa3e0f96f3cdfa82250e4d5a4d7be94b41d7472af13acd5809e"
+  },
+  {
+    "name": "1 Drawings/E948 external works and building drainage (DWG) (2)/Textures/Sitework.Paving - Surfacing.Asphalt.jpg",
+    "format": ".jpg",
+    "size": 43772,
+    "source": "supplied",
+    "readable": true,
+    "status": "bytes_readable; reference_asset",
+    "sha256": "2db6ff948a1d74c59d463d72335ca8718f67fec75ff4b2c5d8aebf8c5ed2d61e"
+  },
+  {
+    "name": "1 Drawings/E948 external works and building drainage (DWG) (2)/Textures/Sitework.Planting.Grass.Short.bump.jpg",
+    "format": ".jpg",
+    "size": 66798,
+    "source": "supplied",
+    "readable": true,
+    "status": "bytes_readable; reference_asset",
+    "sha256": "a543b6a7173ff587d819b054e559fde2896770fe38119922edae3380f5c4461f"
+  },
+  {
+    "name": "1 Drawings/E948 external works and building drainage (DWG) (2)/Textures/Sitework.Planting.Grass.Short.jpg",
+    "format": ".jpg",
+    "size": 59405,
+    "source": "supplied",
+    "readable": true,
+    "status": "bytes_readable; reference_asset",
+    "sha256": "37514f608019b9ff37af58529712248485528537516d941323cc4b092822f50b"
+  },
+  {
+    "name": "1 Drawings/E948 external works and building drainage (DWG) (2)/Textures/Sitework.Planting.Grass.Thick.Light Rye.png",
+    "format": ".png",
+    "size": 214179,
+    "source": "supplied",
+    "readable": true,
+    "status": "bytes_readable; reference_asset",
+    "sha256": "bb5016d6882e220065131af2a719305f3f176a1d6a225e9782af52229535085c"
+  },
+  {
+    "name": "1 Drawings/E948 external works and building drainage (DWG) (2)/Textures/Sitework.Planting.Grass.Thick.bump.png",
+    "format": ".png",
+    "size": 77101,
+    "source": "supplied",
+    "readable": true,
+    "status": "bytes_readable; reference_asset",
+    "sha256": "acbf71bf7c6fbf91cf40f5f21b94413eb808400d19beabddc6968e43ca7ff0e8"
+  },
+  {
+    "name": "1 Drawings/E948 external works and building drainage (DWG) (2)/Textures/Sitework.Planting.Grass.Thick.jpg",
+    "format": ".jpg",
+    "size": 63408,
+    "source": "supplied",
+    "readable": true,
+    "status": "bytes_readable; reference_asset",
+    "sha256": "62c24361dc2b7d2f136c440d979496716cdd41c48091c7d13b4a9a368d0f415a"
+  },
+  {
+    "name": "1 Drawings/E948 external works and building drainage (DWG) (2)/Textures/Sitework.Planting.Gravel.Crushed.jpg",
+    "format": ".jpg",
+    "size": 66123,
+    "source": "supplied",
+    "readable": true,
+    "status": "bytes_readable; reference_asset",
+    "sha256": "b64ae17921de9820ec8e2d90bd0b3f7e57a066902f2b4cfea5f3f307e84813a7"
+  },
+  {
+    "name": "1 Drawings/E948 external works and building drainage (DWG) (2)/Textures/Sitework.Planting.Gravel.Loose.bump.png",
+    "format": ".png",
+    "size": 161656,
+    "source": "supplied",
+    "readable": true,
+    "status": "bytes_readable; reference_asset",
+    "sha256": "75b139b6d5045930e2b02c7b1b1a2e350ac8177fec9e13dc261228dfc1c135d8"
+  },
+  {
+    "name": "1 Drawings/E948 external works and building drainage (DWG) (2)/Textures/Sitework.Planting.Gravel.Loose.png",
+    "format": ".png",
+    "size": 210050,
+    "source": "supplied",
+    "readable": true,
+    "status": "bytes_readable; reference_asset",
+    "sha256": "26309e9cde785d02dfccb9545b85e647ec207ef88cc8213375cbf29427b93d4a"
+  },
+  {
+    "name": "1 Drawings/E948 external works and building drainage (DWG) (2)/Textures/Sitework.Planting.Soil.jpg",
+    "format": ".jpg",
+    "size": 51629,
+    "source": "supplied",
+    "readable": true,
+    "status": "bytes_readable; reference_asset",
+    "sha256": "4f95935e88faf85fa9b7c47c301dffcb18e8886ef55cc998baf688957825e1bc"
+  },
+  {
+    "name": "1 Drawings/E948 external works and building drainage (DWG) (2)/Textures/Woods-Finishes.Plastics.PVC.White.Bump.jpg",
+    "format": ".jpg",
+    "size": 10888,
+    "source": "supplied",
+    "readable": true,
+    "status": "bytes_readable; reference_asset",
+    "sha256": "7712c999b407d1b3eb5cb656c96bb4c7c8ff0396b1d3a522fc048b3ba0f4c6aa"
+  },
+  {
+    "name": "1 Drawings/E948 external works and building drainage (DWG) (2)/Textures/black.png",
+    "format": ".png",
+    "size": 131468,
+    "source": "supplied",
+    "readable": true,
+    "status": "bytes_readable; reference_asset",
+    "sha256": "dd8b3275ed332409bc61aab9acb641b8b6c768d4f93918452d9285bdc546d717"
+  },
+  {
+    "name": "1 Drawings/E948 external works and building drainage (DWG).zip",
+    "format": ".zip",
+    "size": 35421661,
+    "source": "supplied",
+    "readable": true,
+    "status": "archive_member_paths_and_sizes_inspected",
+    "sha256": "e0f2a90610811de2c2a3f6c48b00ea92b7da5bdcbfe3725e8adb412d051d22b2",
+    "members": [
+      {
+        "name": "E948-90E-91E-92J-93E-94F-95F-96G-97E EXTERNAL WORKS & BUILDING DRAINAGE.dwg",
+        "size": 21853628,
+        "safe": true
+      },
+      {
+        "name": "E948-90E-91E-92J-93E-94F-95F-96G-97E EXTERNAL WORKS & BUILDING DRAINAGE.txt",
+        "size": 3639,
+        "safe": true
+      },
+      {
+        "name": "MODELS/E833 OS BASE.dwg",
+        "size": 597098,
+        "safe": true
+      },
+      {
+        "name": "MODELS/E833 Topo Survey (S584 Rev F).dwg",
+        "size": 5077197,
+        "safe": true
+      },
+      {
+        "name": "MODELS/E948 - AS-BUILT LATERAL SURVEY (1003 Wigston - Redrow S104 AsBuilt).dwg",
+        "size": 46040,
+        "safe": true
+      },
+      {
+        "name": "MODELS/E948 - WIGSTON REDROW ARCHMODEL M (10.07.26).dwg",
+        "size": 2120146,
+        "safe": true
+      },
+      {
+        "name": "MODELS/E948 ENGMODEL E (E833 REV M EXTRACT).dwg",
+        "size": 2408671,
+        "safe": true
+      },
+      {
+        "name": "PlotCfgs/DWG To PDF.pc3",
+        "size": 1188,
+        "safe": true
+      },
+      {
+        "name": "PlotCfgs/sdc-colour - V2.ctb",
+        "size": 4487,
+        "safe": true
+      },
+      {
+        "name": "Textures/black.png",
+        "size": 131468,
+        "safe": true
+      },
+      {
+        "name": "Textures/Concrete.Cast-In-Place.Flat.Grey.1.jpg",
+        "size": 23198,
+        "safe": true
+      },
+      {
+        "name": "Textures/Concrete.Cast-In-Place.Flat.Polished.Grey.jpg",
+        "size": 31891,
+        "safe": true
+      },
+      {
+        "name": "Textures/Concrete.Precast Structural Concrete.Smooth.bump.png",
+        "size": 79528,
+        "safe": true
+      },
+      {
+        "name": "Textures/Concrete.Precast Structural Concrete.Smooth.png",
+        "size": 126786,
+        "safe": true
+      },
+      {
+        "name": "Textures/Doors - Windows.Metal Doors - Frames.Steel.Galvanized.jpg",
+        "size": 28882,
+        "safe": true
+      },
+      {
+        "name": "Textures/Finishes.Plaster.Stucco.Fine.White.bump.png",
+        "size": 164575,
+        "safe": true
+      },
+      {
+        "name": "Textures/Simple_Concrete_Mtl_BroomCurved_pattern.jpg",
+        "size": 865165,
+        "safe": true
+      },
+      {
+        "name": "Textures/Simple_Concrete_Mtl_BroomStraight_pattern.jpg",
+        "size": 839813,
+        "safe": true
+      },
+      {
+        "name": "Textures/Simple_Stone_Mtl_Granite_bump.jpg",
+        "size": 514139,
+        "safe": true
+      },
+      {
+        "name": "Textures/Simple_Stone_Mtl_Marble_bump.jpg",
+        "size": 603674,
+        "safe": true
+      },
+      {
+        "name": "Textures/Simple_Stone_Mtl_StoneWall_bump.jpg",
+        "size": 142277,
+        "safe": true
+      },
+      {
+        "name": "Textures/Sitework.Paving & Surfacing.Asphalt.png",
+        "size": 124651,
+        "safe": true
+      },
+      {
+        "name": "Textures/Sitework.Paving - Surfacing.Asphalt.1.jpg",
+        "size": 16352,
+        "safe": true
+      },
+      {
+        "name": "Textures/Sitework.Paving - Surfacing.Asphalt.bump.jpg",
+        "size": 43776,
+        "safe": true
+      },
+      {
+        "name": "Textures/Sitework.Paving - Surfacing.Asphalt.jpg",
+        "size": 43772,
+        "safe": true
+      },
+      {
+        "name": "Textures/Sitework.Planting.Grass.Short.bump.jpg",
+        "size": 66798,
+        "safe": true
+      },
+      {
+        "name": "Textures/Sitework.Planting.Grass.Short.jpg",
+        "size": 59405,
+        "safe": true
+      },
+      {
+        "name": "Textures/Sitework.Planting.Grass.Thick.bump.png",
+        "size": 77101,
+        "safe": true
+      },
+      {
+        "name": "Textures/Sitework.Planting.Grass.Thick.jpg",
+        "size": 63408,
+        "safe": true
+      },
+      {
+        "name": "Textures/Sitework.Planting.Grass.Thick.Light Rye.png",
+        "size": 214179,
+        "safe": true
+      },
+      {
+        "name": "Textures/Sitework.Planting.Gravel.Crushed.jpg",
+        "size": 66123,
+        "safe": true
+      },
+      {
+        "name": "Textures/Sitework.Planting.Gravel.Loose.bump.png",
+        "size": 161656,
+        "safe": true
+      },
+      {
+        "name": "Textures/Sitework.Planting.Gravel.Loose.png",
+        "size": 210050,
+        "safe": true
+      },
+      {
+        "name": "Textures/Sitework.Planting.Soil.jpg",
+        "size": 51629,
+        "safe": true
+      },
+      {
+        "name": "Textures/Woods-Finishes.Plastics.PVC.White.Bump.jpg",
+        "size": 10888,
+        "safe": true
+      }
+    ]
+  },
+  {
+    "name": "1 Drawings/P10989_01H - foundation drawing.pdf",
+    "format": ".pdf",
+    "size": 2142228,
+    "source": "supplied",
+    "readable": true,
+    "status": "bytes_readable; text_audited_separately",
+    "sha256": "6e130fd766a9473c35da2ebf6998b9ab04fa5f4408f9cf1cbc29cff70948065c"
+  },
+  {
+    "name": "1 Drawings/P10989_Corner Number_xref.dwg",
+    "format": ".dwg",
+    "size": 306320,
+    "source": "supplied",
+    "readable": true,
+    "status": "bytes_readable; direct_DWG_processing_unsupported",
+    "sha256": "c398625eea47e423b9cda564dc2dc599e512b630bfa001127ea808f3da19b4ec"
+  },
+  {
+    "name": "1 Drawings/P10989_Layout_xref.dwg",
+    "format": ".dwg",
+    "size": 1532753,
+    "source": "supplied",
+    "readable": true,
+    "status": "bytes_readable; direct_DWG_processing_unsupported",
+    "sha256": "eb45507d7e39c2cfe4cf0cf79414ea1fa8198596abe737bc1a23387c7499d8aa"
+  },
+  {
+    "name": "2 Template/MASTER Foundation Schedule.xlsx",
+    "format": ".xlsx",
+    "size": 2125888,
+    "source": "supplied",
+    "readable": true,
+    "status": "ZIP_XML_and_formulas_inspected; openpyxl_unavailable",
+    "sha256": "2b498b1401fff4c0fe3f990a4646b986befe7ab91398b9e7ba2c81e22eb9879b"
+  },
+  {
+    "name": "Build brief.docx",
+    "format": ".docx",
+    "size": 318228,
+    "source": "supplied",
+    "readable": true,
+    "status": "document_XML_text_inspected",
+    "sha256": "97358f21cb590af6c16823b7c636728cdb1441a0eaba115f5121ab7b92e46d97"
+  },
+  {
+    "name": "Build brief.pdf",
+    "format": ".pdf",
+    "size": 355295,
+    "source": "supplied",
+    "readable": true,
+    "status": "bytes_readable; text_audited_separately",
+    "sha256": "a646da63af2f8698d415b149f8ff7d1d4893d6af39aaabf342101704af8ecb31"
+  },
+  {
+    "name": "dxf files.zip",
+    "format": ".zip",
+    "size": 28225077,
+    "source": "supplied",
+    "readable": true,
+    "status": "archive_member_paths_and_sizes_inspected",
+    "sha256": "ee3699a3c82542e481e231ebf2546792cea4780b2739643b19267694f09d6148",
+    "members": [
+      {
+        "name": "E948-90E-91E-92J-93E-94F-95F-96G-97E EXTERNAL WORKS & BUILDING DRAINAGE.dxf",
+        "size": 450784383,
+        "safe": true,
+        "processing_status": "ASCII_DXF_group_codes_stream_inspected; semantic_matching_unverified"
+      },
+      {
+        "name": "#E833 OS BASE.dxf",
+        "size": 2282407,
+        "safe": true,
+        "processing_status": "ASCII_DXF_group_codes_stream_inspected; semantic_matching_unverified"
+      },
+      {
+        "name": "P10989_Layout_xref.dxf",
+        "size": 9438019,
+        "safe": true,
+        "processing_status": "ASCII_DXF_group_codes_stream_inspected; semantic_matching_unverified"
+      },
+      {
+        "name": "P10989_Corner Number_xref.dxf",
+        "size": 1683914,
+        "safe": true,
+        "processing_status": "ASCII_DXF_group_codes_stream_inspected; semantic_matching_unverified"
+      },
+      {
+        "name": "E948 - WIGSTON REDROW ARCHMODEL M (10.07.26).dxf",
+        "size": 15285598,
+        "safe": true,
+        "processing_status": "ASCII_DXF_group_codes_stream_inspected; semantic_matching_unverified"
+      },
+      {
+        "name": "E948 ENGMODEL E (E833 REV M EXTRACT).dxf",
+        "size": 11511494,
+        "safe": true,
+        "processing_status": "ASCII_DXF_group_codes_stream_inspected; semantic_matching_unverified"
+      },
+      {
+        "name": "E948 - AS-BUILT LATERAL SURVEY (1003 Wigston - Redrow S104 AsBuilt).dxf",
+        "size": 346027,
+        "safe": true,
+        "processing_status": "ASCII_DXF_group_codes_stream_inspected; semantic_matching_unverified"
+      },
+      {
+        "name": "E833 Topo Survey (S584 Rev F).dxf",
+        "size": 24771215,
+        "safe": true,
+        "processing_status": "ASCII_DXF_group_codes_stream_inspected; semantic_matching_unverified"
+      },
+      {
+        "name": "E833 OS BASE.dxf",
+        "size": 2731365,
+        "safe": true,
+        "processing_status": "ASCII_DXF_group_codes_stream_inspected; semantic_matching_unverified"
+      }
+    ]
+  }
+]

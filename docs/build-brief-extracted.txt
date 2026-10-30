@@ -1,0 +1,94 @@
+Reading foundation depths off site drawings
+Build brief for pricing
+What the client does
+Our client is a ground engineering consultancy. When a housebuilder buys a field and plans an estate on
+it, they tell the builder how deep to dig the foundations.
+Dig too shallow and the house moves. Dig too deep and the builder pours concrete he did not need on
+every plot.
+What they produce
+A spreadsheet. One row per house, four depths per house, one at each corner. A 169 house estate is
+676 depths and larger sites run past a thousand houses.
+An engineer reads those off the drawings by hand today: 4,056 separate readings on a 169 house site,
+and three to four days per site on the drainage alone. We are automating the reading.
+What the drawings look like
+Nothing is a scan. Every line and every piece of text is a real object on a named layer. They arrive in two
+forms and the difference matters for how you price this.
+• The client's own foundation drawing is a vector PDF with the layers preserved, so it reads straight
+off.
+• The developer's engineer's external works and drainage set is DWG, with the topographical survey
+inside it as a nested model.
+For the test, the free ODA File Converter turns DWG into DXF and open source libraries read DXF
+without a licence. For production that converter is licensed for non-commercial use only, so you would
+either take an ODA membership or ask the engineer for DXF exports. Tell us which route you would take
+and what it costs.
+• 1 Plot number, here 453. Every row of the schedule is one of these.
+• 2 Finished floor level, printed on the house as FFL= 38.550. The level of the floor slab once the house
+is built.
+• 3 Drain invert levels, written IL:37.650. The invert is the inside bottom of the pipe. Blue runs are
+surface water, red are foul.
+• 4 Pipe diameter, written 150 with a diameter symbol. Where it is missing, assume 100.
+Ground levels are not on this sheet. They are surveyed spot heights on the topographical survey, which is a
+separate drawing.
+The four numbers that decide a depth
+At each corner of each house, four things compete, and the deepest one wins:
+• A minimum depth. In clay this is 0.9 m below the ground, so the house sits below the zone where
+clay swells and shrinks.
+• Any drain running near the corner. A trench beside a foundation weakens the ground, so the
+foundation has to go below the influence of it.
+• Any manhole near the corner, for the same reason.
+• Any tree near the corner, because roots dry the clay out.
+Whichever of those is deepest sets the depth, and the schedule has to say which one it was.
+The sum for a drain, worked through
+This is the only part with any arithmetic in it. Real numbers from plot R2G, corner 1, taken from a
+schedule the client has already issued.
+the drain invert, the inside bottom of the pipe 98.200
+the trench goes 0.300 below the pipe - 0.300
+so the bottom of the trench is 97.900
+the pipe centre is this far from the corner 0.600
+allow 0.500 for working room - 0.500
+allow half the pipe width, the pipe is 0.100 wide - 0.050
+so the clear distance is 0.050
+the ground spreads at 45 degrees, so add that distance 97.950
+The client issued 97.950 for that corner. The minimum depth rule alone would have given 98.080, so the
+drain took it 130 mm deeper. Finding those 130 mm is the entire job.
+On that site 245 of 256 rows came back at the same standard depth. The work is finding the 11 that did
+not, which means checking every corner to find the few that matter.
+What we need built
+• Read the drawings and pull out, per house: plot number, floor level, ground level at each corner, and
+the nearest drain and manhole to each corner with its invert and distance.
+• Apply the rule above and write the answer, plus the reason, into the client's own Excel template.
+• Flag the values it could not read cleanly, and say why. An engineer has to be able to check the
+handful that matter without re-reading the site.
+The same drawings must always give the same schedule. This is a calculation, not an estimate.
+What we need back from you
+• A price and a timescale.
+• The test pack sent with this brief, completed.
+• A paragraph on how you would handle the values you cannot read cleanly.
+Why one house needs four depths
+A house is a rectangle, and each of its four corners gets its own depth, because the ground slopes across
+the plot and the drains and trees are never evenly spaced around it.
+Plot R2G as the client issued it. Four corners, four answers, four reasons:
+Corner 1 Corner 2 Corner 3 Corner 4
+Depth set by the drain minimum depth minimum depth the tree
+Bearing level 97.950 97.940 97.870 97.900
+The spreadsheet you are filling in
+The client has their own template and the output goes into it unchanged. Their sheet is called "Generic 4
+corner output": one row per house, 58 columns, of two kinds.
+• 26 columns hold one value for the whole house: plot number, house type, finished floor level,
+average ground level, foundation type, floor slab type, whether a gas or radon membrane is needed.
+• 8 columns repeat four times, once per corner, so they occupy 32 columns between them. The two
+that matter are Anticipated Bearing Level of Concrete Foundation, which is the depth, and Reason
+for Foundation Depth, which says which rule won.
+The reason has to be one of seven words, spelled their way: Min Depth, Old Trees, New Tree, Geology,
+WPL, Pipe, Manhole. Where a value does not apply their sheet writes 200 rather than leaving it blank.
+The drawings that come with it
+Four drawings arrive from four firms. Each carries a different part of the answer and none carries all of
+it.
+• Topographical survey. The ground levels, as bare numbers like 98.76 at the point they were
+surveyed. The only drawing that has them.
+• Drainage and external works. Finished floor levels, drain and manhole invert levels, pipe diameters.
+• Tree survey. Tree positions and the influence rings around them.
+• The client's own foundation drawing. Plot numbers, house types, handing, and the corner markers
+numbered 1 to 4.
+Their template says the schedule and the foundation drawing are issued as a pair.
+

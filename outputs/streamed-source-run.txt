@@ -1,0 +1,10 @@
+Reading E948-90E-91E-92J-93E-94F-95F-96G-97E EXTERNAL WORKS & BUILDING DRAINAGE.dxf
+Reading #E833 OS BASE.dxf
+Reading P10989_Layout_xref.dxf
+Reading P10989_Corner Number_xref.dxf
+Reading E948 - WIGSTON REDROW ARCHMODEL M (10.07.26).dxf
+Reading E948 ENGMODEL E (E833 REV M EXTRACT).dxf
+Reading E948 - AS-BUILT LATERAL SURVEY (1003 Wigston - Redrow S104 AsBuilt).dxf
+Reading E833 Topo Survey (S584 Rev F).dxf
+Reading E833 OS BASE.dxf
+All nine supplied DXFs parsed. Results remain raw evidence requiring engineering association.

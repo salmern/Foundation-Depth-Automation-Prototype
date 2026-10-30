@@ -1,0 +1,28 @@
+services:
+  - type: web
+    name: foundation-depth-api
+    runtime: python
+    plan: free
+    region: frankfurt
+    buildCommand: pip install -r backend/requirements.txt
+    startCommand: uvicorn foundation_mvp.main:app --app-dir backend/src --host 0.0.0.0 --port $PORT
+    healthCheckPath: /api/health
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.16
+      - key: FOUNDATION_DATA_DIR
+        value: /tmp/foundation-data/working
+      - key: FOUNDATION_CORS_ORIGINS
+        value: https://foundation-depth-web.onrender.com
+
+  - type: web
+    name: foundation-depth-web
+    runtime: node
+    plan: free
+    region: frankfurt
+    rootDir: frontend
+    buildCommand: npm ci && npm run build
+    startCommand: npm run start
+    envVars:
+      - key: NEXT_PUBLIC_API_BASE_URL
+        value: https://foundation-depth-api.onrender.com

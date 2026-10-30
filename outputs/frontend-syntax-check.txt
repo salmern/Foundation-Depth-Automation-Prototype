@@ -1,0 +1,1 @@
+PASS: 20 TypeScript/TSX files parsed (syntax only; not a type check, Next build or browser run).

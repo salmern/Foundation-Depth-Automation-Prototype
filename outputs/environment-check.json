@@ -1,0 +1,20 @@
+{
+  "python": "3.12.3",
+  "python_modules": {
+    "fastapi": false,
+    "pydantic": false,
+    "uvicorn": false,
+    "multipart": false,
+    "ezdxf": false,
+    "shapely": false,
+    "openpyxl": false,
+    "pytest": false,
+    "httpx": false
+  },
+  "commands": {
+    "node": true,
+    "npm": true,
+    "pdftotext": true
+  },
+  "backend_dependencies_available": false
+}

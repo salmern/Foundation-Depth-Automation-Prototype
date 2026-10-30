@@ -1,0 +1,7 @@
+npm ERR! code EAI_AGAIN
+npm ERR! syscall getaddrinfo
+npm ERR! errno EAI_AGAIN
+npm ERR! request to https://registry.npmjs.org/@playwright%2ftest failed, reason: getaddrinfo EAI_AGAIN registry.npmjs.org
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /tmp/foundation-npm-cache/_logs/2026-10-29T14_55_51_864Z-debug-0.log

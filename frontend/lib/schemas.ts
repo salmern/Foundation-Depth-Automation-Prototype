@@ -1,0 +1,15 @@
+import {z} from 'zod';
+export const SourceFile=z.object({id:z.string(),name:z.string(),extension:z.string(),size:z.number(),category:z.string(),upload_status:z.string(),validation_status:z.string(),processing_status:z.string()});
+export const Job=z.object({id:z.string(),status:z.string(),current_stage:z.string().nullable(),error:z.string().nullable().optional(),stages:z.array(z.object({name:z.string(),status:z.string(),message:z.string().nullable().optional()}))});
+export const Output=z.object({id:z.string(),name:z.string(),kind:z.string(),verified:z.boolean(),schedule_complete:z.boolean(),warning:z.string().nullable().optional()});
+export const Project=z.object({id:z.string(),name:z.string(),created_at:z.string(),status:z.string(),files:z.array(SourceFile),job:Job.nullable(),outputs:z.array(Output),summary:z.record(z.union([z.number(),z.boolean()])).default({})});
+export type ProjectData=z.infer<typeof Project>;
+export const Issue=z.object({id:z.string(),severity:z.enum(['error','warning','info']),category:z.string(),description:z.string(),impact:z.string(),next_action:z.string(),plot_id:z.string().nullable(),corner:z.number().nullable(),source_file:z.string().nullable(),source_entity:z.string().nullable()});
+export type IssueData=z.infer<typeof Issue>;
+export const Calculation=z.object({id:z.string(),plot_id:z.string(),corner:z.number(),ground_level:z.number().nullable(),bearing_level:z.number().nullable(),reason:z.string().nullable(),status:z.string(),review_status:z.string(),explanation:z.string().optional(),candidates:z.array(z.record(z.unknown())),sources:z.array(z.object({file:z.string(),entity:z.string()})),unresolved_inputs:z.array(z.string()).optional()});
+export type CalculationData=z.infer<typeof Calculation>;
+export const Evidence=z.object({source_file:z.string(),source_entity:z.string(),layer:z.string(),entity_type:z.string(),status:z.string(),text:z.string().optional(),block:z.string().optional(),point:z.array(z.number()).optional()}).passthrough();
+export const Extraction=z.object({records:z.array(Evidence),total:z.number(),offset:z.number(),limit:z.number()});
+export type ExtractionData=z.infer<typeof Extraction>;
+export const Coordinate=z.object({source_file:z.string(),target_file:z.string().optional(),original_units:z.unknown().optional(),status:z.string(),reason:z.string().optional(),candidate_reference_points:z.number().optional(),validated_reference_points:z.number().optional(),median_residual:z.number().optional(),p95_residual:z.number().optional(),max_residual:z.number().optional(),transformation:z.record(z.unknown()).nullable().optional(),references:z.array(z.record(z.unknown())).optional()}).passthrough();
+export const Plot=z.object({plot_id:z.string(),status:z.string(),corners:z.array(z.record(z.unknown())),sources:z.array(z.record(z.unknown())).optional()}).passthrough();

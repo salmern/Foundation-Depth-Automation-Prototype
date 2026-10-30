@@ -1,0 +1,397 @@
+{
+  "schema_version": 1,
+  "dataset_kind": "synthetic_test",
+  "reviewer": "Synthetic fixture author",
+  "review_reason": "Independently specified test inputs. Not client drawing extraction.",
+  "units": "m",
+  "alignments": [],
+  "plots": [
+    {
+      "plot_id": "TEST-R2G",
+      "house_type": "Synthetic rectangle",
+      "ffl_m": 99.2,
+      "corners": [
+        {
+          "corner": 1,
+          "point": [
+            0,
+            0
+          ],
+          "ground_level_m": 98.98,
+          "sources": [
+            {
+              "file": "synthetic-house.dxf",
+              "entity": "A1"
+            }
+          ],
+          "constraints": [
+            {
+              "reason": "Min Depth",
+              "applicability": "applicable",
+              "explanation": "Synthetic medium-volume clay case with reviewed minimum depth.",
+              "sources": [
+                {
+                  "file": "synthetic-house.dxf",
+                  "entity": "A1"
+                }
+              ],
+              "minimum_depth_m": 0.9
+            },
+            {
+              "reason": "Old Trees",
+              "applicability": "inapplicable",
+              "explanation": "Synthetic fixture explicitly excludes this constraint. This is not site evidence.",
+              "sources": [
+                {
+                  "file": "synthetic-house.dxf",
+                  "entity": "A1"
+                }
+              ]
+            },
+            {
+              "reason": "New Tree",
+              "applicability": "inapplicable",
+              "explanation": "Synthetic fixture explicitly excludes this constraint. This is not site evidence.",
+              "sources": [
+                {
+                  "file": "synthetic-house.dxf",
+                  "entity": "A1"
+                }
+              ]
+            },
+            {
+              "reason": "Geology",
+              "applicability": "inapplicable",
+              "explanation": "Synthetic fixture explicitly excludes this constraint. This is not site evidence.",
+              "sources": [
+                {
+                  "file": "synthetic-house.dxf",
+                  "entity": "A1"
+                }
+              ]
+            },
+            {
+              "reason": "WPL",
+              "applicability": "inapplicable",
+              "explanation": "Synthetic fixture explicitly excludes this constraint. This is not site evidence.",
+              "sources": [
+                {
+                  "file": "synthetic-house.dxf",
+                  "entity": "A1"
+                }
+              ]
+            },
+            {
+              "reason": "Pipe",
+              "applicability": "applicable",
+              "explanation": "Synthetic replication of build brief example.",
+              "sources": [
+                {
+                  "file": "synthetic-house.dxf",
+                  "entity": "B1"
+                }
+              ],
+              "invert_m": 98.2,
+              "centre_distance_m": 0.6,
+              "diameter_m": 0.1,
+              "competent_strata": true
+            },
+            {
+              "reason": "Manhole",
+              "applicability": "inapplicable",
+              "explanation": "Synthetic fixture explicitly excludes this constraint. This is not site evidence.",
+              "sources": [
+                {
+                  "file": "synthetic-house.dxf",
+                  "entity": "A1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "corner": 2,
+          "point": [
+            10,
+            0
+          ],
+          "ground_level_m": 98.84,
+          "sources": [
+            {
+              "file": "synthetic-house.dxf",
+              "entity": "A2"
+            }
+          ],
+          "constraints": [
+            {
+              "reason": "Min Depth",
+              "applicability": "applicable",
+              "explanation": "Synthetic medium-volume clay case with reviewed minimum depth.",
+              "sources": [
+                {
+                  "file": "synthetic-house.dxf",
+                  "entity": "A2"
+                }
+              ],
+              "minimum_depth_m": 0.9
+            },
+            {
+              "reason": "Old Trees",
+              "applicability": "inapplicable",
+              "explanation": "Synthetic fixture explicitly excludes this constraint. This is not site evidence.",
+              "sources": [
+                {
+                  "file": "synthetic-house.dxf",
+                  "entity": "A2"
+                }
+              ]
+            },
+            {
+              "reason": "New Tree",
+              "applicability": "inapplicable",
+              "explanation": "Synthetic fixture explicitly excludes this constraint. This is not site evidence.",
+              "sources": [
+                {
+                  "file": "synthetic-house.dxf",
+                  "entity": "A2"
+                }
+              ]
+            },
+            {
+              "reason": "Geology",
+              "applicability": "inapplicable",
+              "explanation": "Synthetic fixture explicitly excludes this constraint. This is not site evidence.",
+              "sources": [
+                {
+                  "file": "synthetic-house.dxf",
+                  "entity": "A2"
+                }
+              ]
+            },
+            {
+              "reason": "WPL",
+              "applicability": "inapplicable",
+              "explanation": "Synthetic fixture explicitly excludes this constraint. This is not site evidence.",
+              "sources": [
+                {
+                  "file": "synthetic-house.dxf",
+                  "entity": "A2"
+                }
+              ]
+            },
+            {
+              "reason": "Pipe",
+              "applicability": "inapplicable",
+              "explanation": "Synthetic fixture explicitly excludes this constraint. This is not site evidence.",
+              "sources": [
+                {
+                  "file": "synthetic-house.dxf",
+                  "entity": "A2"
+                }
+              ]
+            },
+            {
+              "reason": "Manhole",
+              "applicability": "inapplicable",
+              "explanation": "Synthetic fixture explicitly excludes this constraint. This is not site evidence.",
+              "sources": [
+                {
+                  "file": "synthetic-house.dxf",
+                  "entity": "A2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "corner": 3,
+          "point": [
+            10,
+            8
+          ],
+          "ground_level_m": 98.77,
+          "sources": [
+            {
+              "file": "synthetic-house.dxf",
+              "entity": "A3"
+            }
+          ],
+          "constraints": [
+            {
+              "reason": "Min Depth",
+              "applicability": "applicable",
+              "explanation": "Synthetic medium-volume clay case with reviewed minimum depth.",
+              "sources": [
+                {
+                  "file": "synthetic-house.dxf",
+                  "entity": "A3"
+                }
+              ],
+              "minimum_depth_m": 0.9
+            },
+            {
+              "reason": "Old Trees",
+              "applicability": "inapplicable",
+              "explanation": "Synthetic fixture explicitly excludes this constraint. This is not site evidence.",
+              "sources": [
+                {
+                  "file": "synthetic-house.dxf",
+                  "entity": "A3"
+                }
+              ]
+            },
+            {
+              "reason": "New Tree",
+              "applicability": "inapplicable",
+              "explanation": "Synthetic fixture explicitly excludes this constraint. This is not site evidence.",
+              "sources": [
+                {
+                  "file": "synthetic-house.dxf",
+                  "entity": "A3"
+                }
+              ]
+            },
+            {
+              "reason": "Geology",
+              "applicability": "inapplicable",
+              "explanation": "Synthetic fixture explicitly excludes this constraint. This is not site evidence.",
+              "sources": [
+                {
+                  "file": "synthetic-house.dxf",
+                  "entity": "A3"
+                }
+              ]
+            },
+            {
+              "reason": "WPL",
+              "applicability": "inapplicable",
+              "explanation": "Synthetic fixture explicitly excludes this constraint. This is not site evidence.",
+              "sources": [
+                {
+                  "file": "synthetic-house.dxf",
+                  "entity": "A3"
+                }
+              ]
+            },
+            {
+              "reason": "Pipe",
+              "applicability": "inapplicable",
+              "explanation": "Synthetic fixture explicitly excludes this constraint. This is not site evidence.",
+              "sources": [
+                {
+                  "file": "synthetic-house.dxf",
+                  "entity": "A3"
+                }
+              ]
+            },
+            {
+              "reason": "Manhole",
+              "applicability": "inapplicable",
+              "explanation": "Synthetic fixture explicitly excludes this constraint. This is not site evidence.",
+              "sources": [
+                {
+                  "file": "synthetic-house.dxf",
+                  "entity": "A3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "corner": 4,
+          "point": [
+            0,
+            8
+          ],
+          "ground_level_m": 98.8,
+          "sources": [
+            {
+              "file": "synthetic-house.dxf",
+              "entity": "A4"
+            }
+          ],
+          "constraints": [
+            {
+              "reason": "Min Depth",
+              "applicability": "applicable",
+              "explanation": "Synthetic medium-volume clay case with reviewed minimum depth.",
+              "sources": [
+                {
+                  "file": "synthetic-house.dxf",
+                  "entity": "A4"
+                }
+              ],
+              "minimum_depth_m": 0.9
+            },
+            {
+              "reason": "Old Trees",
+              "applicability": "inapplicable",
+              "explanation": "Synthetic fixture explicitly excludes this constraint. This is not site evidence.",
+              "sources": [
+                {
+                  "file": "synthetic-house.dxf",
+                  "entity": "A4"
+                }
+              ]
+            },
+            {
+              "reason": "New Tree",
+              "applicability": "inapplicable",
+              "explanation": "Synthetic fixture explicitly excludes this constraint. This is not site evidence.",
+              "sources": [
+                {
+                  "file": "synthetic-house.dxf",
+                  "entity": "A4"
+                }
+              ]
+            },
+            {
+              "reason": "Geology",
+              "applicability": "inapplicable",
+              "explanation": "Synthetic fixture explicitly excludes this constraint. This is not site evidence.",
+              "sources": [
+                {
+                  "file": "synthetic-house.dxf",
+                  "entity": "A4"
+                }
+              ]
+            },
+            {
+              "reason": "WPL",
+              "applicability": "inapplicable",
+              "explanation": "Synthetic fixture explicitly excludes this constraint. This is not site evidence.",
+              "sources": [
+                {
+                  "file": "synthetic-house.dxf",
+                  "entity": "A4"
+                }
+              ]
+            },
+            {
+              "reason": "Pipe",
+              "applicability": "inapplicable",
+              "explanation": "Synthetic fixture explicitly excludes this constraint. This is not site evidence.",
+              "sources": [
+                {
+                  "file": "synthetic-house.dxf",
+                  "entity": "A4"
+                }
+              ]
+            },
+            {
+              "reason": "Manhole",
+              "applicability": "inapplicable",
+              "explanation": "Synthetic fixture explicitly excludes this constraint. This is not site evidence.",
+              "sources": [
+                {
+                  "file": "synthetic-house.dxf",
+                  "entity": "A4"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,5739 @@
+{
+  "units_code": "4",
+  "entities": {
+    "INSERT": 115,
+    "TEXT": 455,
+    "LINE": 4685,
+    "HATCH": 411,
+    "LWPOLYLINE": 589,
+    "POINT": 7,
+    "CIRCLE": 15,
+    "ARC": 301,
+    "VIEWPORT": 2
+  },
+  "layers": {
+    "0": 12,
+    "EXTERNAL_WALLS": 28,
+    "INTERNAL_WALLS": 37,
+    "Housetype": 175,
+    "Plot Number": 106,
+    "House Outline": 1739,
+    "Handing": 105,
+    "Roof Outline": 1106,
+    "F Storey 2": 2,
+    "F Door Surround": 4,
+    "F Front Path": 2,
+    "F Crossing": 8,
+    "F Door": 6,
+    "F Services RWP": 5,
+    "F Services Flue": 2,
+    "F Ext Wall": 2,
+    "F Ext Wall Pres": 2,
+    "F Services SVP": 4,
+    "F Services SFG": 4,
+    "F Services Water Supply": 2,
+    "F Roof": 6,
+    "F Roof Hatch 1": 4,
+    "F Roof Hatch 2": 4,
+    "F Services Gas": 2,
+    "F Services Electric": 2,
+    "F Patio": 2,
+    "F Text Code": 2,
+    "F Text Sales": 2,
+    "F Text Roof Option": 2,
+    "F Points": 6,
+    "F Bed 3": 2,
+    "F Text AsOpp": 2,
+    "H P331": 2,
+    "Road": 539,
+    "Planning Info": 1659,
+    "Door": 796,
+    "Garage Ref": 59,
+    "G971_Fencing": 3,
+    "RAS - Site Boundary": 106,
+    "G970_Hardscaping": 2,
+    "DWH_RED LINE": 2,
+    "Parcel_Barratt South": 1,
+    "Redrow - Slabs": 2,
+    "E-Foul-Plot Drainage": 6,
+    "B-Service Entry": 7,
+    "E-Storm-Plot Drainage": 4,
+    "B-Window Openings": 2,
+    "V-Roof O-H": 2,
+    "A-Betts": 1
+  },
+  "inserts": {
+    "*X10": 1,
+    "*X12": 1,
+    "*X42": 1,
+    "*X11": 1,
+    "*X13": 1,
+    "*X54": 1,
+    "*X53": 1,
+    "*X2": 1,
+    "*X3": 1,
+    "*X4": 1,
+    "*X5": 1,
+    "*X6": 1,
+    "*X7": 1,
+    "*X37": 1,
+    "*X38": 1,
+    "*X39": 1,
+    "*X40": 1,
+    "*X44": 1,
+    "*X45": 1,
+    "*X46": 1,
+    "*X47": 1,
+    "*X48": 1,
+    "*X49": 1,
+    "*X14": 1,
+    "*X15": 1,
+    "*X16": 1,
+    "*X18": 1,
+    "*X17": 1,
+    "*X9": 1,
+    "*X8": 1,
+    "*X55": 1,
+    "*X62": 1,
+    "*X63": 1,
+    "*X64": 1,
+    "*X65": 1,
+    "PSN_EMPTY_HOLE": 4,
+    "PSR_EMPTY_HOLE": 4,
+    "*X51": 1,
+    "*X52": 1,
+    "*X34": 1,
+    "*X33": 1,
+    "*X35": 1,
+    "*X32": 1,
+    "*X26": 1,
+    "*X27": 1,
+    "*X29": 1,
+    "*X28": 1,
+    "*X25": 1,
+    "*X36": 1,
+    "*X24": 1,
+    "*X20": 1,
+    "*X21": 1,
+    "*X22": 1,
+    "*X23": 1,
+    "*X30": 1,
+    "*X31": 1,
+    "*X19": 1,
+    "*X50": 1,
+    "*X66": 1,
+    "*X41": 1,
+    "*X43": 1,
+    "*X56": 1,
+    "*X57": 1,
+    "*X58": 1,
+    "*X59": 1,
+    "*X60": 1,
+    "*X61": 1,
+    "F Crossing": 8,
+    "F Front Door": 2,
+    "F RWP": 5,
+    "F Services Flue": 2,
+    "F SVP": 4,
+    "F SFG": 4,
+    "*U70": 2,
+    "F Services Gas": 2,
+    "F Services Electric": 2,
+    "F Door": 4,
+    "Bed 3": 2,
+    "Opp Block": 1,
+    "As Block": 1,
+    "A$Ce8162a8a": 1,
+    "*U192": 1,
+    "Betts Ledsham - Opp": 1
+  },
+  "blocks": [
+    {
+      "name": "*Model_Space",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "*Paper_Space",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "PSN_EMPTY_HOLE",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "PSR_EMPTY_HOLE",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "*X2",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*X3",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*X4",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*X5",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*X6",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*X7",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*X8",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*X9",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*X10",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*X11",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*X12",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*X13",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*X14",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*X15",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*X16",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*X17",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*X18",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*X19",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*X20",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*X21",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*X22",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*X23",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*X24",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*X25",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*X26",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*X27",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*X28",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*X29",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*X30",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*X31",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*X32",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*X33",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*X34",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*X35",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*X36",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*X37",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*X38",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*X39",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*X40",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*X41",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*X42",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*X43",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*X44",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*X45",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*X46",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*X47",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*X48",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*X49",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*X50",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*X51",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*X52",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*X53",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*X54",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*X55",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*X56",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*X57",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*X58",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*X59",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*X60",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*X61",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*X62",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*X63",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*X64",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*X65",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*X66",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "F Crossing",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "F Front Door",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "F SFG",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "*U70",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "F Services Flue",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "F SVP",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "F Services Electric",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "F Services Gas",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "F Door",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "Bed 3",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "As Block",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "Opp Block",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "F RWP",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "ramp",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "A$C7df778c3",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "A$C9b901502",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "1023",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "A$Cae695ad6",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "DIAG1023 CYCLE (1.875M)",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "A$Ca1fb688a",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "A$C41c22f40",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "A$C3262098b",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "A$Ce8162a8a",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "ASHP",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "A$C9055608f",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "*U92",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U93",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "A$Cf58fc37a",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "A$Ca3d1fe5c",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "A$C643D5116",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "*U97",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "A-L",
+      "xref": "",
+      "flags": "2"
+    },
+    {
+      "name": "A-R",
+      "xref": "",
+      "flags": "2"
+    },
+    {
+      "name": "150-B385",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "150-B503",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "150-B785",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "150-B1131",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "190-B385",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "190-B503",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "190-B785",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "190-B1131",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "*U108",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "B_MESH",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "FOUNDATION WIDTHS",
+      "xref": "",
+      "flags": "2"
+    },
+    {
+      "name": "Betts Harrogate - As",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "Betts Harrogate - Opp",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "*U113",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U114",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "Betts Cambridge - As",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "Betts Cambridge - Opp",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "Basic Wall _ BRICK PIER 102_5 - ___-2243119-160 - Slab Penetrations Layout",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "Basic Wall _ BRICK PIER 102_5 - ___-2243120-160 - Slab Penetrations Layout",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "Basic Wall _ BRICK PIER 102_5 - ___-2243121-160 - Slab Penetrations Layout",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "Basic Wall _ BRICK PIER 102_5 - ___-2243122-160 - Slab Penetrations Layout",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "Canopy Highgate - Canopy Highgate-2255932-160 - Slab Penetrations Layout",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "Heritage - Brickwork - Triple top hung - 1650 x 1810-2480424-160 - Slab Penetrations Layout",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "ED01-S02 - 910 x 2250mm-2480425-160 - Slab Penetrations Layout",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "145 - Tile Crease Cill - Brick - overhang one side only - 460-2480429-160 - Slab Penetrations Layout",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "Square section RWP-PLINTH - 65mm Square Front-2478904-160 - Slab Penetrations Layout",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "Square section RWP - 65mm Square Front-2478905-160 - Slab Penetrations Layout",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "Telecom Entry - Type 1-2480432-160 - Slab Penetrations Layout",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "Basic Wall _ 600 Plinth 293 - 102 50 40i 101 - ___-2244727-160 - Slab Penetrations Layout",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "Basic Wall _ 600 Plinth 293 - 102 50 40i 101 - ___-2244735-160 - Slab Penetrations Layout",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "Basic Wall _ 600 Plinth 293 - 102 50 40i 101 - ___-2244743-160 - Slab Penetrations Layout",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "Heritage - Brickwork - Quad top hung - 1650 x 2485-2480433-160 - Slab Penetrations Layout",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "Basic Wall _ 600 Plinth 293 - 102 50 40i 101 - ___-2244752-160 - Slab Penetrations Layout",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "Basic Wall _ 600 Plinth 293 - 102 50 40i 101 - ___-2244759-160 - Slab Penetrations Layout",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "Square section RWP - 65mm Square Front-2478932-160 - Slab Penetrations Layout",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "Square section RWP - 65mm Square Front-2478935-160 - Slab Penetrations Layout",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "Electric Meter Box - Wall mounted1 - Electric Meter Box - Wall mounted-2256105-160 - Slab Penetrations Layout",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "Gas Meter Box - Wall mounted - Meter above Plinth-2478945-160 - Slab Penetrations Layout",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "*U138",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "Betts Highgate - As",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "Betts Highgate - Opp",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "*U141",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "Betts Stratford - As",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "Betts Stratford - Opp",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "*U144",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "Betts Oxford - As",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "Betts Oxford - Opp",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "*U147",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "Betts Amberley As",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "Betts Amberley Opp",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "*U150",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "Betts Henley - As",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "Betts Henley - Opp",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "B-RWP",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "*U154",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U155",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "Betts Tavy End - As",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "Betts Tavy End - Opp",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "*U158",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U159",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "Betts Dart End - As",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "Betts Dart End - Opp",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "Betts Dart Mid - As",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "Betts Dart Mid - Opp",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "*U164",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U165",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "Betts Bakewell - As",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "Betts Bakewell - Opp",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "Betts Buxton End - As",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "Betts Buxton End - Opp",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "*U170",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "Betts Sunningdale - As",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "Betts Sunningdale - Opp",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "*U173",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U174",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "A$C09EE7F15",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "Betts Ledsham - As",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "Betts Ledsham - Opp",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "B-MESH",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "Betts - Shaftesbury As",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "Betts - Shaftesbury Opp",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "*U181",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "Betts Leamington LS - As",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "Betts Leamington LS - Opp",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "*U184",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "WP",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "Betts Blenheim - As",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "Betts Blenheim - Opp",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "*U188",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U189",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U190",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U191",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U192",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "A$C73B55F61",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "*U194",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U195",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U196",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "A$C9d5555f9",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "*U198",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U199",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U200",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "A$C5c5305ab",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "*U202",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U203",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "A$C46f06c9c",
+      "xref": "",
+      "flags": "0"
+    }
+  ],
+  "texts": [
+    {
+      "kind": "TEXT",
+      "handle": "1239B",
+      "layer": "Housetype",
+      "text": "Winster",
+      "tag": null,
+      "x": "461847176.7777725",
+      "y": "297492187.6202239",
+      "z": "0.0108867700256832"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "12427",
+      "layer": "Plot Number",
+      "text": "36",
+      "tag": null,
+      "x": "461859334.6546822",
+      "y": "297491260.8147309",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1254B",
+      "layer": "Handing",
+      "text": "OP",
+      "tag": null,
+      "x": "461850480.3930078",
+      "y": "297488515.7974473",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "34071",
+      "layer": "F Text Code",
+      "text": "P331-DG7",
+      "tag": null,
+      "x": "461983814.0812338",
+      "y": "297482365.3331707",
+      "z": "0.0000020540438942"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "34072",
+      "layer": "F Text Sales",
+      "text": "FAIRWAY",
+      "tag": null,
+      "x": "461983634.9111689",
+      "y": "297483753.820869",
+      "z": "0.0000020540439036"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "34073",
+      "layer": "F Text Roof Option",
+      "text": "DEF",
+      "tag": null,
+      "x": "461983455.7411042",
+      "y": "297485142.308567",
+      "z": "0.0000020540439131"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "340BC",
+      "layer": "F Text Code",
+      "text": "P331-DG7",
+      "tag": null,
+      "x": "461980012.3238516",
+      "y": "297481723.4331424",
+      "z": "0.000002054043674"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "340BD",
+      "layer": "F Text Sales",
+      "text": "FAIRWAY",
+      "tag": null,
+      "x": "461978903.8224168",
+      "y": "297482578.5498416",
+      "z": "0.0000020540436243"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "340BE",
+      "layer": "F Text Roof Option",
+      "text": "DEF",
+      "tag": null,
+      "x": "461977795.320982",
+      "y": "297483433.6665407",
+      "z": "0.0000020540435747"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "401E8",
+      "layer": "Plot Number",
+      "text": "R4",
+      "tag": null,
+      "x": "461947874.4545972",
+      "y": "297619438.5039976",
+      "z": "-0.000001538456472"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "401E9",
+      "layer": "Plot Number",
+      "text": "R3",
+      "tag": null,
+      "x": "461934640.3425544",
+      "y": "297616425.3596705",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "401EA",
+      "layer": "Plot Number",
+      "text": "R2",
+      "tag": null,
+      "x": "461923761.6347811",
+      "y": "297613721.4989397",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "401EB",
+      "layer": "Plot Number",
+      "text": "R1",
+      "tag": null,
+      "x": "461910050.540042",
+      "y": "297616221.6288664",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "401EC",
+      "layer": "Plot Number",
+      "text": "R6",
+      "tag": null,
+      "x": "461943228.1401684",
+      "y": "297589251.8214563",
+      "z": "0.2892225323027058"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "401ED",
+      "layer": "Plot Number",
+      "text": "R5",
+      "tag": null,
+      "x": "461940834.9148009",
+      "y": "297601826.1819521",
+      "z": "-0.2348524197242128"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "401EE",
+      "layer": "Plot Number",
+      "text": "R7",
+      "tag": null,
+      "x": "461946599.9214689",
+      "y": "297577612.7206893",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "401EF",
+      "layer": "Plot Number",
+      "text": "R8",
+      "tag": null,
+      "x": "461955545.7015215",
+      "y": "297546591.4898399",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "401F0",
+      "layer": "Plot Number",
+      "text": "R9",
+      "tag": null,
+      "x": "461969601.5592204",
+      "y": "297549034.3250951",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "401F1",
+      "layer": "Plot Number",
+      "text": "R10",
+      "tag": null,
+      "x": "461967990.548319",
+      "y": "297533997.6463192",
+      "z": "-0.0000128859483989"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "401F2",
+      "layer": "Plot Number",
+      "text": "R12",
+      "tag": null,
+      "x": "461979367.7214585",
+      "y": "297513962.0332026",
+      "z": "0.0006107041548967"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "401F3",
+      "layer": "Plot Number",
+      "text": "R13",
+      "tag": null,
+      "x": "461995004.4376324",
+      "y": "297474792.2751263",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "401F4",
+      "layer": "Plot Number",
+      "text": "R14",
+      "tag": null,
+      "x": "461987968.8086537",
+      "y": "297464989.7949688",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "401F5",
+      "layer": "Plot Number",
+      "text": "R15",
+      "tag": null,
+      "x": "461985638.9064925",
+      "y": "297452568.3675788",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "401F6",
+      "layer": "Plot Number",
+      "text": "R16",
+      "tag": null,
+      "x": "461980979.5263104",
+      "y": "297443110.8717656",
+      "z": "-0.0000003897380719"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "401F7",
+      "layer": "Plot Number",
+      "text": "R17",
+      "tag": null,
+      "x": "461975323.1760367",
+      "y": "297436072.7264119",
+      "z": "-0.0000010348065086"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "401F8",
+      "layer": "Plot Number",
+      "text": "R18",
+      "tag": null,
+      "x": "461968151.6580926",
+      "y": "297429535.4534883",
+      "z": "-0.0000017273824538"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "401F9",
+      "layer": "Plot Number",
+      "text": "R19",
+      "tag": null,
+      "x": "461957282.6834739",
+      "y": "297425137.7301881",
+      "z": "-0.0000014574269689"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "401FA",
+      "layer": "Plot Number",
+      "text": "R100",
+      "tag": null,
+      "x": "462037575.8533995",
+      "y": "297476781.5948983",
+      "z": "-0.0000060025723679"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "401FB",
+      "layer": "Plot Number",
+      "text": "R99",
+      "tag": null,
+      "x": "462046742.2770525",
+      "y": "297475879.0405396",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "401FC",
+      "layer": "Plot Number",
+      "text": "R98",
+      "tag": null,
+      "x": "462058866.5598418",
+      "y": "297476913.6327266",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "401FD",
+      "layer": "Plot Number",
+      "text": "R97",
+      "tag": null,
+      "x": "462070173.3952993",
+      "y": "297478294.1341217",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "401FE",
+      "layer": "Plot Number",
+      "text": "R96",
+      "tag": null,
+      "x": "462081962.3279224",
+      "y": "297479561.7070305",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "401FF",
+      "layer": "Plot Number",
+      "text": "R95",
+      "tag": null,
+      "x": "462095857.0586764",
+      "y": "297469905.232092",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "40200",
+      "layer": "Plot Number",
+      "text": "R93",
+      "tag": null,
+      "x": "462091032.0170509",
+      "y": "297491394.7701789",
+      "z": "0.0000000000000001"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "40201",
+      "layer": "Plot Number",
+      "text": "R105",
+      "tag": null,
+      "x": "462078483.9936627",
+      "y": "297490157.1098876",
+      "z": "-0.0000008677439148"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "40202",
+      "layer": "Plot Number",
+      "text": "R104",
+      "tag": null,
+      "x": "462065317.6931513",
+      "y": "297488655.6362978",
+      "z": "-0.0000020193019564"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "40203",
+      "layer": "Plot Number",
+      "text": "R103",
+      "tag": null,
+      "x": "462051106.1912748",
+      "y": "297487212.9379323",
+      "z": "-0.0000035292402152"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "40204",
+      "layer": "Plot Number",
+      "text": "R102",
+      "tag": null,
+      "x": "462032161.6411206",
+      "y": "297493958.3039556",
+      "z": "-0.5848586346882363"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "40205",
+      "layer": "Plot Number",
+      "text": "R92",
+      "tag": null,
+      "x": "462089784.128245",
+      "y": "297502211.9355267",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "40206",
+      "layer": "Plot Number",
+      "text": "R91",
+      "tag": null,
+      "x": "462089354.1535523",
+      "y": "297517753.9678779",
+      "z": "0.0000021804747425"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "40207",
+      "layer": "Plot Number",
+      "text": "R81",
+      "tag": null,
+      "x": "462033029.5691374",
+      "y": "297440241.4727747",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "40208",
+      "layer": "Plot Number",
+      "text": "R90",
+      "tag": null,
+      "x": "462042816.4154639",
+      "y": "297442578.623687",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "40209",
+      "layer": "Plot Number",
+      "text": "R89",
+      "tag": null,
+      "x": "462040490.8571595",
+      "y": "297429299.3688379",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4020A",
+      "layer": "Plot Number",
+      "text": "R82",
+      "tag": null,
+      "x": "462029189.9798029",
+      "y": "297424412.5831518",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4020B",
+      "layer": "Plot Number",
+      "text": "R88",
+      "tag": null,
+      "x": "462038878.557202",
+      "y": "297419419.5984263",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4020C",
+      "layer": "Plot Number",
+      "text": "R85",
+      "tag": null,
+      "x": "462034974.4042533",
+      "y": "297409658.8416118",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4020D",
+      "layer": "Plot Number",
+      "text": "R83",
+      "tag": null,
+      "x": "462022805.0201117",
+      "y": "297416414.8326035",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4020E",
+      "layer": "Plot Number",
+      "text": "R84",
+      "tag": null,
+      "x": "462016793.4558076",
+      "y": "297404812.9251843",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4020F",
+      "layer": "Plot Number",
+      "text": "R86",
+      "tag": null,
+      "x": "462044630.0347313",
+      "y": "297407256.2751359",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "40210",
+      "layer": "Plot Number",
+      "text": "R87",
+      "tag": null,
+      "x": "462059215.4162818",
+      "y": "297401988.784466",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "40211",
+      "layer": "Plot Number",
+      "text": "R72",
+      "tag": null,
+      "x": "462083706.3033222",
+      "y": "297387894.2324834",
+      "z": "0.000009495763684"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "40212",
+      "layer": "Plot Number",
+      "text": "R71",
+      "tag": null,
+      "x": "462094906.0245747",
+      "y": "297384847.6935193",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "40213",
+      "layer": "Plot Number",
+      "text": "R69",
+      "tag": null,
+      "x": "462103567.5209861",
+      "y": "297384104.1286778",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "40214",
+      "layer": "Plot Number",
+      "text": "R70",
+      "tag": null,
+      "x": "462108609.0569701",
+      "y": "297373693.1915036",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "40215",
+      "layer": "Plot Number",
+      "text": "R68",
+      "tag": null,
+      "x": "462101317.3270695",
+      "y": "297396852.1309815",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "40216",
+      "layer": "Plot Number",
+      "text": "R73",
+      "tag": null,
+      "x": "462090939.7806261",
+      "y": "297400695.4351333",
+      "z": "0.8046467544177358"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "40217",
+      "layer": "Plot Number",
+      "text": "R67",
+      "tag": null,
+      "x": "462103087.1332971",
+      "y": "297409628.2013896",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "40218",
+      "layer": "Plot Number",
+      "text": "R74",
+      "tag": null,
+      "x": "462091291.314764",
+      "y": "297412619.0329198",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "40219",
+      "layer": "Plot Number",
+      "text": "R78",
+      "tag": null,
+      "x": "462101215.2822528",
+      "y": "297423264.1982157",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4021A",
+      "layer": "Plot Number",
+      "text": "R75",
+      "tag": null,
+      "x": "462090541.0679359",
+      "y": "297422869.4105734",
+      "z": "0.8046467544177358"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4021B",
+      "layer": "Plot Number",
+      "text": "R79",
+      "tag": null,
+      "x": "462095628.8762932",
+      "y": "297435768.1432565",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4021C",
+      "layer": "Plot Number",
+      "text": "R76",
+      "tag": null,
+      "x": "462088058.9747549",
+      "y": "297436361.59166",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4021D",
+      "layer": "Plot Number",
+      "text": "R77",
+      "tag": null,
+      "x": "462086917.4352394",
+      "y": "297448423.4310793",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4021E",
+      "layer": "Plot Number",
+      "text": "R80",
+      "tag": null,
+      "x": "462097775.3056126",
+      "y": "297449804.4475057",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4021F",
+      "layer": "Plot Number",
+      "text": "R66",
+      "tag": null,
+      "x": "462108520.5999818",
+      "y": "297347450.5705034",
+      "z": "-0.0000000000000003"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "40220",
+      "layer": "Plot Number",
+      "text": "R41",
+      "tag": null,
+      "x": "462090143.029944",
+      "y": "297322779.4558632",
+      "z": "0.0000929878131439"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "40221",
+      "layer": "Plot Number",
+      "text": "R42",
+      "tag": null,
+      "x": "462076338.539372",
+      "y": "297326081.0109451",
+      "z": "0.0000144390987222"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "40222",
+      "layer": "Plot Number",
+      "text": "R54",
+      "tag": null,
+      "x": "462063068.9309522",
+      "y": "297340971.034945",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "40223",
+      "layer": "Plot Number",
+      "text": "R53",
+      "tag": null,
+      "x": "462053160.0894403",
+      "y": "297347800.8175781",
+      "z": "-83484393451.31105"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "40224",
+      "layer": "Plot Number",
+      "text": "R43",
+      "tag": null,
+      "x": "462063806.1633364",
+      "y": "297329696.6543602",
+      "z": "0.0001361552695693"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "40225",
+      "layer": "Plot Number",
+      "text": "R44",
+      "tag": null,
+      "x": "462055208.7043518",
+      "y": "297334597.520632",
+      "z": "0.0001538981831209"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "40226",
+      "layer": "Plot Number",
+      "text": "R45",
+      "tag": null,
+      "x": "462048130.2361401",
+      "y": "297337160.2072424",
+      "z": "0.0002062712175022"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "40227",
+      "layer": "Plot Number",
+      "text": "R46",
+      "tag": null,
+      "x": "462039551.9202254",
+      "y": "297341422.23719",
+      "z": "0.0002089181723071"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "40228",
+      "layer": "Plot Number",
+      "text": "R47",
+      "tag": null,
+      "x": "462027748.2888092",
+      "y": "297349079.6064444",
+      "z": "0.0002062712175022"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "40229",
+      "layer": "Plot Number",
+      "text": "R51",
+      "tag": null,
+      "x": "462028899.0891294",
+      "y": "297363334.3244562",
+      "z": "0.0002062712175022"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4022A",
+      "layer": "Plot Number",
+      "text": "R48",
+      "tag": null,
+      "x": "462017956.6507543",
+      "y": "297357452.1157866",
+      "z": "0.0002062712175022"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4022B",
+      "layer": "Plot Number",
+      "text": "R49",
+      "tag": null,
+      "x": "462016314.2931017",
+      "y": "297365490.64534",
+      "z": "0.0002062712175022"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4022C",
+      "layer": "Plot Number",
+      "text": "R36",
+      "tag": null,
+      "x": "461971790.7572127",
+      "y": "297347187.8135308",
+      "z": "-280.9479959563923"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4022D",
+      "layer": "Plot Number",
+      "text": "R35",
+      "tag": null,
+      "x": "461971089.5259327",
+      "y": "297352267.8123288",
+      "z": "-280.9479959563923"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4022E",
+      "layer": "Plot Number",
+      "text": "R34",
+      "tag": null,
+      "x": "461970247.7572588",
+      "y": "297357600.9865873",
+      "z": "-280.9479959563923"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4022F",
+      "layer": "Plot Number",
+      "text": "R33",
+      "tag": null,
+      "x": "461970196.5170809",
+      "y": "297363036.9191148",
+      "z": "-280.9479959563923"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "40230",
+      "layer": "Plot Number",
+      "text": "R29",
+      "tag": null,
+      "x": "461955892.6885952",
+      "y": "297372516.619875",
+      "z": "0.0002089181723071"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "40231",
+      "layer": "Plot Number",
+      "text": "R30",
+      "tag": null,
+      "x": "461962005.0396295",
+      "y": "297373146.5399165",
+      "z": "0.0002089181723071"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "40232",
+      "layer": "Plot Number",
+      "text": "R32",
+      "tag": null,
+      "x": "461969643.8336193",
+      "y": "297375640.2024875",
+      "z": "0.0002089181723071"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "40233",
+      "layer": "Plot Number",
+      "text": "R28",
+      "tag": null,
+      "x": "461945478.6730007",
+      "y": "297369847.4714178",
+      "z": "0.0002540927500141"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "40234",
+      "layer": "Plot Number",
+      "text": "R50",
+      "tag": null,
+      "x": "462013955.8420796",
+      "y": "297376262.0416125",
+      "z": "0.0002062712175022"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "40235",
+      "layer": "Plot Number",
+      "text": "R11",
+      "tag": null,
+      "x": "461975138.9208171",
+      "y": "297525933.6306201",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "40236",
+      "layer": "Plot Number",
+      "text": "R20",
+      "tag": null,
+      "x": "461946634.4135539",
+      "y": "297419942.0417321",
+      "z": "-0.000004464568287"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "40237",
+      "layer": "Plot Number",
+      "text": "R21",
+      "tag": null,
+      "x": "461934164.008352",
+      "y": "297415652.9742954",
+      "z": "-0.0000082918273942"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "40238",
+      "layer": "Plot Number",
+      "text": "R94",
+      "tag": null,
+      "x": "462094062.9396247",
+      "y": "297482910.6192716",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "40239",
+      "layer": "Plot Number",
+      "text": "R101",
+      "tag": null,
+      "x": "462022773.2956361",
+      "y": "297475233.1486877",
+      "z": "-0.0000060025723679"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4023A",
+      "layer": "Plot Number",
+      "text": "R31",
+      "tag": null,
+      "x": "461972497.3144728",
+      "y": "297388279.3171743",
+      "z": "0.0031854529109476"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4023B",
+      "layer": "Plot Number",
+      "text": "R27",
+      "tag": null,
+      "x": "461960058.6174787",
+      "y": "297362666.1082169",
+      "z": "0.0022997485743838"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4023C",
+      "layer": "Plot Number",
+      "text": "R26",
+      "tag": null,
+      "x": "461960954.1298395",
+      "y": "297356456.8440021",
+      "z": "0.0021607954775737"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4023D",
+      "layer": "Plot Number",
+      "text": "R52",
+      "tag": null,
+      "x": "462041775.107453",
+      "y": "297353681.2067575",
+      "z": "-83484393451.31104"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4023E",
+      "layer": "Plot Number",
+      "text": "R25",
+      "tag": null,
+      "x": "461961835.6400258",
+      "y": "297348070.0452934",
+      "z": "0.002159268813819"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4023F",
+      "layer": "Plot Number",
+      "text": "R24",
+      "tag": null,
+      "x": "461962687.098753",
+      "y": "297339227.7971357",
+      "z": "0.0021576592437983"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "40240",
+      "layer": "Plot Number",
+      "text": "R23",
+      "tag": null,
+      "x": "461964023.1578882",
+      "y": "297326082.8589194",
+      "z": "0.0021552664475206"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "40241",
+      "layer": "Plot Number",
+      "text": "R22",
+      "tag": null,
+      "x": "461965225.8231912",
+      "y": "297314278.6892059",
+      "z": "0.0021531177136972"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "40242",
+      "layer": "Plot Number",
+      "text": "R40",
+      "tag": null,
+      "x": "461978471.4358859",
+      "y": "297313665.0356907",
+      "z": "0.0021724588211031"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "40243",
+      "layer": "Plot Number",
+      "text": "R39",
+      "tag": null,
+      "x": "461974677.2963275",
+      "y": "297325392.9426292",
+      "z": "0.002170803005055"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "40244",
+      "layer": "Plot Number",
+      "text": "R38",
+      "tag": null,
+      "x": "461973635.0037894",
+      "y": "297335213.2929899",
+      "z": "0.0021723642541889"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "40245",
+      "layer": "Plot Number",
+      "text": "R37",
+      "tag": null,
+      "x": "461972489.3366662",
+      "y": "297340959.4346299",
+      "z": "0.0021725867570041"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "40246",
+      "layer": "Plot Number",
+      "text": "R55",
+      "tag": null,
+      "x": "462076646.1669309",
+      "y": "297336356.0201751",
+      "z": "0.0001450916034679"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "40247",
+      "layer": "Plot Number",
+      "text": "R56",
+      "tag": null,
+      "x": "462085798.0176855",
+      "y": "297334619.2895593",
+      "z": "0.0002790818187867"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "40248",
+      "layer": "Plot Number",
+      "text": "R57",
+      "tag": null,
+      "x": "462093582.9322094",
+      "y": "297333806.5331488",
+      "z": "0.0004077080298232"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "40249",
+      "layer": "Plot Number",
+      "text": "R65",
+      "tag": null,
+      "x": "462102313.1043398",
+      "y": "297339020.3909935",
+      "z": "0.0007106662790884"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4024A",
+      "layer": "Plot Number",
+      "text": "R64",
+      "tag": null,
+      "x": "462102093.1134741",
+      "y": "297334182.1788684",
+      "z": "0.0005840351290642"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4024B",
+      "layer": "Plot Number",
+      "text": "R63",
+      "tag": null,
+      "x": "462101162.2912802",
+      "y": "297327414.0332973",
+      "z": "0.0003935146222073"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4024C",
+      "layer": "Plot Number",
+      "text": "R62",
+      "tag": null,
+      "x": "462100902.9590952",
+      "y": "297322432.0855033",
+      "z": "0.000261375583753"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4024D",
+      "layer": "Plot Number",
+      "text": "R61",
+      "tag": null,
+      "x": "462100466.7788992",
+      "y": "297315520.2518737",
+      "z": "0.000070919007833"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4024E",
+      "layer": "Plot Number",
+      "text": "R60",
+      "tag": null,
+      "x": "462100039.8493005",
+      "y": "297310107.1446834",
+      "z": "-0.0000684616681956"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4024F",
+      "layer": "Plot Number",
+      "text": "R58",
+      "tag": null,
+      "x": "462100720.6832543",
+      "y": "297306170.1968063",
+      "z": "-0.0001010047578076"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "40250",
+      "layer": "Plot Number",
+      "text": "R59",
+      "tag": null,
+      "x": "462100647.3831158",
+      "y": "297304051.2290734",
+      "z": "-0.0002127039657462"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4112E",
+      "layer": "Handing",
+      "text": "AS",
+      "tag": null,
+      "x": "461905223.1597412",
+      "y": "297626334.6722447",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "411C4",
+      "layer": "Housetype",
+      "text": "AMBY",
+      "tag": null,
+      "x": "462077115.6009917",
+      "y": "297447988.6429587",
+      "z": "-0.0000000000280691"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "411C7",
+      "layer": "Housetype",
+      "text": "TAVY",
+      "tag": null,
+      "x": "462113142.6888913",
+      "y": "297340245.083816",
+      "z": "28.1539334097581"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "411C8",
+      "layer": "Housetype",
+      "text": "2B4P",
+      "tag": null,
+      "x": "462113191.7927482",
+      "y": "297339125.8779309",
+      "z": "28.15388540853469"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "411C9",
+      "layer": "Housetype",
+      "text": "SPEY",
+      "tag": null,
+      "x": "462111596.2540407",
+      "y": "297306385.6392166",
+      "z": "168.773051453777"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "411CA",
+      "layer": "Housetype",
+      "text": "(DS)",
+      "tag": null,
+      "x": "462111627.5083855",
+      "y": "297305175.1648311",
+      "z": "168.7729948304876"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "411CB",
+      "layer": "Housetype",
+      "text": "LEDH",
+      "tag": null,
+      "x": "462089264.5022704",
+      "y": "297314145.056479",
+      "z": "0.229092031830301"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "411CC",
+      "layer": "Housetype",
+      "text": "STRA",
+      "tag": null,
+      "x": "462090207.75814",
+      "y": "297376150.230382",
+      "z": "0.000000000007959"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "411CD",
+      "layer": "Housetype",
+      "text": "SHAF",
+      "tag": null,
+      "x": "462007881.3396297",
+      "y": "297407111.0006658",
+      "z": "-0.0000304689820041"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "411CE",
+      "layer": "Housetype",
+      "text": "BUXT",
+      "tag": null,
+      "x": "461981658.8298041",
+      "y": "297353572.1953183",
+      "z": "-264.7806708641584"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "411CF",
+      "layer": "Housetype",
+      "text": "BUXT",
+      "tag": null,
+      "x": "461982316.1777143",
+      "y": "297349006.8332385",
+      "z": "-280.9488512973528"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "411D0",
+      "layer": "Housetype",
+      "text": "BUXT",
+      "tag": null,
+      "x": "461980178.5355619",
+      "y": "297364559.1035988",
+      "z": "-248.612490430964"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "411D1",
+      "layer": "Housetype",
+      "text": "BUXT",
+      "tag": null,
+      "x": "461980764.5788237",
+      "y": "297359893.7529352",
+      "z": "-264.7806708641584"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "411D2",
+      "layer": "Housetype",
+      "text": "SHAF",
+      "tag": null,
+      "x": "462057631.9644727",
+      "y": "297393341.0463329",
+      "z": "0.0000142383387681"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "411D3",
+      "layer": "Housetype",
+      "text": "SHAF",
+      "tag": null,
+      "x": "462054486.3522348",
+      "y": "297443763.1260782",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "411D4",
+      "layer": "Housetype",
+      "text": "DART",
+      "tag": null,
+      "x": "462112087.708791",
+      "y": "297328731.3821779",
+      "z": "58.32858337880766"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "411D5",
+      "layer": "Housetype",
+      "text": "3B5P",
+      "tag": null,
+      "x": "462112292.8158738",
+      "y": "297327563.6960374",
+      "z": "58.3285352864124"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "411D6",
+      "layer": "Housetype",
+      "text": "HIG5",
+      "tag": null,
+      "x": "461951151.5181946",
+      "y": "297603384.5907272",
+      "z": "-0.2348990388232457"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "411D7",
+      "layer": "Housetype",
+      "text": "HARR",
+      "tag": null,
+      "x": "462023838.1229417",
+      "y": "297442222.253864",
+      "z": "0.0009258704607711"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "411D8",
+      "layer": "Housetype",
+      "text": "SHAF",
+      "tag": null,
+      "x": "461955917.0725572",
+      "y": "297580234.4506721",
+      "z": "-16.5047810999144"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "411D9",
+      "layer": "Housetype",
+      "text": "HIG5",
+      "tag": null,
+      "x": "462043178.9170686",
+      "y": "297398299.7300423",
+      "z": "0.0000142383027826"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "411DA",
+      "layer": "Housetype",
+      "text": "SHAF",
+      "tag": null,
+      "x": "462025296.2013235",
+      "y": "297465882.6618426",
+      "z": "116.6941392517009"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "411DB",
+      "layer": "Housetype",
+      "text": "SHAF",
+      "tag": null,
+      "x": "462005438.4296509",
+      "y": "297380119.5426868",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "411DC",
+      "layer": "Housetype",
+      "text": "OXFO",
+      "tag": null,
+      "x": "462050832.8879593",
+      "y": "297431686.3086351",
+      "z": "0.0000000000239914"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "411DD",
+      "layer": "Housetype",
+      "text": "HENL",
+      "tag": null,
+      "x": "462049526.7127022",
+      "y": "297419806.8719215",
+      "z": "-0.0000000014566934"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "411DE",
+      "layer": "Housetype",
+      "text": "STRA",
+      "tag": null,
+      "x": "461953420.6619135",
+      "y": "297556904.5402988",
+      "z": "0.000000000007959"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "411DF",
+      "layer": "Housetype",
+      "text": "SHAF",
+      "tag": null,
+      "x": "461964722.760702",
+      "y": "297559875.9340044",
+      "z": "0.0000000002006167"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "411E0",
+      "layer": "Housetype",
+      "text": "HENL",
+      "tag": null,
+      "x": "461921205.4239501",
+      "y": "297623121.4129074",
+      "z": "0.0000000000425882"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "411E1",
+      "layer": "Housetype",
+      "text": "HARR",
+      "tag": null,
+      "x": "461945679.0064901",
+      "y": "297631158.3168907",
+      "z": "-0.2892504866781783"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "411E2",
+      "layer": "Housetype",
+      "text": "OXFO",
+      "tag": null,
+      "x": "461932144.5893514",
+      "y": "297627670.7605883",
+      "z": "0.0015327845221216"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "411E3",
+      "layer": "Housetype",
+      "text": "BAKE",
+      "tag": null,
+      "x": "462045450.1718991",
+      "y": "297328265.7157871",
+      "z": "-0.42848190153925"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "411E4",
+      "layer": "Housetype",
+      "text": "BAKE",
+      "tag": null,
+      "x": "462050211.9364749",
+      "y": "297326360.6534144",
+      "z": "-0.4285035635165073"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "411E5",
+      "layer": "Housetype",
+      "text": "HARR",
+      "tag": null,
+      "x": "462023185.3769011",
+      "y": "297341662.0743032",
+      "z": "65.5716626275925"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "411E6",
+      "layer": "Housetype",
+      "text": "BAKE",
+      "tag": null,
+      "x": "461960816.6103731",
+      "y": "297385431.1456154",
+      "z": "16.91138840554669"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "411E7",
+      "layer": "Housetype",
+      "text": "BAKE",
+      "tag": null,
+      "x": "461956079.1143326",
+      "y": "297384269.2149623",
+      "z": "16.91135815978655"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "411E8",
+      "layer": "Housetype",
+      "text": "AMBY",
+      "tag": null,
+      "x": "462108064.6838744",
+      "y": "297451032.0815043",
+      "z": "-0.0000000000280691"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "411E9",
+      "layer": "Housetype",
+      "text": "AMBY",
+      "tag": null,
+      "x": "462119128.4848735",
+      "y": "297373703.9551656",
+      "z": "-0.0000000000280691"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "411EA",
+      "layer": "Housetype",
+      "text": "LANC",
+      "tag": null,
+      "x": "461953212.4340606",
+      "y": "297591118.1285279",
+      "z": "-16.79410631666376"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "411EB",
+      "layer": "Housetype",
+      "text": "HARR",
+      "tag": null,
+      "x": "461994291.8450477",
+      "y": "297486566.9697451",
+      "z": "0.0000018920486084"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "411EC",
+      "layer": "Housetype",
+      "text": "HARR",
+      "tag": null,
+      "x": "461996854.9552357",
+      "y": "297466453.5230889",
+      "z": "0.0000018920486088"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "411ED",
+      "layer": "Housetype",
+      "text": "SUND",
+      "tag": null,
+      "x": "462112754.6911043",
+      "y": "297384816.3614968",
+      "z": "-16.50296605638402"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "411EE",
+      "layer": "Housetype",
+      "text": "LANC",
+      "tag": null,
+      "x": "462007066.8335909",
+      "y": "297365210.3557893",
+      "z": "-16.50033577112604"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "411EF",
+      "layer": "Housetype",
+      "text": "STRA",
+      "tag": null,
+      "x": "461976500.8828914",
+      "y": "297540967.6365569",
+      "z": "0.000000000007959"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "411F0",
+      "layer": "Housetype",
+      "text": "CAMB",
+      "tag": null,
+      "x": "461983067.3313107",
+      "y": "297528702.2419589",
+      "z": "-0.0000155435629685"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "411F1",
+      "layer": "Housetype",
+      "text": "CAMB",
+      "tag": null,
+      "x": "462032869.0999267",
+      "y": "297401090.2873684",
+      "z": "0.0000142383467255"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "411F2",
+      "layer": "Housetype",
+      "text": "LANC",
+      "tag": null,
+      "x": "462018955.8360869",
+      "y": "297427730.4192278",
+      "z": "-16.50137809578295"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "411F3",
+      "layer": "Housetype",
+      "text": "HARR",
+      "tag": null,
+      "x": "462013861.7382906",
+      "y": "297419020.4627727",
+      "z": "0.0000004791393423"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "411F4",
+      "layer": "Housetype",
+      "text": "LEDH",
+      "tag": null,
+      "x": "462113531.2160071",
+      "y": "297424808.0902499",
+      "z": "-0.0000000000139206"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "411F5",
+      "layer": "Housetype",
+      "text": "LEDH",
+      "tag": null,
+      "x": "462114942.7382971",
+      "y": "297410831.3489646",
+      "z": "0.0002865569310395"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "411F6",
+      "layer": "Housetype",
+      "text": "HENL",
+      "tag": null,
+      "x": "462111394.8217041",
+      "y": "297397762.9112582",
+      "z": "0.0002865554882668"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "411F7",
+      "layer": "Housetype",
+      "text": "HENL",
+      "tag": null,
+      "x": "462105155.1406964",
+      "y": "297436604.8451186",
+      "z": "-0.0000000014566934"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "411F8",
+      "layer": "Housetype",
+      "text": "HARR",
+      "tag": null,
+      "x": "462011792.8028994",
+      "y": "297349258.9421738",
+      "z": "65.5716626275925"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "411F9",
+      "layer": "Housetype",
+      "text": "HARR",
+      "tag": null,
+      "x": "462073091.1349899",
+      "y": "297317532.1798549",
+      "z": "1.649489543000548"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "411FA",
+      "layer": "Housetype",
+      "text": "BAKE",
+      "tag": null,
+      "x": "462089692.3851384",
+      "y": "297345283.3272813",
+      "z": "0.9638085196564656"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "411FB",
+      "layer": "Housetype",
+      "text": "BLENP",
+      "tag": null,
+      "x": "462046767.7636006",
+      "y": "297363029.4748271",
+      "z": "-13.22469055624587"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "411FC",
+      "layer": "Housetype",
+      "text": "HARR",
+      "tag": null,
+      "x": "462060069.9437425",
+      "y": "297321906.0070019",
+      "z": "-0.4285388782893394"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "411FD",
+      "layer": "Housetype",
+      "text": "LANC",
+      "tag": null,
+      "x": "462036694.4948711",
+      "y": "297333736.1161664",
+      "z": "-0.4282545895996641"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "411FE",
+      "layer": "Housetype",
+      "text": "BLEN",
+      "tag": null,
+      "x": "462078427.5245692",
+      "y": "297499449.6109694",
+      "z": "-13.89969011712458"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "411FF",
+      "layer": "Housetype",
+      "text": "BLENP",
+      "tag": null,
+      "x": "462050656.2341157",
+      "y": "297496945.5985325",
+      "z": "-13.89978727871952"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41200",
+      "layer": "Housetype",
+      "text": "HARR",
+      "tag": null,
+      "x": "462081543.2658542",
+      "y": "297400026.5884116",
+      "z": "0.7764866931025408"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41201",
+      "layer": "Housetype",
+      "text": "STRA",
+      "tag": null,
+      "x": "462081355.0099886",
+      "y": "297412091.8047497",
+      "z": "0.8046467546530685"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41202",
+      "layer": "Housetype",
+      "text": "STRA",
+      "tag": null,
+      "x": "462080309.9039961",
+      "y": "297422259.1087748",
+      "z": "0.7764771561023927"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41203",
+      "layer": "Housetype",
+      "text": "SUND",
+      "tag": null,
+      "x": "462064547.8116899",
+      "y": "297497572.1653352",
+      "z": "-17.43502691901066"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41204",
+      "layer": "Housetype",
+      "text": "BLENP",
+      "tag": null,
+      "x": "462024111.9620596",
+      "y": "297493762.7873272",
+      "z": "-13.78726375632993"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41205",
+      "layer": "Housetype",
+      "text": "CAMB",
+      "tag": null,
+      "x": "461973525.8444836",
+      "y": "297420432.1608089",
+      "z": "15.49517102716636"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41206",
+      "layer": "Housetype",
+      "text": "SHAF",
+      "tag": null,
+      "x": "462106911.6895524",
+      "y": "297471980.0204107",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41208",
+      "layer": "Housetype",
+      "text": "CAMB",
+      "tag": null,
+      "x": "461994817.4188401",
+      "y": "297450224.3578812",
+      "z": "1.230046540648085"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41209",
+      "layer": "Housetype",
+      "text": "STRA",
+      "tag": null,
+      "x": "462106636.5022957",
+      "y": "297484751.1122474",
+      "z": "39.72072397288379"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4120A",
+      "layer": "Housetype",
+      "text": "OXFO",
+      "tag": null,
+      "x": "462100514.239336",
+      "y": "297493403.6953618",
+      "z": "69.97561261805878"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4120B",
+      "layer": "Housetype",
+      "text": "OXFO",
+      "tag": null,
+      "x": "462099572.4463885",
+      "y": "297503817.5860277",
+      "z": "69.97564299122153"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4120C",
+      "layer": "Housetype",
+      "text": "CAMB",
+      "tag": null,
+      "x": "462071583.0669291",
+      "y": "297469254.3986725",
+      "z": "-32.77613452842004"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4120D",
+      "layer": "Housetype",
+      "text": "CAMB",
+      "tag": null,
+      "x": "462048162.6469722",
+      "y": "297466952.7898682",
+      "z": "99.49049123599907"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4120E",
+      "layer": "Housetype",
+      "text": "LANC",
+      "tag": null,
+      "x": "462083704.1535602",
+      "y": "297470746.1267248",
+      "z": "-49.51402186703208"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4120F",
+      "layer": "Housetype",
+      "text": "LANC",
+      "tag": null,
+      "x": "462038622.2802926",
+      "y": "297466935.1701929",
+      "z": "82.98666959355431"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41210",
+      "layer": "Housetype",
+      "text": "LANC",
+      "tag": null,
+      "x": "462060011.0843143",
+      "y": "297468287.3916513",
+      "z": "49.74410096536891"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41211",
+      "layer": "Housetype",
+      "text": "LANC",
+      "tag": null,
+      "x": "461983925.6776762",
+      "y": "297428932.2086653",
+      "z": "65.08083323770458"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41212",
+      "layer": "Housetype",
+      "text": "HARR",
+      "tag": null,
+      "x": "461991343.6555102",
+      "y": "297437454.6431729",
+      "z": "-17.75808536276246"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41213",
+      "layer": "Housetype",
+      "text": "STRA",
+      "tag": null,
+      "x": "461960263.3741974",
+      "y": "297414938.491691",
+      "z": "-32.71909850366716"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41215",
+      "layer": "Housetype",
+      "text": "DART",
+      "tag": null,
+      "x": "462110989.8334525",
+      "y": "297311726.5254918",
+      "z": "151.6491135075151"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41216",
+      "layer": "Housetype",
+      "text": "3B5P",
+      "tag": null,
+      "x": "462111143.0377312",
+      "y": "297310591.0577629",
+      "z": "151.6491027631324"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41217",
+      "layer": "Housetype",
+      "text": "BAKE",
+      "tag": null,
+      "x": "461984710.5097108",
+      "y": "297337261.1986263",
+      "z": "-241.3328090025411"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41218",
+      "layer": "Housetype",
+      "text": "BAKE",
+      "tag": null,
+      "x": "461984192.9595753",
+      "y": "297342673.3715851",
+      "z": "-241.3327992597069"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41219",
+      "layer": "Housetype",
+      "text": "BAKE",
+      "tag": null,
+      "x": "461950506.3135296",
+      "y": "297361251.50673",
+      "z": "-39.61243443680685"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4121A",
+      "layer": "Housetype",
+      "text": "BAKE",
+      "tag": null,
+      "x": "461951355.2205608",
+      "y": "297356494.616098",
+      "z": "-39.61245690987626"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4121B",
+      "layer": "Housetype",
+      "text": "SHAF",
+      "tag": null,
+      "x": "461943379.6038613",
+      "y": "297379652.463301",
+      "z": "0.0000341328693851"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4121C",
+      "layer": "Housetype",
+      "text": "LANC",
+      "tag": null,
+      "x": "461987605.8832344",
+      "y": "297517283.2321186",
+      "z": "20.22618629806651"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4121D",
+      "layer": "Housetype",
+      "text": "OXFO",
+      "tag": null,
+      "x": "462057407.1547143",
+      "y": "297356417.7009626",
+      "z": "-0.9202211880411305"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4121E",
+      "layer": "Housetype",
+      "text": "OXFO",
+      "tag": null,
+      "x": "462079332.8104593",
+      "y": "297346121.4307593",
+      "z": "-14.62523743259159"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4121F",
+      "layer": "Housetype",
+      "text": "HENL",
+      "tag": null,
+      "x": "462066682.1976873",
+      "y": "297348718.7778479",
+      "z": "-13.88223552884096"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41220",
+      "layer": "Housetype",
+      "text": "HIG5",
+      "tag": null,
+      "x": "462098559.4210421",
+      "y": "297519101.1439391",
+      "z": "3.003454513664415"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41221",
+      "layer": "Housetype",
+      "text": "DART",
+      "tag": null,
+      "x": "462111032.1717027",
+      "y": "297317192.2133737",
+      "z": "41.29854105127796"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41222",
+      "layer": "Housetype",
+      "text": "3B5P",
+      "tag": null,
+      "x": "462111165.9741361",
+      "y": "297316045.9533582",
+      "z": "41.29848836739575"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41223",
+      "layer": "Housetype",
+      "text": "DART",
+      "tag": null,
+      "x": "462112042.4168945",
+      "y": "297323381.7239867",
+      "z": "41.29855427435641"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41224",
+      "layer": "Housetype",
+      "text": "3B5P",
+      "tag": null,
+      "x": "462112250.8120176",
+      "y": "297322240.8078226",
+      "z": "41.29850581956727"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41225",
+      "layer": "Housetype",
+      "text": "LEDH",
+      "tag": null,
+      "x": "461907148.118237",
+      "y": "297629037.4250119",
+      "z": "-2331.768425824435"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41226",
+      "layer": "Housetype",
+      "text": "SHAF",
+      "tag": null,
+      "x": "461982082.1206068",
+      "y": "297391657.6269733",
+      "z": "32.3357109553934"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41227",
+      "layer": "Housetype",
+      "text": "HIG5",
+      "tag": null,
+      "x": "461982227.8947259",
+      "y": "297378149.8301854",
+      "z": "-2.361374470582216"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41228",
+      "layer": "Housetype",
+      "text": "BAKE",
+      "tag": null,
+      "x": "462094832.3283853",
+      "y": "297344786.1662234",
+      "z": "14.84981898853184"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41229",
+      "layer": "Housetype",
+      "text": "STRA",
+      "tag": null,
+      "x": "461952049.1679582",
+      "y": "297338247.9344476",
+      "z": "0.0014236285950584"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4122A",
+      "layer": "Housetype",
+      "text": "LANC",
+      "tag": null,
+      "x": "461954138.5972478",
+      "y": "297324767.6575926",
+      "z": "-56.72625581704197"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4122B",
+      "layer": "Housetype",
+      "text": "OXFO",
+      "tag": null,
+      "x": "461952196.2304094",
+      "y": "297347138.8165007",
+      "z": "0.0014236286111738"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4122C",
+      "layer": "Housetype",
+      "text": "HENL",
+      "tag": null,
+      "x": "461984094.2989693",
+      "y": "297326562.9673549",
+      "z": "-280.949523355595"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4122D",
+      "layer": "Housetype",
+      "text": "HIG5",
+      "tag": null,
+      "x": "462031336.8477887",
+      "y": "297372234.4416521",
+      "z": "0.8135256785845583"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4122E",
+      "layer": "Housetype",
+      "text": "HIG5",
+      "tag": null,
+      "x": "462078741.8108084",
+      "y": "297436233.4591075",
+      "z": "-0.0000000000359839"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4122F",
+      "layer": "Housetype",
+      "text": "HARR",
+      "tag": null,
+      "x": "462076867.1600312",
+      "y": "297381319.9107826",
+      "z": "0.0000180671248695"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41230",
+      "layer": "Housetype",
+      "text": "LEDH",
+      "tag": null,
+      "x": "461991463.1175845",
+      "y": "297313731.1345983",
+      "z": "-280.9495233541523"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41231",
+      "layer": "Housetype",
+      "text": "LEDH",
+      "tag": null,
+      "x": "461953516.7155399",
+      "y": "297313775.9656801",
+      "z": "-36.70223676819233"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41232",
+      "layer": "Housetype",
+      "text": "SHAF",
+      "tag": null,
+      "x": "462119240.7791823",
+      "y": "297347773.8355391",
+      "z": "-0.0000000002477758"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41236",
+      "layer": "Handing",
+      "text": "AS",
+      "tag": null,
+      "x": "461918884.2914751",
+      "y": "297620847.7987055",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41237",
+      "layer": "Handing",
+      "text": "AS",
+      "tag": null,
+      "x": "461931236.7731931",
+      "y": "297624859.8406328",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41238",
+      "layer": "Handing",
+      "text": "AS",
+      "tag": null,
+      "x": "461944763.6844118",
+      "y": "297628202.3161503",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4123A",
+      "layer": "Handing",
+      "text": "AS",
+      "tag": null,
+      "x": "461952351.3378675",
+      "y": "297588328.2973155",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4123B",
+      "layer": "Handing",
+      "text": "AS",
+      "tag": null,
+      "x": "461953194.4104745",
+      "y": "297582261.1328877",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4123C",
+      "layer": "Handing",
+      "text": "AS",
+      "tag": null,
+      "x": "461965806.9444387",
+      "y": "297555826.6510299",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4123D",
+      "layer": "Handing",
+      "text": "AS",
+      "tag": null,
+      "x": "461957074.2222192",
+      "y": "297553537.6266638",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4123E",
+      "layer": "Handing",
+      "text": "AS",
+      "tag": null,
+      "x": "461975626.0139472",
+      "y": "297537541.2387568",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4123F",
+      "layer": "Handing",
+      "text": "AS",
+      "tag": null,
+      "x": "461983230.444967",
+      "y": "297525439.0490888",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41240",
+      "layer": "Handing",
+      "text": "AS",
+      "tag": null,
+      "x": "461987542.2789934",
+      "y": "297514406.3801664",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41244",
+      "layer": "Handing",
+      "text": "OP",
+      "tag": null,
+      "x": "461950441.1211229",
+      "y": "297600219.1152118",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41245",
+      "layer": "Handing",
+      "text": "AS",
+      "tag": null,
+      "x": "461999332.7123077",
+      "y": "297484400.8774565",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41247",
+      "layer": "Handing",
+      "text": "AS",
+      "tag": null,
+      "x": "461993674.4787462",
+      "y": "297448326.4248084",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41248",
+      "layer": "Handing",
+      "text": "AS",
+      "tag": null,
+      "x": "461988473.4338119",
+      "y": "297435915.341837",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4124B",
+      "layer": "Handing",
+      "text": "AS",
+      "tag": null,
+      "x": "461958600.9805715",
+      "y": "297418101.3043162",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41272",
+      "layer": "Handing",
+      "text": "OP",
+      "tag": null,
+      "x": "461996050.9296795",
+      "y": "297462931.218552",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41297",
+      "layer": "Handing",
+      "text": "OP",
+      "tag": null,
+      "x": "461981328.617004",
+      "y": "297429026.1610717",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "412BC",
+      "layer": "Handing",
+      "text": "OP",
+      "tag": null,
+      "x": "461970981.0542207",
+      "y": "297421944.8267218",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "412E1",
+      "layer": "Handing",
+      "text": "OP",
+      "tag": null,
+      "x": "462026904.8704324",
+      "y": "297498743.2011675",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41306",
+      "layer": "Handing",
+      "text": "AS",
+      "tag": null,
+      "x": "462070207.3269684",
+      "y": "297496171.8261565",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41307",
+      "layer": "Handing",
+      "text": "AS",
+      "tag": null,
+      "x": "462084426.3127157",
+      "y": "297497546.6691846",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41308",
+      "layer": "Handing",
+      "text": "AS",
+      "tag": null,
+      "x": "462099144.4309999",
+      "y": "297500485.619346",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41309",
+      "layer": "Handing",
+      "text": "AS",
+      "tag": null,
+      "x": "462100033.6419079",
+      "y": "297490249.2880734",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4130A",
+      "layer": "Handing",
+      "text": "AS",
+      "tag": null,
+      "x": "462097886.1136772",
+      "y": "297515801.7277807",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4130B",
+      "layer": "Handing",
+      "text": "AS",
+      "tag": null,
+      "x": "462104580.3618338",
+      "y": "297482871.5589927",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4130C",
+      "layer": "Handing",
+      "text": "AS",
+      "tag": null,
+      "x": "462104441.9469282",
+      "y": "297473822.5921537",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4130D",
+      "layer": "Handing",
+      "text": "AS",
+      "tag": null,
+      "x": "462082421.3937809",
+      "y": "297473111.959004",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4130E",
+      "layer": "Handing",
+      "text": "AS",
+      "tag": null,
+      "x": "462070324.7699186",
+      "y": "297471903.1684457",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4130F",
+      "layer": "Handing",
+      "text": "AS",
+      "tag": null,
+      "x": "462058664.3627283",
+      "y": "297470587.2472616",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41310",
+      "layer": "Handing",
+      "text": "AS",
+      "tag": null,
+      "x": "462046907.484543",
+      "y": "297469194.5491294",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41311",
+      "layer": "Handing",
+      "text": "AS",
+      "tag": null,
+      "x": "462027881.7266237",
+      "y": "297469719.4891945",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41312",
+      "layer": "Handing",
+      "text": "OP",
+      "tag": null,
+      "x": "462056857.0171037",
+      "y": "297494797.2231261",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41313",
+      "layer": "Handing",
+      "text": "OP",
+      "tag": null,
+      "x": "462036992.3809696",
+      "y": "297469607.242035",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4131A",
+      "layer": "Handing",
+      "text": "AS",
+      "tag": null,
+      "x": "462028806.6983955",
+      "y": "297444832.1809047",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4131B",
+      "layer": "Handing",
+      "text": "AS",
+      "tag": null,
+      "x": "462018752.7429874",
+      "y": "297421738.3890539",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4131C",
+      "layer": "Handing",
+      "text": "AS",
+      "tag": null,
+      "x": "462049455.6856611",
+      "y": "297415728.3609599",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4131D",
+      "layer": "Handing",
+      "text": "AS",
+      "tag": null,
+      "x": "462050571.393687",
+      "y": "297428682.2391011",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4131E",
+      "layer": "Handing",
+      "text": "OP",
+      "tag": null,
+      "x": "462024186.9050155",
+      "y": "297429890.3481179",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4131F",
+      "layer": "Handing",
+      "text": "OP",
+      "tag": null,
+      "x": "462006662.739101",
+      "y": "297409756.9325536",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41320",
+      "layer": "Handing",
+      "text": "OP",
+      "tag": null,
+      "x": "462032584.0759493",
+      "y": "297404545.02762",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41321",
+      "layer": "Handing",
+      "text": "OP",
+      "tag": null,
+      "x": "462041748.8204494",
+      "y": "297401270.4014984",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41322",
+      "layer": "Handing",
+      "text": "OP",
+      "tag": null,
+      "x": "462056110.3419046",
+      "y": "297390550.3799339",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41323",
+      "layer": "Handing",
+      "text": "OP",
+      "tag": null,
+      "x": "462059080.044374",
+      "y": "297442383.5645689",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41327",
+      "layer": "Handing",
+      "text": "OP",
+      "tag": null,
+      "x": "462082056.9186864",
+      "y": "297446634.8648933",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41328",
+      "layer": "Handing",
+      "text": "OP",
+      "tag": null,
+      "x": "462081587.1468855",
+      "y": "297439617.8089188",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41329",
+      "layer": "Handing",
+      "text": "OP",
+      "tag": null,
+      "x": "462105092.5144735",
+      "y": "297432704.3125492",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4132A",
+      "layer": "Handing",
+      "text": "OP",
+      "tag": null,
+      "x": "462113015.7192159",
+      "y": "297420993.1496645",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4132B",
+      "layer": "Handing",
+      "text": "OP",
+      "tag": null,
+      "x": "462117457.5793653",
+      "y": "297375362.6452161",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41337",
+      "layer": "Handing",
+      "text": "AS",
+      "tag": null,
+      "x": "462113155.9029272",
+      "y": "297449724.479472",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41338",
+      "layer": "Handing",
+      "text": "AS",
+      "tag": null,
+      "x": "462084957.0117252",
+      "y": "297424721.976976",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41339",
+      "layer": "Handing",
+      "text": "AS",
+      "tag": null,
+      "x": "462086064.3309696",
+      "y": "297414508.8573388",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4133A",
+      "layer": "Handing",
+      "text": "AS",
+      "tag": null,
+      "x": "462085573.5872133",
+      "y": "297404047.5517527",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4133B",
+      "layer": "Handing",
+      "text": "AS",
+      "tag": null,
+      "x": "462114275.8053443",
+      "y": "297407095.4180499",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4133C",
+      "layer": "Handing",
+      "text": "AS",
+      "tag": null,
+      "x": "462110538.6028965",
+      "y": "297393805.8639487",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4133D",
+      "layer": "Handing",
+      "text": "AS",
+      "tag": null,
+      "x": "462112321.2191036",
+      "y": "297381116.2413508",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4133E",
+      "layer": "Handing",
+      "text": "AS",
+      "tag": null,
+      "x": "462091579.9552343",
+      "y": "297380587.7302645",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4133F",
+      "layer": "Handing",
+      "text": "AS",
+      "tag": null,
+      "x": "462076907.975251",
+      "y": "297385274.6951331",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4135E",
+      "layer": "Handing",
+      "text": "AS",
+      "tag": null,
+      "x": "462086668.3232849",
+      "y": "297317284.2436193",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4135F",
+      "layer": "Handing",
+      "text": "AS",
+      "tag": null,
+      "x": "462072713.5841758",
+      "y": "297321037.3865348",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41360",
+      "layer": "Handing",
+      "text": "AS",
+      "tag": null,
+      "x": "462059820.0260093",
+      "y": "297325385.1044222",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41361",
+      "layer": "Handing",
+      "text": "AS",
+      "tag": null,
+      "x": "462051682.9073226",
+      "y": "297329970.2951964",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41362",
+      "layer": "Handing",
+      "text": "AS",
+      "tag": null,
+      "x": "462023408.517081",
+      "y": "297345631.0071434",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41363",
+      "layer": "Handing",
+      "text": "AS",
+      "tag": null,
+      "x": "462012498.9058931",
+      "y": "297352935.5302964",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41364",
+      "layer": "Handing",
+      "text": "AS",
+      "tag": null,
+      "x": "462010464.6262214",
+      "y": "297367799.9045933",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41365",
+      "layer": "Handing",
+      "text": "AS",
+      "tag": null,
+      "x": "462009101.4491222",
+      "y": "297377988.0270845",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41366",
+      "layer": "Handing",
+      "text": "AS",
+      "tag": null,
+      "x": "462091726.7589214",
+      "y": "297342174.2589587",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41367",
+      "layer": "Handing",
+      "text": "AS",
+      "tag": null,
+      "x": "462082784.317148",
+      "y": "297343329.4842042",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41368",
+      "layer": "Handing",
+      "text": "AS",
+      "tag": null,
+      "x": "462070817.7194097",
+      "y": "297345181.0585161",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41369",
+      "layer": "Handing",
+      "text": "AS",
+      "tag": null,
+      "x": "462060520.4893186",
+      "y": "297353353.3397361",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4136A",
+      "layer": "Handing",
+      "text": "OP",
+      "tag": null,
+      "x": "462096842.1472278",
+      "y": "297341718.2722582",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4136B",
+      "layer": "Handing",
+      "text": "OP",
+      "tag": null,
+      "x": "462051286.8657547",
+      "y": "297358889.5260257",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4136C",
+      "layer": "Handing",
+      "text": "OP",
+      "tag": null,
+      "x": "462034974.878862",
+      "y": "297369416.8954977",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4136D",
+      "layer": "Handing",
+      "text": "OP",
+      "tag": null,
+      "x": "462036539.3867326",
+      "y": "297337329.487631",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4136E",
+      "layer": "Handing",
+      "text": "OP",
+      "tag": null,
+      "x": "462046761.1177841",
+      "y": "297331733.6979557",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41372",
+      "layer": "Handing",
+      "text": "OP",
+      "tag": null,
+      "x": "462110226.4491506",
+      "y": "297321908.0340811",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41374",
+      "layer": "Handing",
+      "text": "AS",
+      "tag": null,
+      "x": "462108974.0950258",
+      "y": "297303848.2776634",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41375",
+      "layer": "Handing",
+      "text": "AS",
+      "tag": null,
+      "x": "462108911.1791589",
+      "y": "297310592.1505424",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41376",
+      "layer": "Handing",
+      "text": "AS",
+      "tag": null,
+      "x": "462108881.8184221",
+      "y": "297315405.8866512",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41377",
+      "layer": "Handing",
+      "text": "AS",
+      "tag": null,
+      "x": "462110324.6889522",
+      "y": "297327331.3107868",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41378",
+      "layer": "Handing",
+      "text": "OP",
+      "tag": null,
+      "x": "462111237.2974001",
+      "y": "297333670.9767679",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41379",
+      "layer": "Handing",
+      "text": "AS",
+      "tag": null,
+      "x": "462111335.5372016",
+      "y": "297339094.2534736",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4137A",
+      "layer": "Handing",
+      "text": "OP",
+      "tag": null,
+      "x": "462124072.1340919",
+      "y": "297346071.3466769",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41386",
+      "layer": "Handing",
+      "text": "AS",
+      "tag": null,
+      "x": "461956705.1158044",
+      "y": "297318118.0769883",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41387",
+      "layer": "Handing",
+      "text": "AS",
+      "tag": null,
+      "x": "461956776.4204528",
+      "y": "297340983.3235043",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41388",
+      "layer": "Handing",
+      "text": "AS",
+      "tag": null,
+      "x": "461982777.450731",
+      "y": "297341060.1004528",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41389",
+      "layer": "Handing",
+      "text": "AS",
+      "tag": null,
+      "x": "461980558.617852",
+      "y": "297347803.973332",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4138A",
+      "layer": "Handing",
+      "text": "AS",
+      "tag": null,
+      "x": "461955404.8545711",
+      "y": "297358513.4648675",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4138B",
+      "layer": "Handing",
+      "text": "AS",
+      "tag": null,
+      "x": "461979350.6332223",
+      "y": "297358309.9166788",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4138C",
+      "layer": "Handing",
+      "text": "AS",
+      "tag": null,
+      "x": "461981447.8287599",
+      "y": "297375357.9702269",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4138D",
+      "layer": "Handing",
+      "text": "AS",
+      "tag": null,
+      "x": "461959607.6344287",
+      "y": "297381769.7381669",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4138E",
+      "layer": "Handing",
+      "text": "OP",
+      "tag": null,
+      "x": "461958280.4380422",
+      "y": "297328169.8191451",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4138F",
+      "layer": "Handing",
+      "text": "OP",
+      "tag": null,
+      "x": "461989914.5355354",
+      "y": "297310695.0286053",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41390",
+      "layer": "Handing",
+      "text": "OP",
+      "tag": null,
+      "x": "461955692.4987484",
+      "y": "297350919.0074836",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41391",
+      "layer": "Handing",
+      "text": "OP",
+      "tag": null,
+      "x": "461954522.2636381",
+      "y": "297363233.6728922",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41392",
+      "layer": "Handing",
+      "text": "OP",
+      "tag": null,
+      "x": "461978774.2328382",
+      "y": "297362910.495505",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41393",
+      "layer": "Handing",
+      "text": "OP",
+      "tag": null,
+      "x": "461979940.2735572",
+      "y": "297352345.630314",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41394",
+      "layer": "Handing",
+      "text": "OP",
+      "tag": null,
+      "x": "461983442.5901056",
+      "y": "297336002.8533844",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41395",
+      "layer": "Handing",
+      "text": "OP",
+      "tag": null,
+      "x": "461984218.5524545",
+      "y": "297322868.6386901",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41396",
+      "layer": "Handing",
+      "text": "OP",
+      "tag": null,
+      "x": "461964446.1929231",
+      "y": "297383051.053111",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41397",
+      "layer": "Handing",
+      "text": "OP",
+      "tag": null,
+      "x": "461945521.10039",
+      "y": "297383761.6862606",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41398",
+      "layer": "Handing",
+      "text": "OP",
+      "tag": null,
+      "x": "461987142.0430341",
+      "y": "297390798.3828496",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "413B0",
+      "layer": "Housetype",
+      "text": "(B2)",
+      "tag": null,
+      "x": "462024850.1748893",
+      "y": "297492520.0720708",
+      "z": "-13.78723143306863"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "413B1",
+      "layer": "Housetype",
+      "text": "(B2)",
+      "tag": null,
+      "x": "462051350.3377064",
+      "y": "297495651.8573581",
+      "z": "-13.78754516197942"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "413B2",
+      "layer": "Housetype",
+      "text": "(B2)",
+      "tag": null,
+      "x": "462078731.3226478",
+      "y": "297498194.4242049",
+      "z": "-13.78784791247611"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "413B3",
+      "layer": "Housetype",
+      "text": "TAVY",
+      "tag": null,
+      "x": "462112903.6085996",
+      "y": "297335251.0111545",
+      "z": "28.1539363366305"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "413B4",
+      "layer": "Housetype",
+      "text": "2B4P",
+      "tag": null,
+      "x": "462112952.7124565",
+      "y": "297334131.8052694",
+      "z": "28.15388833540709"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "413BD",
+      "layer": "Housetype",
+      "text": "(B2)",
+      "tag": null,
+      "x": "462047438.8661731",
+      "y": "297361849.2524356",
+      "z": "-13.2246603000011"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41438",
+      "layer": "Housetype",
+      "text": "SG",
+      "tag": null,
+      "x": "461941868.3432714",
+      "y": "297620552.4028617",
+      "z": "0.0015327845221216"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4143B",
+      "layer": "Housetype",
+      "text": "SG",
+      "tag": null,
+      "x": "461943577.7473027",
+      "y": "297595554.6701008",
+      "z": "0.0015327845221216"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4143C",
+      "layer": "Housetype",
+      "text": "SG",
+      "tag": null,
+      "x": "461946456.1102632",
+      "y": "297583984.9260257",
+      "z": "0.0015327845221216"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4143D",
+      "layer": "Housetype",
+      "text": "SG",
+      "tag": null,
+      "x": "461948753.1351342",
+      "y": "297552187.313716",
+      "z": "0.0015327845221216"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4143E",
+      "layer": "Housetype",
+      "text": "SG",
+      "tag": null,
+      "x": "461962269.7738717",
+      "y": "297550005.9565658",
+      "z": "0.0015327845221216"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4143F",
+      "layer": "Housetype",
+      "text": "SG",
+      "tag": null,
+      "x": "461966344.2291588",
+      "y": "297540253.1371875",
+      "z": "0.0015327845221216"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41440",
+      "layer": "Housetype",
+      "text": "SG",
+      "tag": null,
+      "x": "461977510.7014307",
+      "y": "297533834.9120994",
+      "z": "0.0015327845221216"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41441",
+      "layer": "Housetype",
+      "text": "SG",
+      "tag": null,
+      "x": "461977981.9352434",
+      "y": "297520182.85941",
+      "z": "0.0015327845221216"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41442",
+      "layer": "Housetype",
+      "text": "SG",
+      "tag": null,
+      "x": "461989617.4965588",
+      "y": "297477037.4027919",
+      "z": "0.0015327845221216"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41443",
+      "layer": "Housetype",
+      "text": "SG",
+      "tag": null,
+      "x": "461986108.475002",
+      "y": "297446887.5527996",
+      "z": "0.0015327845221216"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41444",
+      "layer": "Housetype",
+      "text": "SG",
+      "tag": null,
+      "x": "461973682.1092601",
+      "y": "297432081.4653112",
+      "z": "0.0015327845221216"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41445",
+      "layer": "Housetype",
+      "text": "SG",
+      "tag": null,
+      "x": "461953333.4029827",
+      "y": "297422827.0119776",
+      "z": "0.0015273742805655"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41447",
+      "layer": "Housetype",
+      "text": "SG",
+      "tag": null,
+      "x": "462054058.0154796",
+      "y": "297477109.6984674",
+      "z": "0.0015327845221216"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41448",
+      "layer": "Housetype",
+      "text": "SG",
+      "tag": null,
+      "x": "462066084.6963588",
+      "y": "297478511.1014278",
+      "z": "0.0015327845221216"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41449",
+      "layer": "Housetype",
+      "text": "SG",
+      "tag": null,
+      "x": "462077834.21978",
+      "y": "297479744.4348801",
+      "z": "0.0015327845221216"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4144A",
+      "layer": "Housetype",
+      "text": "SG",
+      "tag": null,
+      "x": "462089733.4131887",
+      "y": "297481018.4352609",
+      "z": "0.0015327845221216"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4144B",
+      "layer": "Housetype",
+      "text": "SG",
+      "tag": null,
+      "x": "462088053.934888",
+      "y": "297443821.7109725",
+      "z": "0.0015327845221216"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4144C",
+      "layer": "Housetype",
+      "text": "SG",
+      "tag": null,
+      "x": "462099687.3009151",
+      "y": "297444928.8578843",
+      "z": "0.0015327845221216"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4144D",
+      "layer": "Housetype",
+      "text": "SG",
+      "tag": null,
+      "x": "462041673.0846582",
+      "y": "297437129.288616",
+      "z": "0.0015327845221216"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4144E",
+      "layer": "Housetype",
+      "text": "SG",
+      "tag": null,
+      "x": "462056207.8963226",
+      "y": "297411020.8370727",
+      "z": "0.0015327845221216"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4144F",
+      "layer": "Housetype",
+      "text": "SG",
+      "tag": null,
+      "x": "462021785.7419211",
+      "y": "297410207.9422995",
+      "z": "0.0015327845221216"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41450",
+      "layer": "Housetype",
+      "text": "SG",
+      "tag": null,
+      "x": "462091812.1676058",
+      "y": "297394465.0374414",
+      "z": "0.0015327845221216"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41451",
+      "layer": "Housetype",
+      "text": "SG",
+      "tag": null,
+      "x": "462091771.3435082",
+      "y": "297407837.1274292",
+      "z": "0.0015327845221216"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41452",
+      "layer": "Housetype",
+      "text": "SG",
+      "tag": null,
+      "x": "462090829.5280395",
+      "y": "297417997.6444467",
+      "z": "0.0015327845221216"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41453",
+      "layer": "Housetype",
+      "text": "SG",
+      "tag": null,
+      "x": "462086471.6555077",
+      "y": "297381127.8528591",
+      "z": "0.0015327845221216"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41454",
+      "layer": "Housetype",
+      "text": "SG",
+      "tag": null,
+      "x": "462101539.6329183",
+      "y": "297345406.760748",
+      "z": "0.0015327845221216"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41455",
+      "layer": "Housetype",
+      "text": "SG",
+      "tag": null,
+      "x": "462083625.4319369",
+      "y": "297323791.2863182",
+      "z": "0.0015327845221216"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41456",
+      "layer": "Housetype",
+      "text": "SG",
+      "tag": null,
+      "x": "462071989.4297267",
+      "y": "297328978.3558761",
+      "z": "0.0015327845221216"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41457",
+      "layer": "Housetype",
+      "text": "SG",
+      "tag": null,
+      "x": "462023514.3478371",
+      "y": "297353223.0769472",
+      "z": "0.0015327845221216"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41458",
+      "layer": "Housetype",
+      "text": "SG",
+      "tag": null,
+      "x": "462010702.3737156",
+      "y": "297358474.9269808",
+      "z": "0.0015327845221216"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41459",
+      "layer": "Housetype",
+      "text": "SG",
+      "tag": null,
+      "x": "462008399.5345452",
+      "y": "297372508.5266032",
+      "z": "0.0015327845221216"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4145A",
+      "layer": "Housetype",
+      "text": "SG",
+      "tag": null,
+      "x": "461951909.7669749",
+      "y": "297371836.5907041",
+      "z": "0.0015327845221216"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4145B",
+      "layer": "Housetype",
+      "text": "SG",
+      "tag": null,
+      "x": "461973519.4558411",
+      "y": "297384047.1209177",
+      "z": "0.0015327845221216"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4145C",
+      "layer": "Housetype",
+      "text": "DG",
+      "tag": null,
+      "x": "461941747.2625526",
+      "y": "297609964.0766389",
+      "z": "0.0015327845221216"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4145D",
+      "layer": "Housetype",
+      "text": "DG",
+      "tag": null,
+      "x": "462033575.9516605",
+      "y": "297485017.6633505",
+      "z": "0.0015327845221216"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4145E",
+      "layer": "Housetype",
+      "text": "DG",
+      "tag": null,
+      "x": "462042816.0262049",
+      "y": "297487485.4661373",
+      "z": "0.0015327845221216"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4145F",
+      "layer": "Housetype",
+      "text": "DG",
+      "tag": null,
+      "x": "462031300.6178923",
+      "y": "297476754.6815194",
+      "z": "0.0015327845221216"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41460",
+      "layer": "Housetype",
+      "text": "DG",
+      "tag": null,
+      "x": "462091352.7736541",
+      "y": "297510627.6502969",
+      "z": "0.0015327845221216"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41461",
+      "layer": "Housetype",
+      "text": "DG",
+      "tag": null,
+      "x": "462081973.532521",
+      "y": "297515380.5469721",
+      "z": "0.0015327845221216"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41462",
+      "layer": "Housetype",
+      "text": "DG",
+      "tag": null,
+      "x": "462097428.7395179",
+      "y": "297477516.790042",
+      "z": "0.0015327845221216"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41463",
+      "layer": "Housetype",
+      "text": "DG",
+      "tag": null,
+      "x": "461988448.3860722",
+      "y": "297458236.1126552",
+      "z": "0.0015327845221216"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41464",
+      "layer": "Housetype",
+      "text": "DG",
+      "tag": null,
+      "x": "461964231.4431787",
+      "y": "297425778.245851",
+      "z": "0.0015327845221216"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41465",
+      "layer": "Housetype",
+      "text": "DG",
+      "tag": null,
+      "x": "462032100.9245191",
+      "y": "297432233.2903354",
+      "z": "0.0015327845221216"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41466",
+      "layer": "Housetype",
+      "text": "DG",
+      "tag": null,
+      "x": "462029331.1410744",
+      "y": "297411414.7653172",
+      "z": "0.0015327845221216"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41467",
+      "layer": "Housetype",
+      "text": "DG",
+      "tag": null,
+      "x": "462053541.121505",
+      "y": "297404783.9484403",
+      "z": "0.0015327845221216"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41468",
+      "layer": "Housetype",
+      "text": "DG",
+      "tag": null,
+      "x": "462089071.432695",
+      "y": "297429402.3982124",
+      "z": "0.0015327845221216"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41469",
+      "layer": "Housetype",
+      "text": "DG",
+      "tag": null,
+      "x": "462100071.6233516",
+      "y": "297377795.0748074",
+      "z": "0.0015327845221216"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4146A",
+      "layer": "Housetype",
+      "text": "DG",
+      "tag": null,
+      "x": "462035591.5479057",
+      "y": "297345772.3994653",
+      "z": "0.0015327845221216"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4146B",
+      "layer": "Housetype",
+      "text": "DG",
+      "tag": null,
+      "x": "462035218.8173268",
+      "y": "297359843.9797819",
+      "z": "0.0015327845221216"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4146C",
+      "layer": "Housetype",
+      "text": "DG",
+      "tag": null,
+      "x": "462023012.8943639",
+      "y": "297373031.8281145",
+      "z": "0.0015327845221216"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4146D",
+      "layer": "Housetype",
+      "text": "DG",
+      "tag": null,
+      "x": "461965541.4287212",
+      "y": "297333646.3311835",
+      "z": "0.0015327845221216"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4146E",
+      "layer": "Housetype",
+      "text": "DG",
+      "tag": null,
+      "x": "461975009.4458479",
+      "y": "297370103.9598051",
+      "z": "0.0015327845221216"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "414DC",
+      "layer": "Garage Ref",
+      "text": "R4g",
+      "tag": null,
+      "x": "461940431.5542509",
+      "y": "297627867.5630061",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "414DD",
+      "layer": "Garage Ref",
+      "text": "R5g",
+      "tag": null,
+      "x": "461948602.0999515",
+      "y": "297611172.9349202",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "414DE",
+      "layer": "Garage Ref",
+      "text": "R6g",
+      "tag": null,
+      "x": "461950470.6806815",
+      "y": "297596836.4323605",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "414DF",
+      "layer": "Garage Ref",
+      "text": "R7g",
+      "tag": null,
+      "x": "461953620.9322665",
+      "y": "297585456.9065683",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41541",
+      "layer": "Garage Ref",
+      "text": "R8g",
+      "tag": null,
+      "x": "461947458.4109796",
+      "y": "297559214.0089667",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41566",
+      "layer": "Garage Ref",
+      "text": "R9g",
+      "tag": null,
+      "x": "461959795.4856658",
+      "y": "297557449.892039",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4158B",
+      "layer": "Garage Ref",
+      "text": "R10g",
+      "tag": null,
+      "x": "461971270.878615",
+      "y": "297543680.1846334",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "415B0",
+      "layer": "Garage Ref",
+      "text": "R11g",
+      "tag": null,
+      "x": "461983673.4914103",
+      "y": "297536368.520754",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "415D5",
+      "layer": "Garage Ref",
+      "text": "R12g",
+      "tag": null,
+      "x": "461985297.1322288",
+      "y": "297522965.1050513",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41639",
+      "layer": "Garage Ref",
+      "text": "R13g",
+      "tag": null,
+      "x": "461988544.2338135",
+      "y": "297484872.3125031",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41660",
+      "layer": "Garage Ref",
+      "text": "R14/15g",
+      "tag": null,
+      "x": "461995382.5043179",
+      "y": "297458271.7623357",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41685",
+      "layer": "Garage Ref",
+      "text": "R16g",
+      "tag": null,
+      "x": "461993910.9308211",
+      "y": "297444402.7766329",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "416AA",
+      "layer": "Garage Ref",
+      "text": "R17g",
+      "tag": null,
+      "x": "461978616.5113714",
+      "y": "297425741.0941052",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "416CF",
+      "layer": "Garage Ref",
+      "text": "R18/19g",
+      "tag": null,
+      "x": "461965872.88897",
+      "y": "297417460.6297455",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "416F4",
+      "layer": "Garage Ref",
+      "text": "R20g",
+      "tag": null,
+      "x": "461954826.7562656",
+      "y": "297416386.0522063",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41719",
+      "layer": "Garage Ref",
+      "text": "R21g",
+      "tag": null,
+      "x": "461943313.5356298",
+      "y": "297411947.4496986",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4173E",
+      "layer": "Garage Ref",
+      "text": "R23/24g",
+      "tag": null,
+      "x": "461956277.5333509",
+      "y": "297332669.0043194",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41763",
+      "layer": "Garage Ref",
+      "text": "R28g",
+      "tag": null,
+      "x": "461949376.6106215",
+      "y": "297379502.1117044",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41788",
+      "layer": "Garage Ref",
+      "text": "R31g",
+      "tag": null,
+      "x": "461980420.2063065",
+      "y": "297385081.8505993",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "417AD",
+      "layer": "Garage Ref",
+      "text": "R32g",
+      "tag": null,
+      "x": "461981910.3349043",
+      "y": "297370767.8407201",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "417D2",
+      "layer": "Garage Ref",
+      "text": "R42g",
+      "tag": null,
+      "x": "462080333.3233981",
+      "y": "297315538.7394402",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "417F7",
+      "layer": "Garage Ref",
+      "text": "R43g",
+      "tag": null,
+      "x": "462067599.2810897",
+      "y": "297320599.1498836",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4181C",
+      "layer": "Garage Ref",
+      "text": "R46/47g",
+      "tag": null,
+      "x": "462030637.5829105",
+      "y": "297339483.6652668",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41841",
+      "layer": "Garage Ref",
+      "text": "R48g",
+      "tag": null,
+      "x": "462019026.4021422",
+      "y": "297346912.9696419",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41866",
+      "layer": "Garage Ref",
+      "text": "R49g",
+      "tag": null,
+      "x": "462003342.3085171",
+      "y": "297357621.4219748",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4188B",
+      "layer": "Garage Ref",
+      "text": "R50g",
+      "tag": null,
+      "x": "462001996.9204602",
+      "y": "297371819.2341278",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "418B1",
+      "layer": "Garage Ref",
+      "text": "R51g",
+      "tag": null,
+      "x": "462024792.6807829",
+      "y": "297379745.8058746",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "418D6",
+      "layer": "Garage Ref",
+      "text": "R52g",
+      "tag": null,
+      "x": "462038003.8544073",
+      "y": "297366277.5713546",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "418FB",
+      "layer": "Garage Ref",
+      "text": "R66g",
+      "tag": null,
+      "x": "462101357.0367437",
+      "y": "297352198.7114392",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41928",
+      "layer": "Garage Ref",
+      "text": "R70/71g",
+      "tag": null,
+      "x": "462099384.512084",
+      "y": "297372214.8067194",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4195D",
+      "layer": "Garage Ref",
+      "text": "R73g",
+      "tag": null,
+      "x": "462082697.4388123",
+      "y": "297393760.7736776",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41982",
+      "layer": "Garage Ref",
+      "text": "R72g",
+      "tag": null,
+      "x": "462083488.6938151",
+      "y": "297375467.4087728",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "419AF",
+      "layer": "Garage Ref",
+      "text": "74G",
+      "tag": null,
+      "x": "462083013.1355537",
+      "y": "297407023.4420514",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "419D4",
+      "layer": "Garage Ref",
+      "text": "R75g",
+      "tag": null,
+      "x": "462082142.0696456",
+      "y": "297417317.7256995",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "419F9",
+      "layer": "Garage Ref",
+      "text": "R76g",
+      "tag": null,
+      "x": "462080974.792493",
+      "y": "297428915.0178444",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41A1E",
+      "layer": "Garage Ref",
+      "text": "R77g",
+      "tag": null,
+      "x": "462080613.1488197",
+      "y": "297443106.524942",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41A43",
+      "layer": "Garage Ref",
+      "text": "R80g",
+      "tag": null,
+      "x": "462107116.6510605",
+      "y": "297445668.5444875",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41A68",
+      "layer": "Garage Ref",
+      "text": "R81/82g",
+      "tag": null,
+      "x": "462024154.1447847",
+      "y": "297434315.4257239",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41A8D",
+      "layer": "Garage Ref",
+      "text": "R83g",
+      "tag": null,
+      "x": "462013588.0771686",
+      "y": "297412312.6045176",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41AB2",
+      "layer": "Garage Ref",
+      "text": "R84/85g",
+      "tag": null,
+      "x": "462025902.4333045",
+      "y": "297404538.4410257",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41AD7",
+      "layer": "Garage Ref",
+      "text": "R86g",
+      "tag": null,
+      "x": "462051642.3101813",
+      "y": "297397783.4014434",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41AFC",
+      "layer": "Garage Ref",
+      "text": "R87g",
+      "tag": null,
+      "x": "462062801.5519161",
+      "y": "297411963.1903169",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41B21",
+      "layer": "Garage Ref",
+      "text": "R90g",
+      "tag": null,
+      "x": "462049265.3761391",
+      "y": "297437956.6835138",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41B4E",
+      "layer": "Garage Ref",
+      "text": "R91g",
+      "tag": null,
+      "x": "462099049.6020575",
+      "y": "297511204.1485424",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41B73",
+      "layer": "Garage Ref",
+      "text": "R94/95g",
+      "tag": null,
+      "x": "462105114.1460884",
+      "y": "297478380.3398885",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41BA0",
+      "layer": "Garage Ref",
+      "text": "R96g",
+      "tag": null,
+      "x": "462089843.6642796",
+      "y": "297473578.0467017",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41BCD",
+      "layer": "Garage Ref",
+      "text": "R97g",
+      "tag": null,
+      "x": "462078247.5269922",
+      "y": "297471590.6881265",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41BF2",
+      "layer": "Garage Ref",
+      "text": "R98g",
+      "tag": null,
+      "x": "462066343.9523146",
+      "y": "297470706.2518684",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41C17",
+      "layer": "Garage Ref",
+      "text": "R99g",
+      "tag": null,
+      "x": "462054503.6389703",
+      "y": "297469400.1105934",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41C3C",
+      "layer": "Garage Ref",
+      "text": "R100/101g",
+      "tag": null,
+      "x": "462030622.4970007",
+      "y": "297469162.488678",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41C61",
+      "layer": "Garage Ref",
+      "text": "R102g",
+      "tag": null,
+      "x": "462025604.3557413",
+      "y": "297484334.3226819",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41C86",
+      "layer": "Garage Ref",
+      "text": "R103g",
+      "tag": null,
+      "x": "462041317.3717582",
+      "y": "297495250.3336608",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41CAB",
+      "layer": "Garage Ref",
+      "text": "R105g",
+      "tag": null,
+      "x": "462074459.5061758",
+      "y": "297515105.4624094",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41D13",
+      "layer": "Garage Ref",
+      "text": "R41g",
+      "tag": null,
+      "x": "462085915.8307289",
+      "y": "297306037.2393191",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41D3A",
+      "layer": "Garage Ref",
+      "text": "R22g",
+      "tag": null,
+      "x": "461944948.6146517",
+      "y": "297315924.4705396",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41D5F",
+      "layer": "Garage Ref",
+      "text": "R40g",
+      "tag": null,
+      "x": "462000277.6287156",
+      "y": "297317118.0482661",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41D84",
+      "layer": "Garage Ref",
+      "text": "R67g",
+      "tag": null,
+      "x": "462124128.1753466",
+      "y": "297409645.4467714",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41DA9",
+      "layer": "Garage Ref",
+      "text": "R78g",
+      "tag": null,
+      "x": "462122327.3467811",
+      "y": "297428338.1468734",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41DCE",
+      "layer": "Garage Ref",
+      "text": "R1g",
+      "tag": null,
+      "x": "461909671.263184",
+      "y": "297638023.6328428",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41E3A",
+      "layer": "Housetype",
+      "text": "DG",
+      "tag": null,
+      "x": "461903358.1265818",
+      "y": "297637061.3514998",
+      "z": "0.0015327845221216"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41E43",
+      "layer": "Housetype",
+      "text": "DG",
+      "tag": null,
+      "x": "461946084.7222338",
+      "y": "297309468.6365439",
+      "z": "2331.769958608943"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41E44",
+      "layer": "Housetype",
+      "text": "DG",
+      "tag": null,
+      "x": "461999815.9951318",
+      "y": "297310594.1850259",
+      "z": "2331.769958608943"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41E45",
+      "layer": "Housetype",
+      "text": "DG",
+      "tag": null,
+      "x": "462091887.5234895",
+      "y": "297305568.2244138",
+      "z": "2331.769958608943"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41E46",
+      "layer": "Housetype",
+      "text": "DG",
+      "tag": null,
+      "x": "462123356.8818148",
+      "y": "297415001.6825036",
+      "z": "2331.769958608943"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "41E47",
+      "layer": "Housetype",
+      "text": "DG",
+      "tag": null,
+      "x": "462122833.4860563",
+      "y": "297422486.3682208",
+      "z": "2331.769958608943"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4CF98",
+      "layer": "B-Window Openings",
+      "text": "WO",
+      "tag": null,
+      "x": "462121184.0675201",
+      "y": "297417202.9400512",
+      "z": "0.0002865569449604"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4CF99",
+      "layer": "B-Service Entry",
+      "text": "W",
+      "tag": null,
+      "x": "462120819.4694017",
+      "y": "297414270.9388176",
+      "z": "0.0002865569449604"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4CF9B",
+      "layer": "B-Service Entry",
+      "text": "C",
+      "tag": null,
+      "x": "462118801.5167328",
+      "y": "297403901.5007841",
+      "z": "0.0002865569449604"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4CF9C",
+      "layer": "B-Service Entry",
+      "text": "E",
+      "tag": null,
+      "x": "462120779.7653102",
+      "y": "297404001.3974034",
+      "z": "0.0002865569449604"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4D31A",
+      "layer": "Housetype",
+      "text": "SG",
+      "tag": null,
+      "x": "461941380.0",
+      "y": "297418184.2622998",
+      "z": "0.0015273742805655"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4D338",
+      "layer": "Housetype",
+      "text": "CAMB",
+      "tag": null,
+      "x": "461949130.0",
+      "y": "297412124.2622998",
+      "z": "15.49517102716636"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4D356",
+      "layer": "Housetype",
+      "text": "HARR",
+      "tag": null,
+      "x": "461936500.0000001",
+      "y": "297407529.9999995",
+      "z": "-17.75427508715676"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4D37B",
+      "layer": "Handing",
+      "text": "AS",
+      "tag": null,
+      "x": "461933820.7673942",
+      "y": "297409482.7899045",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "4D399",
+      "layer": "Handing",
+      "text": "AS",
+      "tag": null,
+      "x": "461947310.7673942",
+      "y": "297414232.7899045",
+      "z": "0.0"
+    }
+  ]
+}

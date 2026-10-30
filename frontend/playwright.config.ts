@@ -1,0 +1,3 @@
+import {defineConfig} from '@playwright/test';
+import path from 'node:path';
+export default defineConfig({testDir:'tests/e2e',timeout:120000,expect:{timeout:15000},use:{baseURL:'http://127.0.0.1:3000',trace:'retain-on-failure'},workers:1,webServer:[{command:'../.venv/bin/python -m uvicorn foundation_mvp.main:app --app-dir ../backend/src --host 127.0.0.1 --port 8000',url:'http://127.0.0.1:8000/api/health',reuseExistingServer:!process.env.CI,env:{FOUNDATION_DATA_DIR:path.resolve('../data/e2e')}},{command:'npm run dev',url:'http://127.0.0.1:3000',reuseExistingServer:!process.env.CI,env:{NEXT_PUBLIC_API_BASE_URL:'http://127.0.0.1:8000'}}]});

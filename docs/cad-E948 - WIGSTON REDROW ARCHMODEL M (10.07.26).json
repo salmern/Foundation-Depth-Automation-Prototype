@@ -1,0 +1,2668 @@
+{
+  "units_code": "0",
+  "entities": {
+    "LWPOLYLINE": 77,
+    "INSERT": 544,
+    "LINE": 1032,
+    "TEXT": 130,
+    "ARC": 107,
+    "HATCH": 194,
+    "CIRCLE": 110,
+    "MTEXT": 6,
+    "WIPEOUT": 2,
+    "VIEWPORT": 2
+  },
+  "layers": {
+    "0": 909,
+    "NETT": 14,
+    "G942_Tree_Proposed": 108,
+    "G971_Fencing": 8,
+    "G970_Hardscaping": 8,
+    "A_Drive": 4,
+    "plotno": 11,
+    "450mm Bollards": 10,
+    "E-Storm-Plot Drainage": 6,
+    "Nett Area": 28,
+    "A010_Text_House": 14,
+    "Redrow - Private Drives Hatch": 7,
+    "Counting": 196,
+    "Redrow - Text Plot Numbers": 105,
+    "_Checked": 85,
+    "RAS - Paving Hatch": 4,
+    "RAS - Text Notes": 18,
+    "Redrow - Gate": 105,
+    "Redrow - Slabs": 390,
+    "Redrow - Bins": 103,
+    "RAS - Site Boundary": 2,
+    "Z-060-M_MH_LINE": 2,
+    "Redrow - New trees": 30,
+    "Redrow - Chimneys": 11,
+    "Redrow - Sheds": 18,
+    "Redrow - Affordable S-O": 2,
+    "Parcel_DWH North": 1,
+    "Parcel_Redrow": 1,
+    "Parcel_DWH South": 1,
+    "Parcel_Barratt North": 1,
+    "Redrow - NMA Red Line Boundary": 1,
+    "F Front Path": 1
+  },
+  "inserts": {
+    "Tree_3": 108,
+    "A$C643D5116": 10,
+    "*U126": 2,
+    "*U194": 1,
+    "*U195": 1,
+    "*U127": 1,
+    "*U192": 4,
+    "*U149": 1,
+    "*U148": 6,
+    "*U146": 1,
+    "*U147": 2,
+    "*U181": 1,
+    "*U182": 1,
+    "*U168": 4,
+    "*U183": 1,
+    "*U134": 6,
+    "*U180": 2,
+    "*U179": 2,
+    "*U196": 2,
+    "*U125": 2,
+    "*U221": 11,
+    "*U145": 5,
+    "*U177": 1,
+    "*U178": 1,
+    "*U173": 1,
+    "*U174": 1,
+    "*U175": 1,
+    "*U176": 1,
+    "*U133": 6,
+    "*U144": 4,
+    "*U171": 1,
+    "*U130": 4,
+    "*U131": 5,
+    "*U169": 1,
+    "*U170": 1,
+    "*U172": 1,
+    "*U132": 5,
+    "*U222": 1,
+    "*U165": 2,
+    "*U139": 5,
+    "*U137": 2,
+    "*U138": 4,
+    "*U167": 1,
+    "*U193": 2,
+    "*U166": 1,
+    "*U160": 3,
+    "*U159": 1,
+    "*U164": 1,
+    "*U158": 1,
+    "*U157": 1,
+    "*U163": 1,
+    "*U161": 1,
+    "*U162": 1,
+    "*U140": 1,
+    "*U141": 1,
+    "*U142": 1,
+    "*U143": 1,
+    "*U198": 1,
+    "*U135": 1,
+    "*U136": 2,
+    "*U197": 1,
+    "*U128": 44,
+    "*U129": 61,
+    "*U156": 7,
+    "*U152": 1,
+    "*U153": 4,
+    "*U154": 1,
+    "*U150": 2,
+    "*U151": 1,
+    "*U111": 22,
+    "*U155": 2,
+    "*U112": 2,
+    "*U113": 2,
+    "*U122": 3,
+    "*U123": 1,
+    "*U114": 2,
+    "*U115": 8,
+    "*U124": 6,
+    "*U116": 9,
+    "*U117": 1,
+    "*U118": 5,
+    "*U119": 9,
+    "*U120": 4,
+    "*U121": 7,
+    "A$C73B55F61": 30,
+    "A$C9d5555f9": 11,
+    "*U189": 1,
+    "*U103": 1,
+    "*U107": 1,
+    "*U104": 1,
+    "*U105": 1,
+    "*U109": 1,
+    "*U108": 2,
+    "*U220": 1,
+    "*U191": 1,
+    "*U200": 1,
+    "*U201": 1,
+    "*U202": 1,
+    "*U203": 1,
+    "*U204": 15,
+    "*U205": 1,
+    "*U206": 2,
+    "A$C5c5305ab": 2,
+    "*U209": 1,
+    "*U210": 1,
+    "*U211": 1,
+    "*U212": 2,
+    "*U213": 1,
+    "*U214": 1,
+    "*U215": 1,
+    "*U216": 1,
+    "*U218": 10,
+    "*U219": 1
+  },
+  "blocks": [
+    {
+      "name": "*Model_Space",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "*Paper_Space",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "*Paper_Space0",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "Tree_3",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "A$C643D5116",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "*U3",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "A-L",
+      "xref": "",
+      "flags": "2"
+    },
+    {
+      "name": "A-R",
+      "xref": "",
+      "flags": "2"
+    },
+    {
+      "name": "150-B385",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "150-B503",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "150-B785",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "150-B1131",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "190-B385",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "190-B503",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "190-B785",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "190-B1131",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "*U14",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "B_MESH",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "FOUNDATION WIDTHS",
+      "xref": "",
+      "flags": "2"
+    },
+    {
+      "name": "Betts Harrogate - As",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "Betts Harrogate - Opp",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "*U19",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U20",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "Betts Cambridge - As",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "Betts Cambridge - Opp",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "Basic Wall _ BRICK PIER 102_5 - ___-2243119-160 - Slab Penetrations Layout",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "Basic Wall _ BRICK PIER 102_5 - ___-2243120-160 - Slab Penetrations Layout",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "Basic Wall _ BRICK PIER 102_5 - ___-2243121-160 - Slab Penetrations Layout",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "Basic Wall _ BRICK PIER 102_5 - ___-2243122-160 - Slab Penetrations Layout",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "Canopy Highgate - Canopy Highgate-2255932-160 - Slab Penetrations Layout",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "Heritage - Brickwork - Triple top hung - 1650 x 1810-2480424-160 - Slab Penetrations Layout",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "ED01-S02 - 910 x 2250mm-2480425-160 - Slab Penetrations Layout",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "145 - Tile Crease Cill - Brick - overhang one side only - 460-2480429-160 - Slab Penetrations Layout",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "Square section RWP-PLINTH - 65mm Square Front-2478904-160 - Slab Penetrations Layout",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "Square section RWP - 65mm Square Front-2478905-160 - Slab Penetrations Layout",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "Telecom Entry - Type 1-2480432-160 - Slab Penetrations Layout",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "Basic Wall _ 600 Plinth 293 - 102 50 40i 101 - ___-2244727-160 - Slab Penetrations Layout",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "Basic Wall _ 600 Plinth 293 - 102 50 40i 101 - ___-2244735-160 - Slab Penetrations Layout",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "Basic Wall _ 600 Plinth 293 - 102 50 40i 101 - ___-2244743-160 - Slab Penetrations Layout",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "Heritage - Brickwork - Quad top hung - 1650 x 2485-2480433-160 - Slab Penetrations Layout",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "Basic Wall _ 600 Plinth 293 - 102 50 40i 101 - ___-2244752-160 - Slab Penetrations Layout",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "Basic Wall _ 600 Plinth 293 - 102 50 40i 101 - ___-2244759-160 - Slab Penetrations Layout",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "Square section RWP - 65mm Square Front-2478932-160 - Slab Penetrations Layout",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "Square section RWP - 65mm Square Front-2478935-160 - Slab Penetrations Layout",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "Electric Meter Box - Wall mounted1 - Electric Meter Box - Wall mounted-2256105-160 - Slab Penetrations Layout",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "Gas Meter Box - Wall mounted - Meter above Plinth-2478945-160 - Slab Penetrations Layout",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "*U44",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "Betts Highgate - As",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "Betts Highgate - Opp",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "*U47",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "Betts Stratford - As",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "Betts Stratford - Opp",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "*U50",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "Betts Oxford - As",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "Betts Oxford - Opp",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "*U53",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "Betts Amberley As",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "Betts Amberley Opp",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "*U56",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "Betts Henley - As",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "Betts Henley - Opp",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "B-RWP",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "*U60",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U61",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "Betts Tavy End - As",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "Betts Tavy End - Opp",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "*U64",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U65",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "Betts Dart End - As",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "Betts Dart End - Opp",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "Betts Dart Mid - As",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "Betts Dart Mid - Opp",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "*U70",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U71",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "Betts Bakewell - As",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "Betts Bakewell - Opp",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "Betts Buxton End - As",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "Betts Buxton End - Opp",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "*U76",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "Betts Sunningdale - As",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "Betts Sunningdale - Opp",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "*U79",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U80",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "A$C09EE7F15",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "Betts Ledsham - As",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "Betts Ledsham - Opp",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "B-MESH",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "Betts - Shaftesbury As",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "Betts - Shaftesbury Opp",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "*U87",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "Betts Leamington LS - As",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "Betts Leamington LS - Opp",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "*U90",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "WP",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "Betts Blenheim - As",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "Betts Blenheim - Opp",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "*U94",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U95",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U96",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "A$C6BD61136",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "A$C757D01B2",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "N_Point16",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "*U100",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "ASHP",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "A$C9055608f",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "*U103",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U104",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U105",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U106",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U107",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U108",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U109",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U110",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U111",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U112",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U113",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U114",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U115",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U116",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U117",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U118",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U119",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U120",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U121",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U122",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U123",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U124",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U125",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U126",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U127",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U128",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U129",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U130",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U131",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U132",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U133",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U134",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U135",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U136",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U137",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U138",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U139",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U140",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U141",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U142",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U143",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U144",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U145",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U146",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U147",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U148",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U149",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U150",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U151",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U152",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U153",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U154",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U155",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U156",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U157",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U158",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U159",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U160",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U161",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U162",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U163",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U164",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U165",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U166",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U167",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U168",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U169",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U170",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U171",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U172",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U173",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U174",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U175",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U176",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U177",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U178",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U179",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U180",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U181",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U182",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U183",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "A$C73B55F61",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "*U185",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U186",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U187",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "A$C9d5555f9",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "*U189",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U190",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U191",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U192",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U193",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U194",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U195",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U196",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U197",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U198",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U199",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U200",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U201",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U202",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U203",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U204",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U205",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U206",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "A$C5c5305ab",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "*U208",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U209",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U210",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U211",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U212",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U213",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U214",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U215",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U216",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U217",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U218",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U219",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U220",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U221",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U222",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "*U223",
+      "xref": "",
+      "flags": "1"
+    },
+    {
+      "name": "SPOT",
+      "xref": "",
+      "flags": "0"
+    },
+    {
+      "name": "RW as built",
+      "xref": "",
+      "flags": "0"
+    }
+  ],
+  "texts": [
+    {
+      "kind": "TEXT",
+      "handle": "DC18A8",
+      "layer": "plotno",
+      "text": "VP",
+      "tag": null,
+      "x": "462034.513443638",
+      "y": "297509.1884982839",
+      "z": "-0.000809241373232"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "DC18A9",
+      "layer": "plotno",
+      "text": "VP",
+      "tag": null,
+      "x": "462040.5802080326",
+      "y": "297509.9451083568",
+      "z": "-0.000809241373232"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1B11F9E",
+      "layer": "A010_Text_House",
+      "text": "Fire Appliance",
+      "tag": null,
+      "x": "462057.086451243",
+      "y": "297514.6530945875",
+      "z": "-0.0008092343538825"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1B11F9F",
+      "layer": "A010_Text_House",
+      "text": "Turning Head",
+      "tag": null,
+      "x": "462057.9286275062",
+      "y": "297512.1897309205",
+      "z": "-0.0008092336972641"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1C745C9",
+      "layer": "plotno",
+      "text": "BCP",
+      "tag": null,
+      "x": "462047.9827815524",
+      "y": "297510.2960307005",
+      "z": "-0.0008092441922766"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1C745D5",
+      "layer": "plotno",
+      "text": "BCP",
+      "tag": null,
+      "x": "462119.3487640729",
+      "y": "297494.1828284758",
+      "z": "0.0088015853915611"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1C745E0",
+      "layer": "plotno",
+      "text": "BCP",
+      "tag": null,
+      "x": "462125.6608303027",
+      "y": "297448.3517330287",
+      "z": "0.0000000648027287"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1C745EB",
+      "layer": "plotno",
+      "text": "BCP",
+      "tag": null,
+      "x": "462133.1654621457",
+      "y": "297389.4925715717",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1C74603",
+      "layer": "plotno",
+      "text": "BCP",
+      "tag": null,
+      "x": "462058.6241986533",
+      "y": "297310.4061886785",
+      "z": "0.0186726305762467"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1C7461B",
+      "layer": "plotno",
+      "text": "BCP",
+      "tag": null,
+      "x": "461941.2308514033",
+      "y": "297364.5384482391",
+      "z": "-0.0000003204889856"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1C74628",
+      "layer": "plotno",
+      "text": "BCP",
+      "tag": null,
+      "x": "461931.7071380276",
+      "y": "297644.7644162579",
+      "z": "-0.0003358320029384"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1CB2314",
+      "layer": "Redrow - Text Plot Numbers",
+      "text": "R4",
+      "tag": null,
+      "x": "461948.4152447571",
+      "y": "297620.4429861096",
+      "z": "-0.0000000015384565"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1CB2315",
+      "layer": "Redrow - Text Plot Numbers",
+      "text": "R3",
+      "tag": null,
+      "x": "461935.3118486438",
+      "y": "297618.013104049",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1CB2316",
+      "layer": "Redrow - Text Plot Numbers",
+      "text": "R2",
+      "tag": null,
+      "x": "461923.8738613459",
+      "y": "297615.3085456361",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1CB2317",
+      "layer": "Redrow - Text Plot Numbers",
+      "text": "R1",
+      "tag": null,
+      "x": "461911.8246576102",
+      "y": "297614.52329038",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1CB2318",
+      "layer": "Redrow - Text Plot Numbers",
+      "text": "R6",
+      "tag": null,
+      "x": "461944.3712355149",
+      "y": "297589.8844389893",
+      "z": "0.0002892225323027"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1CB2319",
+      "layer": "Redrow - Text Plot Numbers",
+      "text": "R5",
+      "tag": null,
+      "x": "461943.5764072537",
+      "y": "297602.5125210097",
+      "z": "-0.0002348524197242"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1CB231A",
+      "layer": "Redrow - Text Plot Numbers",
+      "text": "R7",
+      "tag": null,
+      "x": "461947.9856075779",
+      "y": "297578.2453382224",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1CB231B",
+      "layer": "Redrow - Text Plot Numbers",
+      "text": "R8",
+      "tag": null,
+      "x": "461956.2803804599",
+      "y": "297547.0120120033",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1CB231C",
+      "layer": "Redrow - Text Plot Numbers",
+      "text": "R9",
+      "tag": null,
+      "x": "461970.4250604729",
+      "y": "297549.4548472585",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1CB231D",
+      "layer": "Redrow - Text Plot Numbers",
+      "text": "R10",
+      "tag": null,
+      "x": "461969.5746087341",
+      "y": "297535.9013449707",
+      "z": "-0.0000000155435709"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1CB231E",
+      "layer": "Redrow - Text Plot Numbers",
+      "text": "R12",
+      "tag": null,
+      "x": "461980.9606018099",
+      "y": "297514.9655882092",
+      "z": "0.000000100382612"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1CB231F",
+      "layer": "Redrow - Text Plot Numbers",
+      "text": "R13",
+      "tag": null,
+      "x": "461995.8091541888",
+      "y": "297475.2127972897",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1CB2320",
+      "layer": "Redrow - Text Plot Numbers",
+      "text": "R14",
+      "tag": null,
+      "x": "461988.8017868554",
+      "y": "297465.4103171322",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1CB2321",
+      "layer": "Redrow - Text Plot Numbers",
+      "text": "R15",
+      "tag": null,
+      "x": "461986.443623049",
+      "y": "297452.9888897422",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1CB232B",
+      "layer": "Redrow - Text Plot Numbers",
+      "text": "R16",
+      "tag": null,
+      "x": "461981.8313456091",
+      "y": "297443.5313939291",
+      "z": "-0.0000000003897381"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1CB232C",
+      "layer": "Redrow - Text Plot Numbers",
+      "text": "R17",
+      "tag": null,
+      "x": "461976.0996309477",
+      "y": "297434.5041822032",
+      "z": "-0.0000000010348065"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1CB232D",
+      "layer": "Redrow - Text Plot Numbers",
+      "text": "R18",
+      "tag": null,
+      "x": "461968.9146550773",
+      "y": "297429.9559756517",
+      "z": "-0.0000000017273825"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1CB232E",
+      "layer": "Redrow - Text Plot Numbers",
+      "text": "R19",
+      "tag": null,
+      "x": "461958.1345027726",
+      "y": "297425.5582523515",
+      "z": "-0.000000001457427"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1CB2332",
+      "layer": "Redrow - Text Plot Numbers",
+      "text": "R100",
+      "tag": null,
+      "x": "462038.7116913453",
+      "y": "297477.2021170617",
+      "z": "-0.0000000060025724"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1CB2333",
+      "layer": "Redrow - Text Plot Numbers",
+      "text": "R99",
+      "tag": null,
+      "x": "462048.0005257275",
+      "y": "297476.2995627031",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1CB2334",
+      "layer": "Redrow - Text Plot Numbers",
+      "text": "R98",
+      "tag": null,
+      "x": "462060.0359862028",
+      "y": "297477.33415489",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1CB2335",
+      "layer": "Redrow - Text Plot Numbers",
+      "text": "R97",
+      "tag": null,
+      "x": "462071.3562795866",
+      "y": "297478.7146562852",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1CB2336",
+      "layer": "Redrow - Text Plot Numbers",
+      "text": "R96",
+      "tag": null,
+      "x": "462083.2205765974",
+      "y": "297479.9822291939",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1CB2337",
+      "layer": "Redrow - Text Plot Numbers",
+      "text": "R95",
+      "tag": null,
+      "x": "462097.0682046091",
+      "y": "297470.3257542554",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1CB2338",
+      "layer": "Redrow - Text Plot Numbers",
+      "text": "R93",
+      "tag": null,
+      "x": "462092.2431629835",
+      "y": "297491.8152923424",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1CB233A",
+      "layer": "Redrow - Text Plot Numbers",
+      "text": "R105",
+      "tag": null,
+      "x": "462079.648093254",
+      "y": "297490.5776320511",
+      "z": "-0.0000000008677439"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1CB233B",
+      "layer": "Redrow - Text Plot Numbers",
+      "text": "R104",
+      "tag": null,
+      "x": "462066.5100543879",
+      "y": "297489.0761584613",
+      "z": "-0.000000002019302"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1CB233C",
+      "layer": "Redrow - Text Plot Numbers",
+      "text": "R103",
+      "tag": null,
+      "x": "462052.270290866",
+      "y": "297487.6334600958",
+      "z": "-0.0000000035292402"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1CB233D",
+      "layer": "Redrow - Text Plot Numbers",
+      "text": "R102",
+      "tag": null,
+      "x": "462033.2974790664",
+      "y": "297494.3788261191",
+      "z": "-0.0005848586346882"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1CB233E",
+      "layer": "Redrow - Text Plot Numbers",
+      "text": "R92",
+      "tag": null,
+      "x": "462090.9670125323",
+      "y": "297502.6324576901",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1CB233F",
+      "layer": "Redrow - Text Plot Numbers",
+      "text": "R91",
+      "tag": null,
+      "x": "462090.205972851",
+      "y": "297518.1744900413",
+      "z": "0.0000000021804747"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1CB2340",
+      "layer": "Redrow - Text Plot Numbers",
+      "text": "R81",
+      "tag": null,
+      "x": "462033.7925661221",
+      "y": "297440.6619949382",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1CB2341",
+      "layer": "Redrow - Text Plot Numbers",
+      "text": "R90",
+      "tag": null,
+      "x": "462043.9992997511",
+      "y": "297442.9991458504",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1CB2342",
+      "layer": "Redrow - Text Plot Numbers",
+      "text": "R89",
+      "tag": null,
+      "x": "462041.6602835205",
+      "y": "297429.7198910014",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1CB2343",
+      "layer": "Redrow - Text Plot Numbers",
+      "text": "R82",
+      "tag": null,
+      "x": "462030.2840417761",
+      "y": "297424.8331053153",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1CB2344",
+      "layer": "Redrow - Text Plot Numbers",
+      "text": "R88",
+      "tag": null,
+      "x": "462039.959161249",
+      "y": "297419.8401205898",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1CB2345",
+      "layer": "Redrow - Text Plot Numbers",
+      "text": "R85",
+      "tag": null,
+      "x": "462036.096727872",
+      "y": "297410.0793637753",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1CB2346",
+      "layer": "Redrow - Text Plot Numbers",
+      "text": "R83",
+      "tag": null,
+      "x": "462023.9273437304",
+      "y": "297416.8353547669",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1CB2347",
+      "layer": "Redrow - Text Plot Numbers",
+      "text": "R84",
+      "tag": null,
+      "x": "462017.9440410716",
+      "y": "297405.2334473478",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1CB2348",
+      "layer": "Redrow - Text Plot Numbers",
+      "text": "R86",
+      "tag": null,
+      "x": "462045.7994610922",
+      "y": "297407.6767972994",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1CB2349",
+      "layer": "Redrow - Text Plot Numbers",
+      "text": "R87",
+      "tag": null,
+      "x": "462060.6912527747",
+      "y": "297403.6926338486",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1CB234A",
+      "layer": "Redrow - Text Plot Numbers",
+      "text": "R72",
+      "tag": null,
+      "x": "462084.8138232218",
+      "y": "297388.3147546469",
+      "z": "0.0000000094957637"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1CB234B",
+      "layer": "Redrow - Text Plot Numbers",
+      "text": "R71",
+      "tag": null,
+      "x": "462095.6824794858",
+      "y": "297385.2682156828",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1CB234C",
+      "layer": "Redrow - Text Plot Numbers",
+      "text": "R69",
+      "tag": null,
+      "x": "462104.8257696611",
+      "y": "297384.5246508413",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1CB234D",
+      "layer": "Redrow - Text Plot Numbers",
+      "text": "R70",
+      "tag": null,
+      "x": "462109.7165768697",
+      "y": "297374.113713667",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1CB234E",
+      "layer": "Redrow - Text Plot Numbers",
+      "text": "R68",
+      "tag": null,
+      "x": "462102.4867534305",
+      "y": "297397.272653145",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1CB234F",
+      "layer": "Redrow - Text Plot Numbers",
+      "text": "R73",
+      "tag": null,
+      "x": "462092.0755621711",
+      "y": "297401.1159572968",
+      "z": "0.0008046467544177"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1CB2350",
+      "layer": "Redrow - Text Plot Numbers",
+      "text": "R67",
+      "tag": null,
+      "x": "462104.2700175844",
+      "y": "297410.0487235531",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1CB2351",
+      "layer": "Redrow - Text Plot Numbers",
+      "text": "R74",
+      "tag": null,
+      "x": "462090.7230077996",
+      "y": "297412.6113533814",
+      "z": "0.0008046467544177"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1CB2352",
+      "layer": "Redrow - Text Plot Numbers",
+      "text": "R78",
+      "tag": null,
+      "x": "462102.3093442261",
+      "y": "297423.6847203792",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1CB2353",
+      "layer": "Redrow - Text Plot Numbers",
+      "text": "R75",
+      "tag": null,
+      "x": "462089.4955778506",
+      "y": "297422.5462661707",
+      "z": "0.0008046467544177"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1CB2354",
+      "layer": "Redrow - Text Plot Numbers",
+      "text": "R79",
+      "tag": null,
+      "x": "462096.8117605805",
+      "y": "297436.1886654199",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1CB2355",
+      "layer": "Redrow - Text Plot Numbers",
+      "text": "R76",
+      "tag": null,
+      "x": "462089.2418590422",
+      "y": "297436.7821138234",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1CB2356",
+      "layer": "Redrow - Text Plot Numbers",
+      "text": "R77",
+      "tag": null,
+      "x": "462088.024955139",
+      "y": "297448.8439532428",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1CB2357",
+      "layer": "Redrow - Text Plot Numbers",
+      "text": "R80",
+      "tag": null,
+      "x": "462098.8693675859",
+      "y": "297450.2249696691",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1CB2358",
+      "layer": "Redrow - Text Plot Numbers",
+      "text": "R66",
+      "tag": null,
+      "x": "462109.7788486568",
+      "y": "297347.8710926669",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1CB235D",
+      "layer": "Redrow - Text Plot Numbers",
+      "text": "R41",
+      "tag": null,
+      "x": "462090.9760081458",
+      "y": "297323.1999780266",
+      "z": "0.0000000929878131"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1CB235F",
+      "layer": "Redrow - Text Plot Numbers",
+      "text": "R42",
+      "tag": null,
+      "x": "462077.5025825624",
+      "y": "297326.5015331085",
+      "z": "0.0000000144390987"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1CB2361",
+      "layer": "Redrow - Text Plot Numbers",
+      "text": "R54",
+      "tag": null,
+      "x": "462064.261235788",
+      "y": "297341.3915571084",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1CB2362",
+      "layer": "Redrow - Text Plot Numbers",
+      "text": "R53",
+      "tag": null,
+      "x": "462054.3241326308",
+      "y": "297348.2213397415",
+      "z": "-83484393.45131105"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1CB2367",
+      "layer": "Redrow - Text Plot Numbers",
+      "text": "R43",
+      "tag": null,
+      "x": "462064.9984681722",
+      "y": "297330.1171765236",
+      "z": "0.0000001361552696"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1CB2368",
+      "layer": "Redrow - Text Plot Numbers",
+      "text": "R44",
+      "tag": null,
+      "x": "462056.429270833",
+      "y": "297335.0180427954",
+      "z": "0.0000001538981831"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1CB236A",
+      "layer": "Redrow - Text Plot Numbers",
+      "text": "R45",
+      "tag": null,
+      "x": "462049.3225409759",
+      "y": "297337.5807294059",
+      "z": "0.0000002062712175"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1CB236B",
+      "layer": "Redrow - Text Plot Numbers",
+      "text": "R46",
+      "tag": null,
+      "x": "462040.7913278035",
+      "y": "297341.8427593535",
+      "z": "0.0000002089181723"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1CB236C",
+      "layer": "Redrow - Text Plot Numbers",
+      "text": "R47",
+      "tag": null,
+      "x": "462028.9123319996",
+      "y": "297349.5001286078",
+      "z": "0.0000002062712175"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1CB236E",
+      "layer": "Redrow - Text Plot Numbers",
+      "text": "R51",
+      "tag": null,
+      "x": "462029.7038056859",
+      "y": "297363.7548466196",
+      "z": "0.0000002062712175"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1CB236F",
+      "layer": "Redrow - Text Plot Numbers",
+      "text": "R48",
+      "tag": null,
+      "x": "462019.1072360183",
+      "y": "297357.8726379501",
+      "z": "0.0000002062712175"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1CB2370",
+      "layer": "Redrow - Text Plot Numbers",
+      "text": "R49",
+      "tag": null,
+      "x": "462017.5537006798",
+      "y": "297365.9111675035",
+      "z": "0.0000002062712175"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1CB25F0",
+      "layer": "Redrow - Text Plot Numbers",
+      "text": "R36",
+      "tag": null,
+      "x": "461973.0019031453",
+      "y": "297347.6083356942",
+      "z": "-0.2809479959563923"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1CB25F1",
+      "layer": "Redrow - Text Plot Numbers",
+      "text": "R35",
+      "tag": null,
+      "x": "461972.2535691231",
+      "y": "297352.6883344922",
+      "z": "-0.2809479959563923"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1CB25F2",
+      "layer": "Redrow - Text Plot Numbers",
+      "text": "R34",
+      "tag": null,
+      "x": "461971.4400620945",
+      "y": "297358.0215087508",
+      "z": "-0.2809479959563923"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1CB25F7",
+      "layer": "Redrow - Text Plot Numbers",
+      "text": "R33",
+      "tag": null,
+      "x": "461971.3605602713",
+      "y": "297363.4574412782",
+      "z": "-0.2809479959563923"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1CB25F8",
+      "layer": "Redrow - Text Plot Numbers",
+      "text": "R29",
+      "tag": null,
+      "x": "461957.4847576564",
+      "y": "297373.2738736977",
+      "z": "0.0000002089181723"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1CB25F9",
+      "layer": "Redrow - Text Plot Numbers",
+      "text": "R30",
+      "tag": null,
+      "x": "461963.261170121",
+      "y": "297373.6392193778",
+      "z": "0.0000002089181723"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1CB25FA",
+      "layer": "Redrow - Text Plot Numbers",
+      "text": "R32",
+      "tag": null,
+      "x": "461970.7796151643",
+      "y": "297376.0607246509",
+      "z": "0.0000002089181723"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1CB25FB",
+      "layer": "Redrow - Text Plot Numbers",
+      "text": "R28",
+      "tag": null,
+      "x": "461946.572734974",
+      "y": "297370.2679935813",
+      "z": "0.00000025409275"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1CB25FF",
+      "layer": "Redrow - Text Plot Numbers",
+      "text": "R50",
+      "tag": null,
+      "x": "462015.0916236247",
+      "y": "297376.682563776",
+      "z": "0.0000002062712175"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1CB284D",
+      "layer": "Redrow - Text Plot Numbers",
+      "text": "R11",
+      "tag": null,
+      "x": "461975.9152513476",
+      "y": "297526.6070418",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1CB54C8",
+      "layer": "A010_Text_House",
+      "text": "Grasscrete",
+      "tag": null,
+      "x": "462058.297912778",
+      "y": "297513.6384690483",
+      "z": "-0.0008092305237997"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1CB9801",
+      "layer": "A010_Text_House",
+      "text": "Fire Appliance",
+      "tag": null,
+      "x": "462118.4267549274",
+      "y": "297485.8342230282",
+      "z": "0.0083501379260662"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1CB9802",
+      "layer": "A010_Text_House",
+      "text": "Turning Head",
+      "tag": null,
+      "x": "462118.6793992597",
+      "y": "297483.2431629641",
+      "z": "0.0083501383866147"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1CB9803",
+      "layer": "A010_Text_House",
+      "text": "Grasscrete",
+      "tag": null,
+      "x": "462119.372188342",
+      "y": "297484.5680241123",
+      "z": "0.0083501419376193"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1CB9C9F",
+      "layer": "A010_Text_House",
+      "text": "Fire Appliance",
+      "tag": null,
+      "x": "462065.61231454",
+      "y": "297307.2230580008",
+      "z": "-0.0008094384167979"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1CB9CA0",
+      "layer": "A010_Text_House",
+      "text": "Turning Head",
+      "tag": null,
+      "x": "462064.9722001377",
+      "y": "297304.6996327561",
+      "z": "-0.0008094379562494"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1CB9CA1",
+      "layer": "A010_Text_House",
+      "text": "Grasscrete",
+      "tag": null,
+      "x": "462066.0728658204",
+      "y": "297305.7114374948",
+      "z": "-0.0008094344052448"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1CC0BD5",
+      "layer": "Redrow - Text Plot Numbers",
+      "text": "R20",
+      "tag": null,
+      "x": "461946.7430389897",
+      "y": "297420.190473025",
+      "z": "-0.0000000044645683"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1CC0BD6",
+      "layer": "Redrow - Text Plot Numbers",
+      "text": "R21",
+      "tag": null,
+      "x": "461934.6224686375",
+      "y": "297416.1698494321",
+      "z": "-0.0327192064616218"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1CC0C0B",
+      "layer": "Redrow - Text Plot Numbers",
+      "text": "R94",
+      "tag": null,
+      "x": "462095.3023472028",
+      "y": "297483.331141435",
+      "z": "0.0"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1CC0C2F",
+      "layer": "Redrow - Text Plot Numbers",
+      "text": "R101",
+      "tag": null,
+      "x": "462023.5780685933",
+      "y": "297475.6536708511",
+      "z": "-0.0000000060025724"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1CC6DC6",
+      "layer": "A010_Text_House",
+      "text": "Fire Appliance",
+      "tag": null,
+      "x": "462135.2913411776",
+      "y": "297324.2089763206",
+      "z": "0.2534350282453838"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1CC6DC7",
+      "layer": "A010_Text_House",
+      "text": "Turning Head",
+      "tag": null,
+      "x": "462132.7127764246",
+      "y": "297324.5673409794",
+      "z": "0.2534350277698596"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1CC6DC8",
+      "layer": "A010_Text_House",
+      "text": "Grasscrete",
+      "tag": null,
+      "x": "462133.8396242759",
+      "y": "297323.5847791775",
+      "z": "0.253435031653524"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1CC6F54",
+      "layer": "Redrow - Text Plot Numbers",
+      "text": "R31",
+      "tag": null,
+      "x": "461973.3020310292",
+      "y": "297388.6998393377",
+      "z": "0.0000031854529109"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1CC6F55",
+      "layer": "Redrow - Text Plot Numbers",
+      "text": "R27",
+      "tag": null,
+      "x": "461961.1661373784",
+      "y": "297363.0866303804",
+      "z": "0.0000022997485744"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1CC6F56",
+      "layer": "Redrow - Text Plot Numbers",
+      "text": "R26",
+      "tag": null,
+      "x": "461962.1370141268",
+      "y": "297356.8773661655",
+      "z": "0.0000021607954776"
+    },
+    {
+      "kind": "MTEXT",
+      "handle": "1CC6F9B",
+      "layer": "RAS - Text Notes",
+      "text": "{\\Fisocp|c0;A}",
+      "tag": null,
+      "x": "462114.2115013038",
+      "y": "297307.0007226751",
+      "z": "0.1258395492722449"
+    },
+    {
+      "kind": "MTEXT",
+      "handle": "1CC6F9E",
+      "layer": "RAS - Text Notes",
+      "text": "{\\Fisocp|c0;A}",
+      "tag": null,
+      "x": "462113.0587165335",
+      "y": "297303.7653675195",
+      "z": "0.1258396211261392"
+    },
+    {
+      "kind": "MTEXT",
+      "handle": "1CC6FA1",
+      "layer": "RAS - Text Notes",
+      "text": "{\\Fisocp|c0;A}",
+      "tag": null,
+      "x": "462114.0683261532",
+      "y": "297311.087886338",
+      "z": "0.1258395644699364"
+    },
+    {
+      "kind": "MTEXT",
+      "handle": "1CC6FA4",
+      "layer": "RAS - Text Notes",
+      "text": "{\\Fisocp|c0;A}",
+      "tag": null,
+      "x": "462112.1944040862",
+      "y": "297316.9019317717",
+      "z": "0.1258396915133008"
+    },
+    {
+      "kind": "MTEXT",
+      "handle": "1CC6FA7",
+      "layer": "RAS - Text Notes",
+      "text": "{\\Fisocp|c0;A}",
+      "tag": null,
+      "x": "462112.9140668847",
+      "y": "297322.0478104453",
+      "z": "0.2533143669849727"
+    },
+    {
+      "kind": "MTEXT",
+      "handle": "1CC6FAA",
+      "layer": "RAS - Text Notes",
+      "text": "{\\Fisocp|c0;A}",
+      "tag": null,
+      "x": "462113.1831813722",
+      "y": "297328.4459418265",
+      "z": "0.2533143588209735"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1D12D52",
+      "layer": "Redrow - Text Plot Numbers",
+      "text": "R52",
+      "tag": null,
+      "x": "462042.910888998",
+      "y": "297354.101728921",
+      "z": "-83484393.45131104"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1D12E6F",
+      "layer": "Redrow - Text Plot Numbers",
+      "text": "R25",
+      "tag": null,
+      "x": "461962.9714215708",
+      "y": "297348.4905674568",
+      "z": "0.0000021592688138"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1D12E70",
+      "layer": "Redrow - Text Plot Numbers",
+      "text": "R24",
+      "tag": null,
+      "x": "461963.8511419434",
+      "y": "297339.6483192991",
+      "z": "0.0000021576592438"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1D12E71",
+      "layer": "Redrow - Text Plot Numbers",
+      "text": "R23",
+      "tag": null,
+      "x": "461965.1589394332",
+      "y": "297326.5033810828",
+      "z": "0.0000021552664475"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1D12E72",
+      "layer": "Redrow - Text Plot Numbers",
+      "text": "R22",
+      "tag": null,
+      "x": "461966.3333430909",
+      "y": "297314.6992113693",
+      "z": "0.0000021531177137"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1D12E73",
+      "layer": "Redrow - Text Plot Numbers",
+      "text": "R40",
+      "tag": null,
+      "x": "461979.6354790763",
+      "y": "297314.0855578541",
+      "z": "0.0000021724588211"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1D12E74",
+      "layer": "Redrow - Text Plot Numbers",
+      "text": "R39",
+      "tag": null,
+      "x": "461975.8884422602",
+      "y": "297325.8134647926",
+      "z": "0.0000021708030051"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1D12E75",
+      "layer": "Redrow - Text Plot Numbers",
+      "text": "R38",
+      "tag": null,
+      "x": "461974.7573274081",
+      "y": "297335.6338151534",
+      "z": "0.0000021723642542"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1D12E76",
+      "layer": "Redrow - Text Plot Numbers",
+      "text": "R37",
+      "tag": null,
+      "x": "461973.6251182113",
+      "y": "297341.3799567933",
+      "z": "0.000002172586757"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1D12E86",
+      "layer": "Redrow - Text Plot Numbers",
+      "text": "R55",
+      "tag": null,
+      "x": "462077.8102101213",
+      "y": "297336.7765423385",
+      "z": "0.0000001450916035"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1D12E87",
+      "layer": "Redrow - Text Plot Numbers",
+      "text": "R56",
+      "tag": null,
+      "x": "462087.0091636182",
+      "y": "297335.0398117228",
+      "z": "0.0000002790818188"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1D12E88",
+      "layer": "Redrow - Text Plot Numbers",
+      "text": "R57",
+      "tag": null,
+      "x": "462094.7187137544",
+      "y": "297334.2270553123",
+      "z": "0.0000004077080298"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1D12E89",
+      "layer": "Redrow - Text Plot Numbers",
+      "text": "R65",
+      "tag": null,
+      "x": "462103.5242502724",
+      "y": "297339.440913157",
+      "z": "0.0000007106662791"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1D12E8A",
+      "layer": "Redrow - Text Plot Numbers",
+      "text": "R64",
+      "tag": null,
+      "x": "462103.3325210522",
+      "y": "297334.6027010318",
+      "z": "0.0000005840351291"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1D12E8B",
+      "layer": "Redrow - Text Plot Numbers",
+      "text": "R63",
+      "tag": null,
+      "x": "462102.3734372128",
+      "y": "297327.8345554607",
+      "z": "0.0000003935146222"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1D12E8C",
+      "layer": "Redrow - Text Plot Numbers",
+      "text": "R62",
+      "tag": null,
+      "x": "462102.0858433825",
+      "y": "297322.8526076667",
+      "z": "0.0000002613755838"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1D12E8D",
+      "layer": "Redrow - Text Plot Numbers",
+      "text": "R61",
+      "tag": null,
+      "x": "462101.3185981979",
+      "y": "297315.9407740371",
+      "z": "0.0000000709190078"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1D12E8E",
+      "layer": "Redrow - Text Plot Numbers",
+      "text": "R60",
+      "tag": null,
+      "x": "462101.2227335878",
+      "y": "297310.5276668469",
+      "z": "-0.0000000684616682"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1D12E8F",
+      "layer": "Redrow - Text Plot Numbers",
+      "text": "R58",
+      "tag": null,
+      "x": "462104.0700000564",
+      "y": "297307.0767729247",
+      "z": "-0.0000001010047578"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1D12E90",
+      "layer": "Redrow - Text Plot Numbers",
+      "text": "R59",
+      "tag": null,
+      "x": "462098.5766077053",
+      "y": "297306.8668112488",
+      "z": "-0.0000002127039657"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1D135D4",
+      "layer": "plotno",
+      "text": "BCP",
+      "tag": null,
+      "x": "462131.3018403554",
+      "y": "297332.4326228967",
+      "z": "0.0186726305762467"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1D13602",
+      "layer": "plotno",
+      "text": "BCP",
+      "tag": null,
+      "x": "461939.3430570752",
+      "y": "297330.9023461294",
+      "z": "-0.0224789292554913"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1D56388",
+      "layer": "A010_Text_House",
+      "text": "Fire Appliance",
+      "tag": null,
+      "x": "461937.5342734356",
+      "y": "297328.698784004",
+      "z": "0.0039967861750147"
+    },
+    {
+      "kind": "TEXT",
+      "handle": "1D56389",
+      "layer": "A010_Text_House",
+      "text": "Turning Head",
+      "tag": null,
+      "x": "461937.4772383407",
+      "y": "297327.3463736992",
+      "z": "0.0039967890371131"
+    }
+  ]
+}

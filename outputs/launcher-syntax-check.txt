@@ -1,0 +1,1 @@
+PASS: setup.sh, run-backend.sh, run-frontend.sh and start-local.sh pass bash -n. Actual dependency installation and service startup remain unverified.
